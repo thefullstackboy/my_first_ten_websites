@@ -57,7 +57,7 @@ font-weight:lighter;
   }
   
   .flex-container > div {
-    background-color: red;
+
     height: 44vh;
     width: 23%;
     margin: 0.70%;
@@ -70,4 +70,7 @@ font-weight:lighter;
   main {
       margin-top: 6%;
   }
-
+  .imgsize {
+    height: 44vh;
+    width: 100%;
+  }
