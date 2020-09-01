@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding:0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+.tagalign {
+    background-color: #F8F9FA;
+    height: 72px;
+    width: 100%;
+    margin-top: -1%;
+    position: fixed;
+
+
+}
+.firstheading {
+    margin-left: 20px;
+    margin-top: 23px;
+    font-size:24px;
+    color: #181819;
+font-style: normal;
+font-weight:lighter;
+
+
+}
+
+#colorh {
+    color: #181819;
+    font-weight: lighter;
+}
+
+.hometag {
+    position: absolute;
+    display: inline-block;
+    float: top;
+    top:29px;
+    left: 240px;
+    word-spacing: 8px;
+    color:#7C7C7D;
+    font-size: 20px;
+
+}
+.hometag a:hover {
+    color: #141414;
+}
