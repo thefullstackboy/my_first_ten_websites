@@ -7,7 +7,7 @@
 
 .tagalign {
     background-color: #F8F9FA;
-    height: 72px;
+    height: 12%;
     width: 100%;
     margin-top: -1%;
     position: fixed;
@@ -15,9 +15,9 @@
 
 }
 .firstheading {
-    margin-left: 20px;
-    margin-top: 23px;
-    font-size:24px;
+    margin-left: 2%;
+    margin-top: 2.2%;
+    font-size:3.8vh;
     color: #181819;
 font-style: normal;
 font-weight:lighter;
@@ -34,13 +34,36 @@ font-weight:lighter;
     position: absolute;
     display: inline-block;
     float: top;
-    top:29px;
-    left: 240px;
-    word-spacing: 8px;
+    top:46%;
+    left: 18%;
+    word-spacing: 175%;
     color:#7C7C7D;
-    font-size: 20px;
+    font-size: 2.8vh;
+    font-weight: lighter;
 
 }
 .hometag a:hover {
     color: #141414;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+     flex-direction: row;
+     margin-left:4%;
+     margin-right:2%;
+  }
+  
+  .flex-container > div {
+    background-color: red;
+    height: 44vh;
+    width: 23%;
+    margin: 0.60%;
+    text-align: center;
+    line-height: 5%;
+    font-size: 30px;
+
+
+  }
+
