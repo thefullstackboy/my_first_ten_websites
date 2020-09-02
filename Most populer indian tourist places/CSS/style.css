@@ -1,24 +1,26 @@
 * {
-    margin: 0;
-    padding:0;
-   box-sizing: border-box;
-   text-decoration: none;
+  margin: 0;
+  padding:0;
+ box-sizing: border-box;
+ text-decoration: none;
+
 }
 
 .tagalign {
-    background-color: #F8F9FA;
-    height: 12%;
-    width: 100%;
-    margin-top: -6%;
-    position: fixed;
+  background-color: #F8F9FA;
+  height: 12%;
+  width: 100%;
+  margin-top: -6%;
+  position: fixed;
+
 
 
 }
 .firstheading {
-    margin-left: 2%;
-    margin-top: 2.2%;
-    font-size:3.8vh;
-    color: #181819;
+  margin-left: 2%;
+  margin-top: 2.2%;
+  font-size:3.8vh;
+  color: #181819;
 font-style: normal;
 font-weight:lighter;
 
@@ -26,51 +28,78 @@ font-weight:lighter;
 }
 
 #colorh {
-    color: #181819;
-    font-weight: lighter;
+  color: #181819;
+  font-weight: lighter;
 }
 
 .hometag {
-    position: absolute;
-    display: inline-block;
-    float: top;
-    top:46%;
-    left: 18%;
-    word-spacing: 175%;
-    color:#7C7C7D;
-    font-size: 2.8vh;
-    font-weight: lighter;
+  position: absolute;
+  display: inline-block;
+  float: top;
+  top:46%;
+  left: 18%;
+  word-spacing: 175%;
+  color:#7C7C7D;
+  font-size: 2.8vh;
+  font-weight: lighter;
 
 }
 .hometag a:hover {
-    color: #141414;
+  color: #141414;
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #FFFFFF;
-     flex-direction: row;
-     margin-left:4%;
-     margin-right:2%;
-     
-  }
-  
-  .flex-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+   flex-direction: row;
+   margin-left:4%;
+   margin-right:2%;
 
-    height: 44vh;
-    width: 23%;
-    margin: 0.70%;
-    text-align: center;
-    line-height: 5%;
-    font-size: 30px;
+}
+
+.flex-container > div {
+
+  height: 44vh;
+  width: 23%;
+  margin: 0.70%;
+  text-align: center;
+  line-height: 5%;
 
 
-  }
-  main {
-      margin-top: 6%;
-  }
-  .imgsize {
-    height: 44vh;
-    width: 100%;
-  }
+
+}
+main {
+    margin-top: 6%;
+}
+.imgsize {
+  height: 44vh;
+  width: 100%;
+  display: block;
+}
+
+.container {
+  position: relative;
+  width:50%;
+}
+
+.container >.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:70%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 4vh;
+  padding: 7%;
+  text-align: center;
+  margin-left: -32%;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
