@@ -2,6 +2,7 @@
 <html>
 <head>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>
 Most populer indian tourist places
 </title>
@@ -23,7 +24,7 @@ Most populer indian tourist places
 <main>
     <div class="flex-container">
 
-        <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
+        <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize" onclick="myFunction()">
         <span class="overlay">Taj Mahal</span>
         </div>
 
@@ -38,7 +39,20 @@ Most populer indian tourist places
         <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
             <span class="overlay">Taj Mahal</span>
             </div>
-    
+
+            <div id="myDIV">
+            <div class="newrow">
+         
+              <img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize2"> 
+              <div class="rowparealign">
+                <button type="button" onclick="myFunction()"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <h1>Old Boathouse</h1>
+                <p>Port Chalmers c. 1893</p>
+                <p>Watercolour & gouache</p>
+              </div>
+
+            </div>
+          </div>
          <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
            <span class="overlay">Taj Mahal</span>
          </div>
@@ -58,6 +72,7 @@ Most populer indian tourist places
                 <span class="overlay">Taj Mahal</span>
               </div>
              
+           
 
               <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
                 <span class="overlay">Taj Mahal</span>
@@ -75,7 +90,9 @@ Most populer indian tourist places
               <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
                 <span class="overlay">Taj Mahal</span>
               </div>
-             
+
+         
+
               <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
                 <span class="overlay">Taj Mahal</span>
               </div>
@@ -93,6 +110,8 @@ Most populer indian tourist places
               <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
                 <span class="overlay">Taj Mahal</span>
               </div>
+
+         
 
               <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
                 <span class="overlay">Taj Mahal</span>
@@ -112,6 +131,8 @@ Most populer indian tourist places
           <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
             <span class="overlay">Taj Mahal</span>
           </div>
+
+       
          
 
           <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
@@ -131,12 +152,22 @@ Most populer indian tourist places
           <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
             <span class="overlay">Taj Mahal</span>
           </div>
-         
+
+        
 
       </div>
 </main>
 
-
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
 
 </body>
 </html>

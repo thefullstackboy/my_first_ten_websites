@@ -96,10 +96,49 @@ main {
   font-size: 4vh;
   padding: 7%;
   text-align: center;
-  margin-left: -32%;
+  margin-left: -35%;
   
 }
 
 .container:hover .overlay {
   opacity: 1;
+}
+
+.newrow {
+  display: flex;
+  float: right;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
+
+.rowparealign {
+  margin-left: 10%;
+}
+
+.imgsize2 {
+  height: 80vh;
+  width: 500%;
+  display: block;
+
+}
+ 
+.rowparealign h1 {
+  font-size:8vh;
+  margin-left: -55%;
+  float:right;
+  margin-top:20%;
+}
+
+ 
+.rowparealign p {
+  font-size:4.5vh;
+  margin-left: -63%;
+  float:right;
+  margin-top:23%;
+  justify-content: right;
+}
+
+#myDIV {
+  display: none;
 }
