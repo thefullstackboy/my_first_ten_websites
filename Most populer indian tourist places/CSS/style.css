@@ -89,14 +89,17 @@ main {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width:67%;
+  width:86%;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 4vh;
   padding: 7%;
   text-align: center;
-  margin-left: -35%;
+  margin-left: -50%;
+  margin-right:100%;
+
+
   
 }
 
@@ -150,4 +153,8 @@ main {
   float: right;
   font-size: 4vh;
   margin-right: 16%;
+}
+
+#icon:hover {
+  color:black;
 }
