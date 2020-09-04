@@ -24,11 +24,11 @@ Most populer indian tourist places
 <main>
     <div class="flex-container">
 
-        <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize" onclick="myFunction()">
+        <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize" onclick="myFunction(this)">
         <span class="overlay">Taj Mahal</span>
         </div>
 
-        <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize">
+        <div class="container container_item"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize"  onclick="myFunction(this)">
             <span class="overlay">Taj Mahal</span>
             </div>
 
@@ -43,12 +43,19 @@ Most populer indian tourist places
             <div id="myDIV">
             <div class="newrow">
          
-              <img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize2"> 
+              <img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize2" id="imagesize2id"> 
               <div class="rowparealign">
-                <button type="button" onclick="myFunction()"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <i class="fa fa-times" aria-hidden="true" onclick="myFunction()" id="icon"></i>
                 <h1>Old Boathouse</h1>
-                <p>Port Chalmers c. 1893</p>
-                <p>Watercolour & gouache</p>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                 commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+                 id est laborum.
+                 </p>
               </div>
 
             </div>
@@ -159,8 +166,26 @@ Most populer indian tourist places
 </main>
 
 <script>
-  function myFunction() {
+/*var information={
+"Tajmahel":"",
+
+
+} 
+
+*/
+
+
+
+
+
+  function myFunction(imagedata) {
+    console.log(imagedata);
+
     var x = document.getElementById("myDIV");
+   var img=document.getElementById("imagesize2id");
+
+   img.setAttribute('src',imagedata.src);
+
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {

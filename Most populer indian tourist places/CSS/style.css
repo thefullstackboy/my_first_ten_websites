@@ -125,20 +125,29 @@ main {
  
 .rowparealign h1 {
   font-size:8vh;
-  margin-left: -55%;
-  float:right;
-  margin-top:20%;
+  margin-left: -7%;
+  float:left;
+  margin-top:7%;
 }
 
  
 .rowparealign p {
-  font-size:4.5vh;
-  margin-left: -63%;
-  float:right;
-  margin-top:23%;
-  justify-content: right;
+  font-size:3.5vh;
+  text-align: justify;
+ margin-right: 14%;
+ margin-top: 20%;
+ margin-left: -30%;
+ word-spacing: 2vh;
+  
 }
 
 #myDIV {
   display: none;
+}
+
+#icon {
+  color:grey;
+  float: right;
+  font-size: 4vh;
+  margin-right: 16%;
 }
