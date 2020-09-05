@@ -144,9 +144,10 @@ main {
   
 }
 
-#myDIV {
+#myDIV,#myDIV2,#myDIV3 {
   display: none;
 }
+
 
 #icon {
   color:grey;

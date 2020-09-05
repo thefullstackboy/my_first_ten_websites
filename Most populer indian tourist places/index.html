@@ -28,7 +28,8 @@ Most populer indian tourist places
         </div><div class="container container_item"><img src="Image/Hawa Mahal.jpg" class="imgsize" onclick="myFunction(this,'havamahal')">
             <span class="overlay">Hawa Mahal</span>
             
-            </div><div id="myDIV">
+            </div>
+            <div id="myDIV">
             <div class="newrow"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize2" id="imagesize2id"> 
               <div class="rowparealign">
 
@@ -49,26 +50,50 @@ Most populer indian tourist places
 
               </div>
           </div>
-         <div class="container container_item"><img src="Image/City Palace.jpg" class="imgsize" onclick="myFunction(this)">
+         <div class="container container_item"><img src="Image/City Palace.jpg" class="imgsize" onclick="myFunction2(this,'citypalce')">
            <span class="overlay">City Palace</span>
          </div>  
          
-         <div class="container container_item"><img src="Image/rani ki vaav.jpg" class="imgsize" onclick="myFunction(this)">
-            <span class="overlay">Rani Ki Vav </span>
+         <div class="container container_item"><img src="Image/rani ki vaav.jpg" class="imgsize" onclick="myFunction2(this,'raniki')">
+            <span class="overlay">Rani Ki Vav</span>
             </div> 
 
-           <div class="container container_item"><img src="Image/Jal Mahal.jpg" class="imgsize" onclick="myFunction(this)">
+           <div class="container container_item"><img src="Image/Jal Mahal.jpg" class="imgsize" onclick="myFunction2(this,'jalmahal')">
                 <span class="overlay">Jal Mahal</span>
             </div> 
 
-            <div class="container container_item"><img src="Image/Charminar.jpg" class="imgsize" onclick="myFunction(this)">
+            <div class="container container_item"><img src="Image/Charminar.jpg" class="imgsize" onclick="myFunction2(this,'charminar')">
                 <span class="overlay">Charminar</span>
               </div>
 
-                           <div class="container container_item"><img src="Image/gateofindiamumbai.jpg" class="imgsize" onclick="myFunction(this)">
+
+
+              <div id="myDIV2">
+                <div class="newrow"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize2" id="imageid2"> 
+                  <div class="rowparealign">
+    
+                    <i class="fa fa-times" aria-hidden="true" onclick="myFunction(this)" id="icon"></i>
+                    <h1 id="titleid2">Old Boathouse</h1>
+    
+                    <p id="descriptionid2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+                     id est laborum.
+                     </p>
+    
+                  </div> 
+    
+                  </div>
+              </div>
+
+                           <div class="container container_item"><img src="Image/gateofindiamumbai.jpg" class="imgsize" onclick="myFunction3(this,'GatewayofIndia')">
                 <span class="overlay">Gateway of India</span>
               </div>  
-                          <div class="container container_item"><img src="Image/The Ganges River.jpg" class="imgsize" onclick="myFunction(this)">
+                          <div class="container container_item"><img src="Image/The Ganges River.jpg" class="imgsize" onclick="myFunction3(this,'TheGangesRiver')">
                 <span class="overlay">The Ganges River</span>
               </div>        
                     <div class="container container_item"><img src="Image/Cola Beach, Goa.jpg" class="imgsize" onclick="myFunction(this)">
@@ -76,7 +101,35 @@ Most populer indian tourist places
                       </div>   
                          <div class="container container_item"><img src="Image/Bada Bagh.jpg" class="imgsize" onclick="myFunction(this)">
                            <span class="overlay"> Bada Bagh</span>
-                      </div>        
+                      </div>     
+                      
+                      
+
+
+                      <div id="myDIV3">
+                        <div class="newrow"><img src="Image/pexels-sudipta-mondal-1603650.jpg" class="imgsize2" id="imageid3"> 
+                          <div class="rowparealign">
+            
+                            <i class="fa fa-times" aria-hidden="true" onclick="myFunction(this)" id="icon"></i>
+                            <h1 id="titleid3">Old Boathouse</h1>
+            
+                            <p id="descriptionid3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                             commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+                             id est laborum.
+                             </p>
+            
+                          </div> 
+            
+                          </div>
+                      </div>
+
+
+
                     <div class="container container_item"><img src="Image/Tea Plantations.jpg" class="imgsize" onclick="myFunction(this)">
                         <span class="overlay">Tea Plantations</span>
                       </div>      
@@ -131,33 +184,96 @@ Most populer indian tourist places
   "redfort":"Red Fort",
   "amerfort":"Amer Fort",
   "havamahal":"Hawa Mahal",
+  "citypalce":"City Palce",
+  "raniki":"Rani Ki Vav",
+  "jalmahal":"Jal Mahal",
+  "charminar":"Charminar",
+  "GatewayofIndia":"Gateway of India",
+  "TheGangesRiver":"TheGangesRiver"
+
   }
      var description = {
     "tajmahal":"This is long description of Taj Mahal",
     "redfort":"This is Long Description of Red Fort",
     "amerfort":"This is long Description of Amer Fort",
     "havamahal": "This is long Description of Hawa Mahal",
+    "citypalce":"This is long Description of City Palce",
+    "raniki":"This is long Description of Rani Ki Vav",
+  "jalmahal":"This is long Description of Jal Mahal",
+  "charminar":"This is long Description of Charminar",
+  "GatewayofIndia":"This is long Description Gateway of India",
+  "TheGangesRiver":"This is long Description The Ganges River",
+
+
   } 
+
    var oldkey = '';
-  console.log("Very first time old key=>"+oldkey);  function myFunction(imagedata,key) {
+   var oldkey2 = '';
+   var oldkey3 = '';
+
+
+  
+
+   function myFunction(imagedata,key) {
    //Change Title of Div
-    document.getElementById("titleid").innerHTML = titles[key];   //Change Paragraph of Div
-    document.getElementById("descriptionid").innerHTML = description[key];   //Change Image of Div
+    document.getElementById("titleid").innerHTML = titles[key];   
+    //Change Paragraph of Div
+    document.getElementById("descriptionid").innerHTML = description[key]; 
+      //Change Image of Div
    var img=document.getElementById("imagesize2id");
-   img.setAttribute('src',imagedata.src);   //Change visibility of div
+   img.setAttribute('src',imagedata.src);   
+   //Change visibility of div
    var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else if(oldkey==key){
       x.style.display = "none";
-    }    oldkey = key;
+    }   
+     oldkey = key;
     console.log(oldkey);
   }
-  </script></body>
+
+
+  function myFunction2(imagedata,key) {
+   //Change Title of Div
+    document.getElementById("titleid2").innerHTML = titles[key];   
+    //Change Paragraph of Div
+    document.getElementById("descriptionid2").innerHTML = description[key]; 
+      //Change Image of Div
+   var img=document.getElementById("imageid2");
+   img.setAttribute('src',imagedata.src);   
+   //Change visibility of div
+   var x = document.getElementById("myDIV2");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else if(oldkey2==key){
+      x.style.display = "none";
+    }   
+     oldkey2 = key;
+    console.log(oldkey2);
+  }
+
+
+  function myFunction3(imagedata,key) {
+   //Change Title of Div
+    document.getElementById("titleid3").innerHTML = titles[key];   
+    //Change Paragraph of Div
+    document.getElementById("descriptionid3").innerHTML = description[key]; 
+      //Change Image of Div
+   var img=document.getElementById("imageid3");
+   img.setAttribute('src',imagedata.src);   
+   //Change visibility of div
+   var x = document.getElementById("myDIV3");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else if(oldkey3==key){
+      x.style.display = "none";
+    }   
+     oldkey3 = key;
+    console.log(oldkey3);
+  }
+  </script>
+  </body>
 </html>
 
 
-Message Bharat Sewani
-Return to sendShift + Return to add a new line
-Slack needs your permission to 
-.
