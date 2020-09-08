@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgedit {
+    max-width: 100%;
+    height: auto;
+}
+
+.sticky-top {
+    position: sticky;
+    top:0;
+    z-index: 1020;
+}
+
+.navigation {
+    transition: .2s ease;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items:center;
+    padding: .5rem 1rem;
+   flex-flow:row nowrap;
+   justify-content: flex-start;
+   background-color: transparent !important;
+}
+
+.navbarbrand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
