@@ -13,10 +13,12 @@ body {
 nav {
     margin-top: 2%;
     margin-left: 11%;
+    position: sticky;
 }
 
 nav>img {
     height: auto;
+   
 }
 
 li {
@@ -38,25 +40,63 @@ ul>li a {
     
 }
 
+ul>li a:hover {
+    color:#FF2F43;
+}
+
 .tagalign {
     text-align: center;
     align-items: center;
-    word-spacing: 12px;
-    margin-top:-2.5%;
+    word-spacing: 20px;
+    margin-top:-2.8%;
 }
 
 .buttonalign> button {
     float: right;
     margin-right:4%;
-    padding:8px 14px;
+    padding:10px 14px;
     text-align: center;
     font-size:16px;
+    
+  
   
 }
 
 .buttonalign> .button1 {
-    background-color: #CC0036;
+    background-color: #FF0043;
     color: white;
     border:2px solid #CC0036;
     border-radius: 6px;
+
 }
+
+.buttonalign> .button1:hover {
+    background-color: #CC0036;
+    translate: 2s;
+}
+
+.buttonalign> .button1>a {
+    color: white;
+}
+
+.buttonalign> .button2>a {
+color:#FF0043;
+
+}
+.buttonalign> .button2>a:hover {
+    color:white;
+    
+    }
+
+
+.buttonalign> .button2:hover {
+    background: #CC0036;
+    color:white;
+  
+   
+}
+.buttonalign> .button2 {
+    background-color: #FFFFFF;
+    border:2px solid #FF0043;
+    border-radius: 6px;
+} 
