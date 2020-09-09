@@ -6,6 +6,57 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+/*    font-family: 'Montserrat', sans-serif; */
 
+}
+
+nav {
+    margin-top: 2%;
+    margin-left: 11%;
+}
+
+nav>img {
+    height: auto;
+}
+
+li {
+    list-style:none;
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+   text-align: center;
+   justify-content: space-around;
+
+}
+
+ul>li a {
+    text-align: center;
+    list-style: none;
+    color: black;
+    font-size:22px;
+      
+    
+}
+
+.tagalign {
+    text-align: center;
+    align-items: center;
+    word-spacing: 12px;
+    margin-top:-2.5%;
+}
+
+.buttonalign> button {
+    float: right;
+    margin-right:4%;
+    padding:8px 14px;
+    text-align: center;
+    font-size:16px;
+  
+}
+
+.buttonalign> .button1 {
+    background-color: #CC0036;
+    color: white;
+    border:2px solid #CC0036;
+    border-radius: 6px;
 }
