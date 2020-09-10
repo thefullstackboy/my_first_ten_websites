@@ -167,7 +167,7 @@ input[type=search] {
       background-color:#FFFFFF;
       width: 20%;
       font-size: 16px;
-      text-align: center;
+    
       margin:-1%;
       box-shadow:0px 15px 60px rgba(62, 62, 62, 0.102) !important;
      margin-left:4%;
@@ -185,4 +185,13 @@ input[type=search] {
       margin-left:12%;
    
 
+  }
+
+  .fa-building, .fa-wallet,.fa-pied-piper-square, .fa-cog {
+      font-size:50px;
+      color: #FF0043;
+      background: #FEFEFE;
+      margin-top:30%;
+      flex: left;
+      margin-left: 3%;
   }
