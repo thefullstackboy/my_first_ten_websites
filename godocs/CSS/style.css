@@ -160,19 +160,22 @@ input[type=search] {
       display: flex;
       flex-wrap: wrap;
       background-color: #FDFDFD;
+      margin:9%;
  
   }
 
   .container > .container-item {
       background-color:#FFFFFF;
-      width: 20%;
+      width: 20.5%;
       font-size: 16px;
-    
-      margin:-1%;
+      margin:0%;
       box-shadow:0px 15px 60px rgba(62, 62, 62, 0.102) !important;
-     margin-left:4%;
-     margin-top: 3%;
-     height: 200px;
+     margin-left:2%;
+     margin-right:2%;
+     margin-top: -8%;
+     height: 280px;
+     border-radius: 6px;
+     
     
 
     
@@ -188,10 +191,25 @@ input[type=search] {
   }
 
   .fa-building, .fa-wallet,.fa-pied-piper-square, .fa-cog {
-      font-size:50px;
+      font-size:55px;
       color: #FF0043;
       background: #FEFEFE;
       margin-top:30%;
       flex: left;
-      margin-left: 3%;
+      margin-left: 11.8%;
+  }
+
+  .container-item >h3 {
+      font-size:26px;
+      margin-left: 8%;
+      margin-top:6%;
+  }
+
+  .container-item >p {
+      font-size:16px;
+      font-weight: 400;
+      line-height: 26px;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 7.4%;
+      color:#615141;
   }
