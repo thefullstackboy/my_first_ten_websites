@@ -161,14 +161,15 @@ input[type=search] {
     flex-wrap: wrap;
     background-color: #FDFDFD;
     width: 100%;
-    padding-left: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
  
  
   }
 
   .container > .container-item {
       background-color:#FFFFFF;
-      width:21%;
+      width:21.5%;
       font-size: 16px;
       box-shadow:0px 15px 60px rgba(62, 62, 62, 0.102) !important;    
      margin-top: 45px;
@@ -214,3 +215,12 @@ input[type=search] {
       margin-left: 7.4%;
       color:#615141;
   }
+
+  #topic2 {
+    font-size:42px;
+    margin-top:5.4%;
+    margin-left:5.9%;
+ 
+
+}
+
