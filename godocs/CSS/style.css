@@ -187,7 +187,7 @@ input[type=search] {
   #topic {
       font-size:42px;
       margin-top:5.4%;
-      margin-left:12%;
+      margin-left:8.3%;
    
 
   }
@@ -218,8 +218,8 @@ input[type=search] {
 
   #topic2 {
     font-size:42px;
-    margin-top:7.8%;
-    margin-left:11.8%;
+    margin-top:4.8%;
+    margin-left:8.9%;
     font-weight: bold;
  
 
@@ -233,21 +233,28 @@ input[type=search] {
      width: 100%;
      padding-left: 7%;
      padding-right: 7%;
- 
+    overflow: hidden;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+   
  
 }
 
 .container-colum>.colum-item {
     background-color:#FFFFFF;
     font-size: 16px;
+ 
     box-shadow:0px 15px 60px rgba(62, 62, 62, 0.102) !important;    
-   margin-top: 55px;
-   height: auto;
-   margin:3px;
+   margin-top: 0px;
+   height: 100%;
+   margin:10px;
    border-radius: 6px;
    margin-left: 1.25%;
    margin-right: 1.25%;
    width:43.9%;
+   border-radius: 6px;
+
 
    
 }
@@ -267,4 +274,19 @@ input[type=search] {
 
 .container-colum>.colum-item> p {
     font-size: 16px;
+    line-height: 26px;
+    font-family: "Montserrat", sans-serif;
+    margin-top:12px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    cursor: default;
+    text-align: left;
+    padding-left: 40px;
+    padding-right:40px;
+    color: #333333;
+  
+
+}
+.linkp {
+    color: #FF007B;
 }
