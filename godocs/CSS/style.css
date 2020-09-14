@@ -172,7 +172,6 @@ input[type=search] {
       width:21.5%;
       font-size: 16px;
       box-shadow:0px 15px 60px rgba(44, 40, 40, 0.103) !important;    
-
      margin-top: 45px;
      height: 290.2px;
      border-radius: 6px;
@@ -318,3 +317,28 @@ input[type=search] {
 }
 
 
+.image2align {
+    margin-left: 11%;
+    padding-top: -15%;
+}
+
+.image2align >img  {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    float: left;
+
+
+}
+
+.ftextalign h2 {
+    font-size:42px;
+    font-weight: 800;
+    color: #222222;
+    text-align: right;
+    margin-right: 20%;
+    padding-top:8%;
+    font-weight: bolder;
+    word-spacing: 2px;
+
+}
