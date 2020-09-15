@@ -33,7 +33,7 @@ li {
 
 }
 
-ul>li a {
+.toptag>li a {
     text-align: center;
     list-style: none;
     color: black;
@@ -43,7 +43,7 @@ ul>li a {
 
 }
 
-ul>li a:hover {
+.toptag>li a:hover {
     color: #FF2F43;
 }
 
@@ -415,4 +415,83 @@ form>button:hover {
 
 .marginlrf {
 margin-top: -6%;
+}
+
+
+.footercontainer {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+    width: 100%;
+    padding-left: 18%;
+    padding-right: 5%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 330px;
+    padding-top: 0px;
+    display: flex;
+    height: auto;
+
+  align-items: center;
+
+
+}
+
+.footercontainer>.footer-item{
+
+  
+
+    margin-top: 0px;
+    height: 100%;
+    margin: 10px;
+    border-radius: 6px;
+    margin-left: -10%;
+    margin-right: 2%;
+    width: 30%;
+    border-radius: 6px;
+    
+
+
+
+}
+
+.footertag  a{
+font-size: 20px;
+color:#232323;
+padding: 15px;
+font-weight: 400;
+font-style: bold;
+}
+
+.footertag :hover {
+    color: red;
+}
+
+.imgalign5  {
+    margin-left: 30%;
+
+}
+
+
+
+.footercontainer>.footer-item>img {
+
+}
+
+
+.footercontainer>.footer-item>ul>li>a>i> {
+    font-size: 36px;
+    color: #FF0043;
+    float: right;
+}
+
+#Socialicon {
+    float: right;
+    font-size: 36px;
+    color: #FF0043;
+    float: right;
+    margin-right:4%;
+    margin-top:-4.1%;
+}
 }
