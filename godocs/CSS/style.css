@@ -6,7 +6,7 @@
 }
 
 body {
-    /*    font-family: 'Montserrat', sans-serif; */
+      
 
 }
 
@@ -50,8 +50,9 @@ li {
 .tagalign {
     text-align: center;
     align-items: center;
-    word-spacing: 20px;
+    word-spacing: 40px;
     margin-top: -2.8%;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -491,4 +492,26 @@ margin-right: auto;
     margin-right:6%;
     margin-top:-3.1%;
 }
+
+
+
+
+.footer {
+    border: 2px solid #a3a4a5;;
+    border-right: none;
+    border-left:none;
+    border-bottom: none;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top:6%;
+    margin-bottom: 2%;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 14px;
+    width: 85%;
+    color: #a3a4a5;
+    word-spacing: 2px;
+    font-family: 'Montserrat', sans-serif; 
 }
+
