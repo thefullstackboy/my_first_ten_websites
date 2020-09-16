@@ -37,7 +37,7 @@ li {
     text-align: center;
     list-style: none;
     color: black;
-    font-size: 22px;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
 
 
@@ -469,29 +469,26 @@ font-style: bold;
 }
 
 .imgalign5  {
-    margin-left: 30%;
+display: block;
+margin-left: 74%;
+margin-right: auto;
 
+
+ 
 }
 
 
 
-.footercontainer>.footer-item>img {
-
-}
 
 
-.footercontainer>.footer-item>ul>li>a>i> {
-    font-size: 36px;
-    color: #FF0043;
-    float: right;
-}
+
 
 #Socialicon {
     float: right;
-    font-size: 36px;
+    font-size: 40px;
     color: #FF0043;
     float: right;
-    margin-right:4%;
-    margin-top:-4.1%;
+    margin-right:6%;
+    margin-top:-3.1%;
 }
 }
