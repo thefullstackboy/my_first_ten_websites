@@ -700,10 +700,27 @@ margin-right: auto;
         align-items: center;
         padding-left: 14%;
         padding-right:auto;
+
+
+       
        
    
       
     
+    }
+
+    .   .ftextalign p {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ftextalign a {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-left: 24%;
+      margin-right: auto;
     }
     
 }
