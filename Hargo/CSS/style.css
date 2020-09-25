@@ -29,7 +29,7 @@ line-height: 1.4;
 }
 
 .margintop {
-    margin-top: 2%;
+    margin-top: 1.2%;
 }
 
 div>ul>li>a {
@@ -99,4 +99,66 @@ button {
     font-size: 72%;
     text-align: center;
 
+}
+
+.section-sm h1{
+    font-size: 48px;
+    color: #222;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.section-sm p {
+    font-weight: 400;
+    color:#333;
+    font-size: 15px;
+    line-height: 1.7;
+     margin-bottom: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: #71dc2a;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(27deg,#59b51e 0%,#95d239 100%)!important;
+    outline: 0;
+  
+    font-size: 14px;
+    font-family: quicksand,sans-serif;
+    text-transform: capitalize;
+    padding: 13px 40px;
+    border-radius: 35px;
+    font-weight: 400;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    margin-right: 1rem !important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    line-height: 1.5;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-top: 2%;
+}
+
+.btn:hover {
+
+    box-shadow: 0 8px 10px rgba(33,33,33,.2)!important;
+    border-color: transparent;
+
+}
+.btn-primary:hover {
+    color: #fff;
+   
 }
