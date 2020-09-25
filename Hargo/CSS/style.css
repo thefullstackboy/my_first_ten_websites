@@ -7,6 +7,16 @@
 .img-fluid {
     max-width: 100%;
     height: auto;
+    vertical-align: middle;
+    border-style: none;
+    text-align: left;
+
+}
+
+.navbar-brand {
+    font: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
 body {
@@ -37,4 +47,56 @@ div>ul>li>a {
 
 .nav-link {
     display: block;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px;
+}
+
+.fa-shopping-cart {
+
+    border: 0;
+    position: relative;  
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+   box-sizing: border-box; 
+   font-size: 22px;
+   background-color: transparent;
+   background: transparent;
+   rotate: 360deg;
+   
+}
+
+button {
+    cursor: pointer;
+    transition: .2s ease;
+    margin:0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    background: transparent;
+    border: none;
+}
+
+.badge-primary {
+    height: 18px;
+    width: 18px;
+    background-color: #5ab51e;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top:22px;
+    position: absolute;
+    right: -3px;
+    padding: -.25em .4em;
+    font-size: 72%;
+    text-align: center;
+
 }
