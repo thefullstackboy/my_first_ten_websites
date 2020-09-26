@@ -178,6 +178,10 @@ button {
     top:0;
     height: 100%;
     width: 100%;
+    border-style: none;
+    box-sizing: border-box;
+    text-align: left;
+ 
 }
 
 
@@ -218,4 +222,95 @@ button {
 
 .section {
     margin-top: 11.7%;
+}
+
+.col-lg-8 {
+    flex:0 0 66.666667%;
+    max-width;:0 0 66.666667%;
+  
+}
+
+::selection {
+    background: #71dc2a;
+    color:#fff;
+
+}
+
+.bg-gradient {
+    background: linear-gradient(27deg,#59b51e 0%, #95d239 100%) !important;
+}
+
+.py-4 {
+    padding-bottom: 1.5rem !important;
+    padding-top: 1.5rem !important;
+}
+
+.position-relative {
+    position: relative !important;
+    
+}
+
+section {
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.col-md-7  {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 2%;
+}
+
+.col-md-7 h2 {
+    font-size: 42px;
+    color:#fff;
+    font-family: 'quicksand',sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-align: left;
+
+    
+}
+
+.col-md-7 p {
+font-weight: 400;
+color:#fff;
+font-size: 15px;
+line-height: 1.7;
+margin-bottom: 1rem;
+margin-top:0;
+box-sizing: border-box;
+text-align: left;
+font-family: 'quicksand',sans-serif;
+
+
+}
+
+.btn-light {
+    font-size: 14px;
+    font-family: 'quicksand',sans-serif;
+    text-transform: capitalize;
+    padding:13px 40px;
+    border-radius: 35px;
+    font-weight: 500;
+   border: none;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    background-color: #FFFFFF;
+    
+}
+
+
+.btn-light:hover {
+    outline: 0;
+    box-shadow: 0 8px 10px rgba(33,33,33,.2) !important;
+    background-color: #FFFFFF;
 }
