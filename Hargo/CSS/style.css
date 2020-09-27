@@ -369,6 +369,7 @@ color: #333;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .row125 {
@@ -450,4 +451,22 @@ color: #333;
     text-align: center;
     word-wrap: break-word;
 
+}
+
+.pb-0 {
+    padding-top: 100px;
+    padding-bottom: 0 !important;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.align-items-center {
+    align-items: center !important;
+
+}
+
+.col-md-6 {
+    
 }
