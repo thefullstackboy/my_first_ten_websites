@@ -140,7 +140,7 @@ button {
     background: linear-gradient(27deg,#59b51e 0%,#95d239 100%)!important;
     outline: 0;
     font-size: 14px;
-    font-family: quicksand,sans-serif;
+    font-family: 'quicksand',sans-serif;
     text-transform: capitalize;
     padding: 13px 40px;
     border-radius: 35px;
@@ -733,12 +733,55 @@ box-sizing: border-box;
 color: #5ab51e !important;
 }
 
+.discoutrate {
+text-align: center !important;
+word-wrap: break-word;
+line-height: 1.4;
+color: #3D3933;
+font-family: 'quicksand,sans-serif';
+font-size:15px;
+text-align: center;
+font-weight: 400;
+
+}
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
     box-sizing: border-box;
     text-align: center !important;
     word-wrap: break-word;
+
+
+}
+
+.cartbutton {
+    background: 0 0;
+    color:#333;
+    border-color:#5ab51e;
+    transition: none;
+    padding:10px 30px;
+    font-size: 14px;
+    font-family: 'quicksand,sans-serif';
+    text-transform: capitalize;
+    border-radius: 35px;
+    font-weight: 500;
+    border:1px solid #5ab51e;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select:none;
+    white-space: nowrap;
     
 
+}
+
+.cartbutton:hover {
+    outline:0;
+    box-shadow: 0 8px 10px rgba(33,33,33,.2) !important;
+    background: linear-gradient(27deg,#59b51e 0%,#95d239 100%) !important;
+    border-color: #5ab51e !important;
+    color: #fff;
 }
