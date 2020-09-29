@@ -727,3 +727,18 @@ box-sizing: border-box;
     font-size: 20px;
 
 }
+
+
+.text-primary  {
+color: #5ab51e !important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    box-sizing: border-box;
+    text-align: center !important;
+    word-wrap: break-word;
+    
+
+}
