@@ -829,7 +829,23 @@ font-weight: 400;
     font-family: 'quicksand',sans-serif;
     margin-top:0;
     box-sizing: border-box;
+ 
 
 
+}
+
+.quoted {
+    font-weight: 400;
+    color:#333;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+small {
+    font-size: 80%;
+    font-weight: 400;
 }
 
