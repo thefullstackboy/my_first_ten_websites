@@ -187,7 +187,7 @@ button {
 
 .section2 h2 {
     font-size: 42px;
-    font-family: quicksand,sans-serif;
+    font-family: 'quicksand',sans-serif;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: .5rem;
@@ -785,3 +785,51 @@ font-weight: 400;
     border-color: #5ab51e !important;
     color: #fff;
 }
+
+.border-primary {
+    border-color: #5ab51e !important;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+
+}
+
+.card-body {
+    flex:auto;
+    padding:1.25rem;
+    word-wrap: break-word;
+    
+}
+.client-img {
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    border:1px solid #5ab51e;
+    margin: -70px auto 20px;
+    box-sizing: border-box;
+}
+
+.feedbackheading {
+    margin-bottom: 8%;
+    font-size: 42px;
+    color:#222;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'quicksand',sans-serif;
+    margin-top:0;
+    box-sizing: border-box;
+
+
+}
+
