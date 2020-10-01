@@ -849,3 +849,30 @@ small {
     font-weight: 400;
 }
 
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.col-12 {
+    flex:0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section589674-sm {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
