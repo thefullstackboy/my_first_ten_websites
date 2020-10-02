@@ -8,8 +8,7 @@
     max-width: 100%;
     height: auto;
     vertical-align: middle;
-    border-style: none;
-    text-align: left;
+    border-style: none;  
     box-sizing: border-box;
     cursor: default;
 
@@ -875,4 +874,24 @@ small {
 .section589674-sm {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.col-md-3 {
+    flex:0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left:15px;
+    box-sizing: border-box;
+}
+
+.col-sm-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left:15px;
+    box-sizing: border-box;
 }
