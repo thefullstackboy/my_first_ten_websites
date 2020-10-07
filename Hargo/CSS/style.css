@@ -15,6 +15,10 @@
 
 }
 
+ul {
+    margin-top: 0;
+}
+
 
 
 .navbar-brand {
@@ -302,6 +306,8 @@ line-height: 1.4;
 font-family: 'quicksand',sans-serif;
 font-size: 15px;
 color: #333;
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
 }
 
 .btn-light {
@@ -895,3 +901,32 @@ small {
     padding-left:15px;
     box-sizing: border-box;
 }
+
+.font-weight-medium {
+    font-weight: 500 !important;    
+    
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.text-color {
+    color: #333;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.fa-phone, .fa-envelope, .fa-map {
+    color: #5ab51e !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin-right: .5rem !important;
+
+}
+
