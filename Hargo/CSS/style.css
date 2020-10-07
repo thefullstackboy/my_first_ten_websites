@@ -919,7 +919,7 @@ small {
     margin-bottom: 3rem !important;
 }
 
-.fa-phone, .fa-envelope, .fa-map {
+.fa-phone, .fa-envelope, .fa-map, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram, .fa-pinterest {
     color: #5ab51e !important;
     font-style: normal;
     font-weight: 400;
@@ -929,4 +929,17 @@ small {
     margin-right: .5rem !important;
 
 }
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+    box-sizing: border-box;
+}
+
 
