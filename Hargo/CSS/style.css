@@ -136,6 +136,41 @@ button {
     text-align: left;
 }
 
+.btn {
+    text-align: center;
+    user-select: none;
+    line-height: 1.5;
+    white-space: nowrap;
+    font-size:14px;
+    font-family: 'quicksand',sans-serif;
+    text-transform: capitalize;
+    padding: 13px 40px;
+    font-weight: 500;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    margin:0;
+}
+
+.btn-outline-primary {
+    background: 0 0;
+    color:#333;
+    border-color: #5ab51e;
+    transition: none;
+
+}
+
+
+.btn-outline-primary:hover {
+    background-color: #6BBE26;
+    color: #FFFFFF;
+}
+
+.btn-block {
+    display: block;
+    width:100%;
+}
+
 .btn-primary {
     background-color: #71dc2a;
     color: #fff;
@@ -170,9 +205,10 @@ button {
 
 }
 .btn-primary:hover {
-    color: #fff;
-   
+    color: #fff;   
 }
+
+
 
 .overlay-image {
     position: absolute;
@@ -942,4 +978,38 @@ small {
     box-sizing: border-box;
 }
 
+.form-control {
+    height: 50px;
+    border: 1px solid #5ab51e;
+    display: block;
+    width: 100%;
+    padding:.375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border-radius: .25rem;
+    background-clip: padding-box;
+    
 
+}
+
+input {
+    margin:0;
+    font-family: inherit;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
+
+textarea .form-control {
+    height: 100px;
+    resize: vertical;
+    margin:0;
+    font-family: inherit;
+    overflow: auto;
+    font-weight: 400;
+} 
