@@ -15,11 +15,29 @@
 
 }
 
+.nav-bg {
+    border-bottom: 1px solid #d1d1d1;
+}
+
+header {
+    display: block;
+}
+
 ul {
     margin-top: 0;
 }
 
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
 
+.navigaion {
+    z-index: 9999;
+    transition: .3s ease;
+    background: #fff;
+}
 
 .navbar-brand {
     font: 1.25rem;
@@ -110,7 +128,8 @@ button {
 }
 
 .section-sm {
-    margin-top: 7%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section-sm h1{
