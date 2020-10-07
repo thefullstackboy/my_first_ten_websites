@@ -40,9 +40,32 @@ ul {
 }
 
 .navbar-brand {
-    font: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+  display:inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right:1.25rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+
+}
+
+.navigation {
+   z-index: 9999;
+   transition: .3s ease;
+   background: #fff;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navbar::after, ::before {
+    box-sizing: border-box;
 }
 
 body {
@@ -78,6 +101,8 @@ div>ul>li>a {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 20px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
 }
 
 .fa-shopping-cart {
@@ -269,6 +294,11 @@ button {
 
 }
 
+section {
+    display: block;
+    box-sizing: border-box;
+}
+
 .textedit p {
     font-weight: 400;
     color: #333;
@@ -429,7 +459,7 @@ max-width: 33.333333%;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    box-sizing: border-box;
+
 }
 
 .row125 {
