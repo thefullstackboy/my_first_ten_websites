@@ -99,10 +99,17 @@ div>ul>li>a {
 
 }
 
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 20px;
     flex-flow: row nowrap;
     justify-content: flex-start;
+    list-style: none;
 }
 
 .fa-shopping-cart {
@@ -664,6 +671,7 @@ ul {
 .justify-content-between {
     align-items: center !important;
     justify-content: space-between !important;
+    margin-top: 5%;
 
 
 }
