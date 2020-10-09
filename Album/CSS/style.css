@@ -154,6 +154,15 @@ p {
     margin-bottom: 1rem;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+}
+
 .offeset-md-1 {
     margin-left: 8.333333%;
 }
@@ -224,3 +233,31 @@ strong {
 header {
     display: block;
 }
+
+main {
+    display:block;    
+}
+
+.jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    margin-bottom: 0;
+    background-color: #fff;
+    padding: 4rem 2rem;
+    border-radius: .3rem;
+}
+
+section {
+    display: block;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+
+}
+
+
