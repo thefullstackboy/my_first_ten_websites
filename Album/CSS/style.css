@@ -50,6 +50,53 @@ body {
     padding: .5rem 1rem;
 }
 
+.navbar-dark {
+    color:#fff;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+html [type="button"] {
+    -webkit-appearance: button;
+}
+
+
+button {
+ text-transform: none;
+ overflow: visible;
+ margin: 0;
+ font-family: inherit;
+
+}
+.navbar-toggler {
+    padding:.25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+
+.navbar-brand {
+    color:#fff;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -134,4 +181,46 @@ ul {
 a {
     text-decoration: none;
     background-color: transparent;
+}
+
+.navbar>.container {
+flex-wrap: wrap;
+-webkit-box-flex: center;
+align-items: center;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.mr-2, .mx-2 {
+    margin-right: .5rem !important;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5rem;
+    vertical-align: middle;
+    content:" ";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+header {
+    display: block;
 }
