@@ -289,6 +289,12 @@ section {
     border-color: #007bff;
 }
 
+.btn-secondary {
+    color:#fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
 .btn {
     display: inline-block;
     font-weight: 400;
