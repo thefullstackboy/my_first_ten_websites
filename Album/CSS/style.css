@@ -110,6 +110,11 @@ button {
     padding-top: 1.5rem !important
 }
 
+.py-5 {
+    padding-bottom: 3rem !important;
+    padding-top: 3rem !important;
+}
+
 .col-md-7 {
     -webkit-box-flex: 0;
     flex: 0 0 58.333333%;
@@ -308,7 +313,50 @@ section {
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
+.bg-light {
+    background-color: #f8f9fa !important;
+}
 
+.col-md-4 {
+    -webkit-box-flex: 0;
+    flex:0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+img {
+    border-style: none;
+}
+
+.card {
+    word-wrap: break-word;
 }
