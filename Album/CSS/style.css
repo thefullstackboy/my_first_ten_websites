@@ -31,6 +31,10 @@ body {
     display: block;
 }
 
+.collapse {
+    display: none;
+}
+
 .bg-dark {
     background-color: #343a40 !important;
 }
@@ -398,3 +402,56 @@ img {
 footer p {
     margin-bottom: .25rem;
 }
+
+
+
+@media (min-width:320px)  {
+     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+     .col-md-4 {
+        -webkit-box-flex: 0;
+        flex:98%;
+        max-width: 98%;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.2em;
+        height: 1.2rem;
+        vertical-align: middle;
+        content:" ";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+    }
+    
+    footer p {
+        margin-bottom: .25rem;
+        font-size: 14px;
+    }
+
+    .text-muted {
+        color: #6c757d !important;
+        font-size: 14px;
+        text-align: justify;
+        align-items: center;         
+    }    
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
