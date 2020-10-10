@@ -161,6 +161,14 @@ p {
 
 a {
     text-decoration: none;
+    color: #007bff;
+    background-color: transparent;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
 }
 
 h1 {
@@ -319,6 +327,22 @@ section {
     background-color: #f8f9fa !important;
 }
 
+.btn, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn:first-child {
+    margin-left: 0;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+}
+
 .col-md-4 {
     -webkit-box-flex: 0;
     flex:0 0 33.333333%;
@@ -365,4 +389,12 @@ img {
     -webkit-box-flex: 1;
     flex:1 1 auto;
     padding:1.25rem;
+}
+
+.float-right  {
+    float: right !important;
+}
+
+footer p {
+    margin-bottom: .25rem;
 }
