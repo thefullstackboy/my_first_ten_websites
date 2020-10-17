@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.mt-5 {
+    padding-top: 3.8rem !important;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.footer> .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+code {
+    font-size: 80%;
+}
+
+.text-muted {
+    color: #6c757d !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+}
