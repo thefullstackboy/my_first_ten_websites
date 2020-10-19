@@ -4,6 +4,23 @@
 }
 
 body {
-    
+    color: #5a5a5a;
 }
 
+.marketing .col-lg-4 {
+    text-align: center;
+}
+
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.marketing {
+    padding-top: 50px;
+}
