@@ -24,3 +24,27 @@ body {
 .marketing {
     padding-top: 50px;
 }
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.featurette-heading {
+    margin-top: 7rem;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+
+.bd-placeholder-img {
+    font-size: 3.5rem;
+    text-anchor: middle;
+}
