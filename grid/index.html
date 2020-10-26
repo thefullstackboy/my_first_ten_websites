@@ -8,9 +8,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>
-
+     Grid
     </title>
     <style>
+        .themed-grid-col {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: rgba(86, 61, 124, .15);
+            border: 1px solid rgba(86, 61, 124, .2);
+        }
+
+        .themed-container {
+            padding: 15px;
+            margin-bottom: 30px;
+            background-color: rgba(0, 123, 255, .15);
+            border: 1px solid rgba(0, 123, 255, .2);
+        }
 
     </style>
 </head>
@@ -152,11 +165,17 @@
           </div>
     </div>
 
+    <div id="containers" class="container">
+        <h2 class="mt-4">containers</h2>
+        <p>Additional classes added in Bootstrap v4.4 allow containers that are 100% wide until a particular breakpoint.</p>
+    </div>
 
-
-
-
-
+    <div class="container themed-container">.container</div>
+    <div class="container-sm themed-container">.container-sm</div>
+    <div class="container-md themed-container">.container-md</div>
+    <div class="container-lg themed-container">.container-lg</div>
+    <div class="container-xl themed-container">.container-xl</div>
+    <div class="container-fluid themed-container">.container-fluid</div>
 </body>
 </html>
 
