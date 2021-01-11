@@ -43,6 +43,7 @@ body {
     margin-right: 5.8%;
     background-color: #1B1B1B;
     flex-direction: row;
+  
     
     
 }
@@ -52,10 +53,19 @@ body {
     width: 90%;
     margin: 0.50%;
     padding: 1%;
+    line-height: 170%;
    
 
     
 
+}
+
+.everycontainer h3 {
+    color: #F8AE00;
+}
+
+.everycontainer p {
+    color: #C3C3C3;
 }
 
 .manycontainer >.everycontainer2 {
@@ -67,4 +77,12 @@ body {
 
     
 
+}
+
+.everycontainer2 h3 {
+    color: #F8AE00;
+}
+
+.everycontainer2 p {
+    color: #C3C3C3;
 }
