@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./background.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bluebackground {
+    background-color: #164972;
+    margin-right: 15%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 15%;
+    height: 1600px;
+    width: 1200px;
+}
+
+.profileimage img {
+    border-radius: 50%;
+    border: 20px solid #FFFFFF;
+    margin-left: 4.9%;
+    margin-top: 4.9%;
+}
