@@ -27,3 +27,22 @@ body {
     margin-left: 4.9%;
     margin-top: 4.9%;
 }
+
+.headingname p {
+    font-size: 180px;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+   margin-left: 37%;
+   margin-top: -25%;
+}
+
+.introductionalignment {
+    margin-left: 37%;
+    margin-top: 10%;
+    color: white;
+}
+
+.paragraph {
+ padding-top: 9%;
+ line-height: 120%;
+}
