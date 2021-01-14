@@ -8,15 +8,18 @@
     width: 27.2%;
     height: 30%;
     margin-left: 2.8%;
-    margin-top: 4.8%;
-
+    margin-top: 4.8%;  
 }
 
-.atagalign li {
- margin-left: 15%;
- 
+.active12  a {
+    color: #333333;
+    padding: 15px 20px;
+    font-size: 18px;
 }
 
-.atagalign li a {
-    margin-top: 15%;
+.marginnleft {
+    margin-left: 16%;
 }
+
+
+    
