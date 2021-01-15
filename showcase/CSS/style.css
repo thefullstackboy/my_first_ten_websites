@@ -46,6 +46,12 @@ nav {
     border-radius: 4%;
 }
 
+.row img:hover {
+   border: 18px solid #798590;
+   border-radius: 4%;
+   transition-duration: 2ms;
+}
+
 .container>.row  {
     width: 30%;
     margin: 1.5%;      
