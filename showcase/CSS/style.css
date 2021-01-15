@@ -5,11 +5,26 @@
 }
 
 nav {
-    position: sticky;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .rightside {
     float: right;
+    padding: 16px 20px;
+    word-spacing: 570%;
+    margin-top: -3.6%;
+    padding-right: 6.1%;
+   
+}
+
+.rightside a {
+    color: #9BA1AB;
+    font-weight: 400;
+   
 }
 
 .leftside img {
