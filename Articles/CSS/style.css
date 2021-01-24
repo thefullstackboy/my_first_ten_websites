@@ -56,10 +56,7 @@ a.active,a:hover{
   display: none;
 }
 
-.textcenter {
-    text-align: center;
-    transform: translate(18%,  298%);
-}
+
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
