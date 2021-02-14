@@ -28,7 +28,28 @@ margin-left: 97.8%;
 
 }
 
+/*deactive hover color */
 .navbar-light .navbar-nav .nav-link:hover {
 color: #4C4C4C;
 }
 
+/*watch1 image size*/
+
+.watchimage1 img {
+    padding-left: 13.5%;
+    padding-top: 14.2%;
+}
+
+/*browse button */
+.browsebutton {
+  background-color: #F9A743;
+  border: none;
+  color: black;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
