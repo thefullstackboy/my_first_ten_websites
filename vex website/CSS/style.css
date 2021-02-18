@@ -54,3 +54,11 @@ color: #4C4C4C;
   border-radius: 16px;
   
 }
+
+/*white hover*/
+.whitehover:hover {
+opacity: 0.16;
+
+
+}
+
