@@ -57,8 +57,34 @@ color: #4C4C4C;
 
 /*white hover*/
 .whitehover:hover {
-opacity: 0.16;
+opacity: 0.13;
 
+
+}
+
+/*subcribe button*/
+input[type=email] {
+ padding: 11px 169px;
+ border-radius: 22px;
+ text-align: left;    
+}
+
+input[type="text"]::placeholder {  
+ /* Firefox, Chrome, Opera */
+text-align: left; 
+} 
+
+/*button*/
+.subbtn {
+background-color: #F9A743;
+padding: 15px 26px;
+border-top-right-radius: 45%;
+border-bottom-right-radius: 45%;
+text-align: center;
+color: #ffff;
+display: inline-block;
+margin-left: -8%;
+border:none;
 
 }
 
