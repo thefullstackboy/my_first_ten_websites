@@ -8,9 +8,10 @@ body {
 }
 
 .brandimage img{
-width: 113px;
-height: 40px;
-margin-left: 97.8%;
+width: 100px;
+height: 33px;
+margin-left: 119.8%;
+margin-top: -2%;
 }
 
 /*Home tag*/
@@ -88,3 +89,8 @@ border:none;
 
 }
 
+.fa.fa-quote-left {
+    font-size: 40px;
+    color: #F9A743;
+    padding-bottom: 12%;
+}
