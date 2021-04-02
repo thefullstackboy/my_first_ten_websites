@@ -314,3 +314,49 @@ button, input {
     transition: all .3s ease-in-out;
     visibility: hidden;
 }
+
+.team-member .member-content h3 {
+    font-size: 20px;
+    margin: 0 0 5px;
+    color: #333;
+    font-weight: 600;
+}
+
+.member-content span {
+    font-size: 14px;
+    color: #555;
+}
+
+.team-member .member-content p {
+    color: #777;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.team-member .member-content {
+    padding: 25px 0;
+}
+
+.team-member {
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.member-photo {
+    overflow: hidden;
+    position: relative;
+}
+
+.team-member .member-photo img {
+    transition: all .6s ease 0s;
+}
+
+.team-member .member-content ul {
+    text-align: center;
+    position: relative;
+}
+
+.team-member:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
