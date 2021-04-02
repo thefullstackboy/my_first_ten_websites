@@ -244,3 +244,73 @@ transition: all .3s ease 0s;
     margin-bottom: 1rem;
 }
 
+.bg-gray {
+    background: #f9f9f9;
+}
+
+.title h4 {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+}
+
+.title p {
+    color: #848484;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.portfolio-filter button {
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 8px 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    color: #777;
+    outline: none;
+    background: 0 0;
+}
+
+.portfolio-filter button.active {
+    border-bottom: 2px solid #f0326b;
+    color: #000;
+}
+
+.portfolio-filter {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.portfolio-block {
+    position: relative;
+    transition: .3s all;
+    overflow: hidden;
+}
+
+.portfolio-filter button:hover {
+    border-bottom: 2px solid #f0326b;
+    color: #000;
+}
+
+.portfolio-block .caption {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    opacity: 0;
+    z-index: 9;
+    transition: all .3s ease-in-out;
+    visibility: hidden;
+}
