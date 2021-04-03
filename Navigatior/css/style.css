@@ -442,3 +442,122 @@ ol, ul {
     padding: 8px 20px;
     margin: 15px 0;
 }
+
+.contact-form {
+    margin-bottom: 40px;
+}
+
+.contact-form .form-control {
+    background-color: initial;
+    border: 1px solid #dedede;
+    box-shadow: none;
+    height: 45px !important;
+    color: #0c0c0c;
+    height: 38px;
+    font-family: open sans,sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.contact-form #contact-submit {
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+    background: #f0326b;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.btn-transparent {
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+
+.top-footer {
+    background-color: #222;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+}
+
+.top-footer h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.top-footer p {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    padding-right: 20px;
+}
+
+.top-footer li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: color .3s;
+    display: block;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #1b1b1b;
+    border-top: 1px solid #2c2c2c;
+    padding: 30px 0;
+}
+
+.footer-bottom h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: #888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.footer-bottom h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.footer-bottom a {
+    color: #f0326b;
+}
