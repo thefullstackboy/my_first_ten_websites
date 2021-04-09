@@ -6,6 +6,10 @@
 
 body {
 overflow-y: scroll;
+line-height: 1.2;
+font-family: lato,sans-serif;
+font-size: 16px;
+color: #777;
 }
 
 .bg-transparent {
@@ -116,7 +120,44 @@ color: #777;
     color: #777;
   }
 
+  .footer-list a {
+    display: block;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #777;
+    margin: 8px 0;
+}
+
+.footer-list a:hover {
+    color: #0aa8a7;
+}
+
   .sendnoww .primary:hover, .btn-primary.focus, .btn-primary.active {
     background-color: #0aa8a7 !important;
     border-color: #0aa8a7 !important;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+.social-icons a {
+    color: #0aa8a7;
+    text-align: center;
+    line-height: 35px;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+small {
+    font-size: 88%;
+}
+
+.content a {
+    color: #777;
+    border-bottom: 1px dotted #ececec;
 }
