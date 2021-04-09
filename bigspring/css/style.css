@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+overflow-y: scroll;
+}
+
+.bg-transparent {
+    background-color: initial !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px;
+}
+
+.nav-item .nav-link {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0aa8a7;
+}
+
+.btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
+    background-color: #0aa8a7 !important;
+    border-color: #0aa8a7 !important;
+}
+.btn:hover {
+    box-shadow: 0 12px 24px -6px rgba(45,67,121,.1) !important;
+}
+
+.btn-sm {
+    padding: 12px 30px;
+    font-size: 15px;
+}
+
+.btn {
+    font-weight: 30px;
+    border: 0;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    white-space: nowrap;
+}
+
+.section {
+    padding-top: 70px;
+}
+
+.display-3 {
+    font-size: 3.5rem;
+
+}
+
+ h1 {
+    font-weight: 300;
+    line-height: 1.2;
+    color: #222;
+    margin-bottom: .5rem; 
+    margin-top: 0;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #222;
+    font-family: lato,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.2;
+font-family: lato,sans-serif;
+font-size: 16px;
+color: #777;
+}

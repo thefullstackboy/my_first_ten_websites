@@ -1,0 +1,84 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+}
+
+.top-bar .animated-header {
+    padding: 20px 0;
+    background: #fff;
+    box-shadow: none;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    color: #fff;
+    transition: all .2s ease-out 0s;
+    padding: 15px 0;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+    border-bottom: 1px solid #dedede;
+    z-index: 10;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #02bdd5 !important;
+}
+
+}
+#hero-area {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 230px 0;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    position: relative;
+}
+
+.navbar .nav-item .nav-link {
+    color: #444 !important;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .3s all;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    display: block;
+}
+
+span {
+    display: inline-block;
+    padding: .2em 0;
+}
+
+.asdf {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
