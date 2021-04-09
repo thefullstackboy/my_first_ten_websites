@@ -83,3 +83,40 @@ font-family: lato,sans-serif;
 font-size: 16px;
 color: #777;
 }
+
+.content ul {
+    padding-left: 0;
+    margin-bottom: 20px;
+;
+}
+
+.content {
+    word-break: break-word;
+
+}
+
+
+.bolcolor {
+    list-style: none;
+  }
+  
+  .bolcolor li::before {
+    content: "\2022";
+    color: #0AA8A7;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    font-size: 18px;
+  }
+
+  strong {
+    line-height: 1.2;
+    font-family: lato,sans-serif;
+    font-size: 16px;
+    color: #777;
+  }
+
+  .sendnoww .primary:hover, .btn-primary.focus, .btn-primary.active {
+    background-color: #0aa8a7 !important;
+    border-color: #0aa8a7 !important;
+}
