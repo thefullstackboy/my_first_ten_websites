@@ -63,3 +63,32 @@ body {
     background: linear-gradient(to bottom right,#fad470 0%,#f96933 100%);
     box-shadow: 0 8px 10px #fdf2d3;
 }
+
+.pricing {
+    text-align: center;
+    display: block;
+    border-radius: .25rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+
+.pricing .price {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.pricing .features {
+    font-size: 14px;
+}
+
+.pricing span, .pricing div {
+    display: block;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
