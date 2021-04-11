@@ -92,3 +92,36 @@ body {
 svg:not(:root).svg-inline--fa {
     overflow: visible;
 }
+
+#team .members img {
+    border-radius: 80px;
+    height: 120px;
+    widows: 120px;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+}
+
+.btn-filled.btn-facebook {
+    background-color: #3b5998 !important;
+    color: #fff !important;
+}
+
+.btn-filled.btn-instagram {
+    background-color: #fd5d58 !important;
+}
+
+.btn-filled.btn-linkedin {
+    background-color: #0077b5 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3d55df;
+    border-color: #324cdd;
+}
+
+#footer a {
+    color: rgba(0,0,0,.5);
+}
