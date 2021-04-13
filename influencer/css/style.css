@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #F4F7FC;
+background-color: #FFFFFF;
 }
 
 .text-color {
@@ -168,5 +168,38 @@ font-size: 22px;
     text-align: left;
     font-weight: 300;
     color: #6a7695;
+}
+
+.bg-grey {
+    background: #f4f7fc;
+}
+
+.section {
+    padding: 7.5rem 0;
+    position: relative;
+}
+
+.blockquote {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    margin: 0 0 1rem;
+}
+
+.text-lg {
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 700;
+line-height: 1.35;
+margin-bottom: .5rem;
+color: #3f4451;
+}
+
+.blockquote-footer {
+    font-size: 18px;
+    color: #cc302b;
+    font-weight: 700;
+line-height: 1.35;
+margin-bottom: .5rem;
+
 }
 
