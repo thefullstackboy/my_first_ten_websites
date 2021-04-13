@@ -138,3 +138,35 @@ color: #6a7695;
     color: #fff;
     border-color: #cc302b;
 }
+
+.service-block {
+    padding: 60px 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 12px 7px 90px rgba(110,123,131,.1);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.service-block h4 {
+    font-family: lora,serif;
+font-weight: 700;
+line-height: 1.35;
+margin-bottom: .5rem;
+color: #3f4451;
+margin-top: 1.5rem !important;
+margin-bottom: 1rem !important;
+font-size: 22px;
+}
+
+.service-block p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 300;
+    color: #6a7695;
+}
+
