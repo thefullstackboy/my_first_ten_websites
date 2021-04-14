@@ -271,3 +271,43 @@ color: #3f4451;
 .testimonial-item-conten {
     width: 370px;
 }
+
+.device014 {
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #3f4451;
+    font-size: 1.625rem;
+}
+
+.parjt {
+    font-size: 16px;
+line-height: 30px;
+text-align: left;
+font-weight: 300;
+color: #6a7695;
+}
+
+.content h5 {
+    font-weight: 700;
+line-height: 1.35;
+margin-bottom: .5rem;
+color: #3f4451;
+font-size: 18px;
+}
+
+.content p {
+    font-size: 16px;
+line-height: 30px;
+text-align: left;
+font-weight: 300;
+color: #6a7695;
+margin-bottom: 1rem;
+}
+
+
+.btn-main-2 {
+    background: #cc302b;
+    color: #fff;
+    border-color: #cc302b;
+}
