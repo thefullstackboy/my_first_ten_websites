@@ -311,3 +311,18 @@ margin-bottom: 1rem;
     color: #fff;
     border-color: #cc302b;
 }
+
+.about {
+    position: relative;
+}
+
+.section {
+    padding: 7.5rem 0;
+    display: block;
+}
+
+.about .about-img img {
+    box-shadow: 0 20px 40px rgba(38,59,94,.1);
+    border: 10px solid #fff;
+    border-radius: 20px;
+}
