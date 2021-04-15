@@ -335,3 +335,16 @@ margin-bottom: 1rem;
     padding: 7.5rem 0;
     position: relative;
 }
+
+.contact-info-block p {
+    font-size: 16px;
+line-height: 30px;
+text-align: center;
+font-weight: 300;
+color: #6a7695;
+}
+
+.contact-info-block {
+    padding: 60px 20px;
+    background: #fff;
+}
