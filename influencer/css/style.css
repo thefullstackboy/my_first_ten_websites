@@ -348,3 +348,11 @@ color: #6a7695;
     padding: 60px 20px;
     background: #fff;
 }
+
+.text-dark {
+    font-family: inherit;
+font-weight: 500;
+font-size: 2rem;
+line-height: 1.2;
+
+}
