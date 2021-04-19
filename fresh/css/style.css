@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar.is-fresh .navbar-brand img {
+    max-height: 36px !important;
+    height: 36px;
+}
