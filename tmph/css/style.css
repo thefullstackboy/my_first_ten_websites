@@ -11,6 +11,10 @@ body {
 
 }
 
+.menu ul li a:hover {
+    color: #ffffff;
+    background: url(../image/menu-btn.png) no-repeat;
+}
 .header-wrap {  
     height: 150px;
     width: 100%;
@@ -78,4 +82,19 @@ element {
     text-align: center;
     line-height: 40px;
     margin-right: 10px;
+}
+
+.socia-wrap {
+    float: right;
+    width: 200px;
+}
+
+.socail {
+    overflow: hidden;
+}
+
+.socail ul li {
+    float: left;
+    margin-right: 15px;
+    list-style: none;
 }
