@@ -98,3 +98,27 @@ element {
     margin-right: 15px;
     list-style: none;
 }
+
+.banner-wrap {
+ width: 960px;
+overflow: hidden;
+margin: 0 auto;
+}
+
+.banner {
+    height: 430px;
+    background: url(../image/banner-bg.png) no-repeat;
+}
+
+.banner .banner-img {
+    margin: 0 auto;
+    padding-top: 54px;
+    width: 420px;
+}
+
+.shadow {
+    width: 950px;
+    height: 38px;
+    background: url(../image/shadow.png) no-repeat center;
+    margin-bottom: 45px;
+}
