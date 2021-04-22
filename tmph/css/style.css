@@ -389,3 +389,31 @@ P {
     display: block;
     padding-top: 20px;
 }
+
+.footer-wrap .wrap .panel {
+    width: 300px;
+    float: left;
+}
+
+.footer-wrap .wrap .panel .title {
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.cotact {
+    width: 300px;
+}
+
+.cotact ul li {
+    border-bottom: #0d304f solid 1px;
+    list-style: none;
+    line-height: 50px;
+}
+
+.cotact ul li img {
+    padding-right: 10px;
+}
+
+.clearing {
+    clear: both;
+}
