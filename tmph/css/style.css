@@ -417,3 +417,9 @@ P {
 .clearing {
     clear: both;
 }
+
+.copyright-wrap {
+    background: url(../image/bg3.jpg) repeat-x center;
+    height: 63px;
+    padding-top: 45px;
+}
