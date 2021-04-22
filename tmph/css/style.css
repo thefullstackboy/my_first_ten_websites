@@ -297,3 +297,95 @@ P {
     height: 60px;
     margin-right: 25px;
 }
+
+.wrap3 .panel .content img {
+    margin-bottom: 20px;
+}
+
+.marTop30 {
+    margin-top: 30px;
+}
+
+.footer-wrap {
+    background: url(../image/bg2.jpg);
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.footer-wrap .wrap {
+    width: 960px;
+    margin: 0 auto;
+    background: url(../image/footerbg-light.png) no-repeat center;
+    height: 208px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.footer-wrap .wrap .panel {
+    width: 300px;
+    float: left;
+}
+
+.marRight30 {
+    margin-right: 30px;
+}
+
+.footer-wrap .wrap .panel .title {
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.testimonials {
+    background: url(../image/testimonials-bg.png) no-repeat;
+    width: 220px;
+    height: 106px;
+    padding: 30px 50px 30px 30px;
+}
+
+.input-newsletter {
+    background: url(../image/newsletter-bg.png) no-repeat center;
+    width: 210px;
+    height: 46px;
+    border: none;
+    text-indent: 10px;
+    color: #fff;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+}
+
+.footer-wrap .wrap .panel .content ul li .button {
+    background: url(../image/signup-btn.png);
+    width: 80px;
+    height: 46px;
+    border: none;
+    font-size: 18px;
+    color: #3d1a1b;
+    font-family: "Trebuchet MS";
+    margin-left: 10px;
+}
+
+.footer-wrap .wrap .panel .content ul li {
+    list-style: none;
+    float: left;
+}
+
+.content P {
+    line-height: 20px;
+}
+
+.footer-wrap .wrap .panel .content ul {
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.footer-wrap .wrap .panel .content span {
+    color: #da2600;
+}
+
+.footer-wrap .wrap .panel .content span a {
+    color: #da2600;
+    text-decoration: underline;
+    display: block;
+    padding-top: 20px;
+}
