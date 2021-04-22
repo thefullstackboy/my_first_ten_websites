@@ -122,3 +122,178 @@ margin: 0 auto;
     background: url(../image/shadow.png) no-repeat center;
     margin-bottom: 45px;
 }
+
+.page-wrap {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.box {
+    width: 300px;
+    overflow: hidden;
+    float: left;
+}
+
+.marRight30 {
+    margin-right: 30px;
+}
+
+.box .panel .title {
+    background: url(../image/line-bg.jpg) repeat-x bottom;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.box .panel .title span {
+    float: left;
+    margin-right: 12px;
+}
+
+.title h1 {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.content p { 
+        line-height: 20px;  
+}
+
+.button a {
+    text-decoration: none;
+    background-image: url(../image/btn-bg.png);
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffed71;
+    display: block;
+}
+
+
+.marTop30 {
+    margin-top: 30px;
+}
+
+.button a:hover {
+    background: url(../image/btn-bghover.png) no-repeat;
+    color: #04192f;
+}
+
+.wrap2 {
+    width: 880px;
+    height: 75px;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    overflow: hidden;
+    background: url(../image/box-bg.png) no-repeat;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 40px 40px;
+}
+
+.wrap2 h1 {
+    color: #001325;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+.wrap2 .button {
+    float: right;
+    display: block;
+}
+
+.wrap2 .button a {
+    background: url(../image/box-bg2.png) no-repeat;
+    width: 220px;
+    height: 60px;
+    font-size: 26px;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
+.wrap2 .content {
+    width: 500px;
+    float: left;
+}
+
+.icon {
+    float: left;
+    width: 35px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.clearing {
+    clear: both;
+}
+
+.wrap3 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.wrap3 .panel {
+    width: 300px;
+    float: left;
+}
+
+.wrap3 .panel .title {
+    padding-bottom: 30px;
+}
+
+.wrap3 .panel .content img {
+    margin-bottom: 20px;
+}
+
+P {
+    line-height: 20px;
+}
+
+.marTop20 {
+    margin-top: 20px;
+}
+
+.wrap3 .panel {
+    width: 300px;
+    float: left;
+}
+
+.wrap3 .panel .content img {
+    margin-bottom: 20px;
+}
+
+.marTop30 {
+    margin-top: 30px;
+}
+
+.wrap3 .panel {
+    width: 300px;
+    float: left;
+}
+
+.marTop30 {
+    margin-top: 30px;
+}
+
+.wrap3 .panel .content .icon {
+    float: left;
+    padding-right: 20px;
+}
+
+.icon {
+    float: left;
+    width: 35px;
+    height: 60px;
+    margin-right: 25px;
+}
