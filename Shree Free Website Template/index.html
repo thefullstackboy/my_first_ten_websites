@@ -1,0 +1,2440 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+      /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+ @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+ @import url(animate.min.css);
+ @import url(normalize.css);
+ @import url(meanmenu.css);
+ @import url(owl.carousel.min.css);
+ @import url(slick.css);
+ @import url(jquery-ui.css);
+ @import url(nice-select.css);
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+ * {
+     box-sizing: border-box !important;
+}
+ html {
+     scroll-behavior: smooth;
+}
+ body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'Poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+ a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ h1, h2, h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0 
+}
+ h1 {
+     font-size: 24px 
+}
+ h2 {
+     font-size: 22px 
+}
+ h3 {
+     font-size: 18px 
+}
+ h4 {
+     font-size: 16px 
+}
+ h5 {
+     font-size: 14px 
+}
+ h6 {
+     font-size: 13px 
+}
+ *, *::after, *::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1 
+}
+ button:focus {
+     outline: none;
+}
+ ul, li, ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+ p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+ a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+ a, .btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ img {
+     max-width: 100%;
+     height: auto;
+}
+ :focus {
+     outline: 0;
+}
+ .btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+ .lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+ .form-control:focus {
+     border-color: #ffffff !important;
+     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+ .navbar-form input {
+     border: none !important;
+}
+ .badge {
+     font-weight: 500;
+}
+ blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+ button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+ .full {
+     float: left;
+     width: 100%;
+}
+ .layout_padding {
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+ .layout_padding_2 {
+     padding-top: 75px;
+     padding-bottom: 75px;
+}
+ .light_silver {
+     background: #f9f9f9;
+}
+ .theme_bg {
+     background: #38c8a8;
+}
+ .margin_top_30 {
+     margin-top: 30px !important;
+}
+ .full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+/**-- heading section --**/
+ .main_heading {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     margin-bottom: 50px;
+}
+ .main_heading h2 {
+     padding: 0;
+     font-size: 48px;
+     line-height: 60px;
+     font-weight: 400;
+     position: relative;
+     letter-spacing: -0.5px;
+     color: #114c7d;
+     border-left: solid #38c8a8 10px;
+     padding-left: 15px;
+}
+ .main_heading h2 strong {
+     background: #38c8a8;
+     color: #fff;
+     font-weight: 600;
+     padding: 0 15px;
+     line-height: 68px;
+}
+ .white_heading_main h2 {
+     color: #fff;
+}
+ .small_main_heading {
+     margin-top: 25px;
+     float: left;
+     width: 100%;
+     border-bottom: solid rgba(0, 0, 0, 0.07) 1px;
+     margin-bottom: 25px;
+}
+ .small_main_heading h2 {
+     padding: 2px 0 20px 0;
+     color: #114c7d;
+     font-weight: 400;
+     font-size: 28px;
+     background-image: url('../images/fevicon.png');
+     background-repeat: no-repeat;
+     padding-left: 55px;
+     letter-spacing: -0.5px;
+}
+ .small_main_heading h2 strong {
+     color: #38c8a8;
+     font-weight: 600;
+}
+ .main_bt {
+     background: #000;
+     color: #fff;
+     padding: 10px 60px 10px 60px;
+     float: left;
+     font-size: 15px;
+     font-weight: 400;
+     border: solid #000 5px;
+     border-radius: 0;
+     margin-right: 30px;
+}
+ a.readmore_bt {
+     color: #fff;
+     font-weight: 300;
+     text-decoration: underline !important;
+}
+ .main_bt:hover, .main_bt:focus {
+     background: #ad2101;
+     border: solid #ad2101 5px;
+     color: #fff;
+}
+/**-- list icon --**/
+ .ul_list_info_icon ul {
+     list-style: none;
+}
+ .ul_list_info_icon ul li {
+     display: inline;
+     float: left;
+     width: 100%;
+}
+ .ul_list_info_icon ul li img {
+     width: 75px;
+}
+/*---------------------------- preloader area ----------------------------*/
+ .loader_bg {
+     position: fixed;
+     z-index: 9999999;
+     background: #fff;
+     width: 100%;
+     height: 100%;
+}
+ .loader {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .loader img {
+     width: 280px;
+}
+/*---------------------------- scroll to top area ----------------------------*/
+ .scrollup {
+     float: right;
+     position: absolute;
+     color: #fff;
+     right: 20px;
+     padding: 0px 5px;
+     text-transform: uppercase;
+     font-weight: 600;
+     background: #38c8a8;
+     position: fixed;
+     bottom: 20px;
+     z-index: 99;
+     text-align: center;
+     color: #fff;
+     cursor: pointer;
+     border-radius: 0px;
+     opacity: 0;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+     transform: scale(1);
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transform: scale(1);
+     transition: .2s all ease;
+     -moz-transition: .2s all ease;
+     -o-transition: .2s all ease;
+     -webkit-transition: .2s all ease;
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+     line-height: 48px;
+     font-size: 16px;
+}
+ .scrollup.b-show_scrollBut {
+     opacity: 1;
+     visibility: visible;
+}
+ .top_awro {
+     background: #ee4a79 none repeat scroll 0 0;
+     cursor: pointer;
+     padding: 6px 8px;
+     position: fixed;
+     bottom: 59px;
+     right: 20px;
+     display: none;
+     height: 45px;
+     width: 45px;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 30px;
+     transition: all 0.5s ease;
+}
+ .sale_pro {
+     background: #f25252 !important;
+}
+ .margin_top_50 {
+     margin-top: 50px;
+}
+ .margin_bottom_30_all {
+     margin-bottom: 30px;
+}
+ .text_align_center {
+     text-align: center;
+}
+/*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
+ .logo_section {
+     text-align: center;
+}
+ .logo {
+     float: left;
+     
+     padding-bottom: 6px;
+}
+ nav.main-menu {
+     float: left;
+     margin-left: 0;
+     margin-left: 0;
+}
+
+ 
+ .right_cart_section {
+     float: right;
+     width: auto;
+}
+ .right_cart_section ul {
+     float: left;
+     min-height: auto;
+     margin: 0;
+     padding: 12px 0 0;
+}
+ .right_cart_section .cart_icons {
+     padding: 18px 0 0;
+}
+ .main-menu ul>li nth:child(5) a {
+     padding-right: 0px;
+}
+ .right_cart_section ul li {
+     float: left;
+     font-size: 17px;
+     font-weight: 400;
+     color: #fff;
+     margin-right: 30px;
+}
+ .right_cart_section ul.cart_update li {
+     font-size: 13px;
+     color: #ccc;
+     line-height: normal;
+     margin: 0;
+     font-weight: 300;
+}
+ .right_cart_section ul.cart_update li span {
+     font-size: 18px;
+     font-weight: 300;
+     color: #fff;
+     line-height: 21px;
+}
+ .right_cart_section ul li i {
+     margin-right: 10px;
+     margin-top: 5px;
+     float: left;
+     color: #fff;
+     font-size: 21px;
+}
+ .right_cart_section ul li a {
+     color: #fff;
+}
+/*-- end header middle --*/
+ .top-bar-info {
+     background: #111111;
+     padding: 5px 0px;
+}
+ .top-menu-left {
+     float: left;
+}
+ .top-menu-left li {
+     position: relative;
+     display: inline-block;
+     margin-right: 11px;
+     padding-right: 12px;
+}
+ .top-menu-left li::before {
+     content: '';
+     position: absolute;
+     right: 0;
+     top: 9px;
+     height: 10px;
+     border-right: 1px dotted #999;
+}
+ .top-menu-left li:last-child::before {
+     display: none;
+}
+ .top-menu-left li:last-child {
+     padding: 0px;
+     margin: 0px;
+}
+ .top-menu-left li a {
+     color: #ffffff;
+     font-size: 12px;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+ .top-menu-left li a:hover {
+     color: #38c8a8;
+}
+ .right-dropdown-language {
+     float: right;
+     margin-left: 12px;
+}
+ .dropdown-bar .dropdown-link {
+     position: absolute;
+     z-index: 1009;
+     top: 40px;
+     left: 0;
+     right: auto;
+     min-width: 50px;
+     padding: 15px;
+     background: #ffffff;
+     list-style: none;
+     border: 2px solid #38c8a8;
+     opacity: 0;
+     visibility: hidden;
+     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     -webkit-transition: opacity 0.2s ease 0s, visibility 0.2s linear 0s;
+     -o-transition: opacity 0.2s ease 0s, visibility 0.2s linear 0s;
+     transition: opacity 0.2s ease 0s, visibility 0.2s linear 0s;
+     text-align: left;
+}
+ .dropdown-bar:hover .dropdown-link {
+     opacity: 1;
+     visibility: visible;
+     top: 25px;
+}
+ .dropdown-bar.right-dropdown-language>a::after {
+     font-family: 'FontAwesome';
+     content: "\f107";
+     text-decoration: none;
+     padding-left: 4px;
+     color: #ffffff;
+}
+ .right-dropdown-language>a {
+     line-height: 10px;
+     padding: 5px 5px;
+     cursor: pointer;
+}
+ .dropdown-bar .dropdown-link li a {
+     color: #111111;
+     display: block;
+     font-size: 12px;
+     line-height: 15px;
+     padding: 5px 0;
+}
+ .dropdown-bar .dropdown-link li a:hover {
+     color: #38c8a8;
+}
+ .dropdown-bar .dropdown-link li a img {
+     margin-right: 7px;
+}
+ .dropdown-bar .dropdown-link li.active {
+     font-weight: bold;
+}
+ .right-dropdown-language .dropdown-link {
+     min-width: 100px;
+     padding: 7px 10px;
+     color: #111111;
+}
+ .dropdown-bar {
+     position: relative;
+     padding: 0 5px;
+     font-size: 13px;
+}
+ .dropdown-bar .dropdown-link.right-sd {
+     left: auto;
+     right: 0;
+}
+ .right-dropdown-currency {
+     float: right;
+     margin-left: 12px;
+}
+ .dropdown-bar.right-dropdown-currency>a::after {
+     font-family: 'FontAwesome';
+     content: "\f107";
+     text-decoration: none;
+     padding-left: 4px;
+     color: #ffffff;
+}
+ .right-dropdown-currency>a {
+     line-height: 10px;
+     padding: 5px 5px;
+     cursor: pointer;
+     color: #ffffff;
+}
+ .right-dropdown-currency .dropdown-link {
+     min-width: 100px;
+     padding: 7px 10px;
+     color: #111111;
+}
+ .right-dropdown-currency .dropdown-link {
+     min-width: 55px;
+     padding: 7px 10px;
+}
+ .right-dropdown-currency .dropdown-link li a span.symbol {
+     margin-right: 7px;
+}
+ #login-modal .modal-content {
+     border-radius: 0px;
+}
+ #login-modal .modal-content .modal-header {
+     background: #38c8a8;
+     border-radius: 0;
+}
+ #login-modal .modal-content .modal-body .form-group input {
+     background: #ffffff;
+     border: 1px solid #c8c8c8;
+     border-radius: 0px;
+}
+ #login-modal .modal-content .modal-body .form-group input:focus {
+     border: 1px solid #c8c8c8 !important;
+}
+ #login-modal .modal-content form {
+     margin-bottom: 10px;
+}
+ .modal-title {
+     padding: 0px;
+     color: #ffffff;
+     font-size: 18px;
+     text-transform: uppercase;
+}
+ .btn-template-outlined {
+     background: #111111;
+     color: #ffffff;
+     border: none;
+     border-radius: 0px;
+}
+ .btn-template-outlined i {
+     padding-right: 10px;
+}
+ .text-muted {
+     padding: 10px 0px;
+}
+ .slogan-line {
+     float: right;
+     color: #ffffff;
+     font-size: 13px;
+}
+ .middle-area {
+     padding: 30px 0px;
+}
+ .header-search {
+     padding: 3px 0px;
+}
+ .header-search form {
+     position: relative;
+     -webkit-box-shadow: 0px 1px 10px -1px rgba(0, 0, 0, 0.2);
+     box-shadow: 0px 1px 10px -1px rgba(0, 0, 0, 0.2);
+}
+ .header-search .btn-group.bootstrap-select {
+     position: absolute;
+     left: 0px;
+     top: 0px;
+}
+ .header-search input {
+     width: 100%;
+     min-height: 45px;
+     border-radius: 0px;
+     border: none;
+     padding-left: 15px;
+     border: 1px solid #e0e7ed;
+}
+ .header-search form .search-btn {
+     position: absolute;
+     right: 0;
+     top: 0;
+     border: 0;
+     color: #fff;
+     font-size: 20px;
+     padding: 4px 15px;
+     border-radius: 0px;
+     background-color: #38c8a8;
+     cursor: pointer;
+}
+ .header-search form .search-btn:hover {
+     background: #111111;
+}
+ .cart-box {
+     float: right;
+     margin-left: 10px;
+     position: relative;
+}
+ .cart-content-box {
+     position: absolute;
+     z-index: 1009;
+     top: 40px;
+     left: auto;
+     right: 0;
+     min-width: 250px;
+     max-width: 250px;
+     padding: 15px;
+     background: #ffffff;
+     list-style: none;
+     border: 2px solid #38c8a8;
+     opacity: 0;
+     visibility: hidden;
+     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     text-align: left;
+     -webkit-transform: scaleY(0);
+     transform: scaleY(0);
+     -webkit-transform-origin: 0 0 0;
+     transform-origin: 0 0 0;
+     -webkit-transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+}
+ .cart-box:hover .cart-content-box {
+     opacity: 1;
+     visibility: visible;
+     top: 100%;
+     -webkit-transform: scaleY(1);
+     transform: scaleY(1);
+}
+ .inner-cart {
+     background: #38c8a8;
+     border-radius: 2px;
+     padding: 0px;
+     color: #ffffff;
+     position: relative;
+     width: 40px;
+     height: 40px;
+     text-align: center;
+}
+ .cart-box .inner-cart:hover {
+     color: #ffffff;
+}
+ .line-cart {
+     float: left;
+     line-height: 40px;
+     margin-right: 9px;
+}
+ .cart-box a {
+     display: inline-block;
+}
+ .cart-box a:hover {
+     color: #38c8a8;
+}
+ .cart-box a span.icon {
+     background: #38c8a8;
+     width: 30px;
+     height: 40px;
+     display: inline-block;
+     line-height: 40px;
+     text-align: center;
+     color: #ffffff;
+     position: relative;
+     border-radius: 2px;
+}
+ .cart-box a .p-up {
+     position: absolute;
+     right: -8px;
+     top: -8px;
+     line-height: initial;
+     background: #38c8a8;
+     padding: 3px;
+     border-radius: 50%;
+     width: 17px;
+     height: 17px;
+     font-size: 12px;
+     text-align: center;
+     line-height: 10px;
+}
+ .wish-box {
+     float: right;
+}
+ .wish-box a {
+     display: inline-block;
+}
+ .wish-box a:hover {
+     color: #38c8a8;
+}
+ .wish-box a span.icon {
+     background: #38c8a8;
+     width: 40px;
+     height: 40px;
+     display: inline-block;
+     line-height: 40px;
+     text-align: center;
+     color: #ffffff;
+     position: relative;
+     border-radius: 2px;
+}
+ .wish-box a span.icon:hover {
+     background: #111111;
+}
+ .cart-content-right {
+     padding: 5px 0px;
+}
+ .cart-content-box .items {
+     text-align: center;
+}
+ .product-media {
+     width: 60px;
+     float: left;
+     position: relative;
+}
+ .cart-content-box .items:hover .product-media::before {
+     transform: scale(1);
+     -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+     -ms-transform: scale(1);
+     -o-transform: scale(1);
+}
+ .product-media::before {
+     position: absolute;
+     content: '';
+     z-index: 2;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #38c8a8;
+     opacity: 0.4;
+     transform: scale(0);
+     -webkit-transform: scale(0);
+     -moz-transform: scale(0);
+     -ms-transform: scale(0);
+     -o-transform: scale(0);
+     transition: all 0.5s ease;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+}
+ .cart-content-box .items .item .remove {
+     position: absolute;
+     right: 0px;
+     top: 0px;
+     background: #38c8a8;
+     color: #ffffff;
+     width: 20px;
+     height: 20px;
+     line-height: 18px;
+     border-radius: 2px;
+}
+ .cart-content-box .items .item {
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #e0e7ed;
+     position: relative;
+}
+ .cart-content-box .items .item .product-info {
+     padding-top: 10px;
+     padding-left: 71px;
+     text-align: left;
+}
+ .cart-content-box .items .item .remove:hover {
+     background: #111111;
+}
+ .subtotal {
+     text-align: left;
+     text-transform: capitalize;
+     color: #38c8a8;
+     font-weight: 500;
+     margin-bottom: 15px;
+}
+ .subtotal span {
+     font-weight: bold;
+     color: #111111;
+     padding-left: 15px;
+     float: right;
+}
+ .actions .btn-process {
+     padding: 5px 16px;
+     color: #ffffff;
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     border-radius: 2px;
+     overflow: hidden;
+}
+ .actions .btn-process:hover {
+     color: #ffffff;
+}
+ .line-cart {
+     position: relative;
+}
+ .wish-box a span.icon span {
+     position: absolute;
+     right: -8px;
+     top: -8px;
+     line-height: initial;
+     background: #38c8a8;
+     padding: 3px;
+     border-radius: 50%;
+     width: 17px;
+     height: 17px;
+     font-size: 12px;
+}
+.menu-area-main li.active a {
+     color: #538d2e;
+     }
+
+ .main-menu {
+     text-align: center;
+}
+ .main-menu ul {
+     margin: 0;
+     list-style-type: none;
+}
+ .main-menu ul>li {
+     display: inline-block;
+     position: relative;
+}
+ .main-menu ul>li a {
+     padding: 11px 15px;
+     text-align: center;
+     line-height: 20px;
+     font-size: 16px;
+     display: block;
+     font-weight: 500;
+     color: #000;
+
+}
+
+ .main-menu ul>li a:hover {    color: #538d2e;}
+ .main-menu ul li:last-child a {
+     padding-right: 0;
+}
+ .sub-down li {
+     background: #ffffff;
+}
+ .main-menu ul>li .sub-down li a {
+     color: #114c7d;
+     font-size: 15px;
+     text-transform: capitalize;
+     font-weight: 300;
+     padding: 12px 5px;
+     position: relative;
+     border-bottom: solid #eee 1px;
+}
+ .main-menu ul>li .sub-down li a::before {
+}
+ .main-menu ul>li .sub-down li a:hover {
+     color: #111111;
+}
+ .main-menu ul>li .sub-down li a:hover::before {
+}
+ .main-menu ul li:first-child {
+     margin-left: 0;
+    
+}
+ .main-menu ul>li>ul {
+     opacity: 0;
+     position: absolute;
+     text-align: left;
+     top: 100%;
+     -webkit-transform: scaleY(0);
+     transform: scaleY(0);
+     -webkit-transform-origin: 0 0 0;
+     transform-origin: 0 0 0;
+     -webkit-transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+     visibility: hidden;
+     width: 240px;
+     z-index: 999;
+     background: #fff;
+     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+ .main-menu>ul>li:hover>ul {
+     -webkit-transform: scaleY(1);
+     transform: scaleY(1);
+     visibility: visible;
+     opacity: 1;
+}
+ .main-menu ul>li>ul>li {
+     margin: 0px;
+     position: relative;
+     display: block;
+}
+ .main-menu ul>li>ul>li:hover>ul {
+     -webkit-transform: scaleY(1);
+     transform: scaleY(1);
+     visibility: visible;
+     opacity: 1;
+     left: 100%;
+     top: 10px;
+}
+ .main-menu ul>li>ul>li>a {
+     background: none !important;
+}
+ .mean-container .mean-nav {
+     margin-top: 0px;
+     position: absolute;
+     top: 100%;
+}
+ .main-menu ul>li {
+     position: inherit;
+     display: inline-block;
+     text-align: left;
+     vertical-align: middle;
+    }
+ .main-menu ul>li:nth-child (6) {
+     padding-right: 0px;
+}
+ .nav>li {
+     position: inherit;
+     display: inline-block;
+     vertical-align: middle;
+}
+ .megamenu .sub-down {
+     max-width: 1140px;
+     width: 100%;
+     left: 0;
+     margin: 0 auto;
+     right: 0;
+     padding: 15px 0px;
+}
+/*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
+ .menu-area {
+    float: right;
+    
+}
+
+
+
+.mean-last {
+   display: inline-block !important;
+background: #0f052f;
+margin: 0 !important;
+padding: 30px 36px 30px 16px;
+float: right;
+margin-right: 110px !important;
+width: 24%;
+}
+
+
+.mean-last a {
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+.slider_section {
+     padding: 90px 0;
+     background: #ececf0;
+}
+
+
+ .padding_left0 {
+    padding-left: 0px;
+}
+ 
+ .header {
+   
+     z-index: 999;
+     width: 100%;
+     padding: 20px 30px 20px 30px;
+     background: #ececf0;
+}
+ .logo a {
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     line-height: 40px;
+}
+ .banner_Client {
+     position: relative;
+}
+ .text-bg {text-align: left;}
+  .text-bg span {
+       font-size: 41px;
+    line-height: 51px;
+    color: #020500
+  }
+ .text-bg h1 {
+    color: #43960f;
+padding-top: 10px;
+font-size: 71px;
+line-height: 85px;
+padding-bottom: 45px;
+font-weight: bold;
+}
+ .text-bg p {
+     font-size: 20px;
+     display: block;
+     color: #020500;
+     line-height: 30px;
+     padding-bottom: 50px;
+     font-weight: 500;
+}
+
+.Vegetable  {padding-bottom: 50px;}
+.Vegetable .Vegetable_fom {
+     padding: 15px 30px;
+     box-shadow: inherit;
+     border: inherit;
+     width: 60%;
+     font-size: 19px;
+     box-shadow: #b0b0b0 0px -2px 9px 0px;
+
+
+}
+ .Search_btn {
+    padding: 15px 0px;
+    border: #1a1b19 solid 1px;
+     background: #1a1b19;
+     color: #fff;
+     margin-left: -5px;
+     font-weight: 500;
+     font-size: 18px;
+     max-width: 194px;
+     width: 100%;
+
+     box-shadow: #b0b0b0 0px -2px 9px 0px;
+      transition: all 0.3s ease-in;
+}
+ .Search_btn:hover {
+     background: #428713;
+     border: #428713 solid 1px;
+     color: #fff;
+     transition: all 0.3s ease-in;
+
+}
+
+
+
+ .text-bg a {
+     font-size: 16px;
+border: #1a1b19 solid 1px;
+background-color: #1a1b19;
+color: #fff;
+padding: 9px 0px;
+max-width: 171px;
+width: 100%;
+display: inline-block;
+text-align: center;
+
+;
+margin-right: 10px;
+ }
+ .text-bg a:hover {
+     background-color: #428713;
+     border: #428713 solid 1px;
+    color: #fff;
+}
+ .text {
+     position: inherit;
+     text-align: left;
+     background: #0fbbad;
+     width: 100%;
+     bottom: auto;
+     padding: 0;
+     margin-top: 90px 
+}
+ .img_bg {
+     text-align: center;
+     margin: 0 auto;
+     align-items: center;
+     width: 100%;
+     display: flex;
+     height: 100%;
+     text-align: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+ .images_box figure {
+     margin: 0px;
+}
+ .images_box figure img {
+     width: 100%;
+}
+ .img_bg h3 {
+     text-align: center;
+     font-size: 50px;
+     line-height: 58px;
+     color: #fff;
+}
+ 
+ .black_nolmal {
+     font-weight: normal;
+     color: #000;
+}
+
+.carousel-caption {position: inherit;}
+.carousel-indicators .active {
+    background-color: #1a1b19;
+}
+.carousel-indicators li {width: 15px; height: 15px; border-radius: 10px; background: #428713; }
+.padding_dd {padding: 0px 50px;}
+.carousel-control-next {display: none;}
+.carousel-control-prev {display: none;}
+/** about section **/
+ .about {
+     background-color: #fff;
+     box-shadow: #ddd 0px 0px 13px 5px;
+     margin: 90px 30px 20px 30px;     
+}
+ .about .about-box {
+text-align: left;
+float: right;
+width: 100%;
+max-width: 539px;
+padding: 40px 0;
+    
+}
+
+
+
+.about .about-box::after {
+     position: absolute;
+     content: "";
+     background: url(../images/crros.png);
+     height: 244px;
+width: 187px;
+bottom: 0;
+left: 0;
+background-repeat: no-repeat;
+}
+ .about .about-box h2 {
+
+     font-weight: bold;
+     color: #fff;
+     line-height: 40px;
+     font-size: 45px;
+     text-transform:uppercase;
+     background: #547d13;
+     display: inline-block;
+     padding: 20px 30px;
+
+ }
+ .about .about-box p {
+     font-size: 17px;
+     line-height: 28px;
+     color: #000;
+     padding: 40px 0px;
+}
+
+ .about .about-box a {
+     font-size: 16px;
+border: #070905 solid 1px;
+background-color: #070905;
+color: #fff;
+padding: 9px 0px;
+max-width: 171px;
+width: 100%;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+border-radius: 30px;
+ }
+
+
+ .about .about-box a:hover{ 
+     background-color: #428713;
+     border: #428713 solid 1px;
+    color: #fff;
+ }
+ .about .about-box_img figure {
+     margin: 0;
+}
+ .about .about-box_img figure img {
+    width: 100%;
+}
+.padding_rl {padding: 0;}
+/** end about section **/
+
+
+/** vegetable section **/
+.vegetable {
+     background-color: #fff;
+     margin-top: 70px;
+}
+
+.vegetable_shop h3 {
+font-size: 31px;
+line-height: 35px;
+color: #000;
+font-weight: 500;
+padding-bottom: 17px;
+display: block;
+}
+
+
+.vegetable_shop p {
+
+     font-size: 17px;
+     line-height: 28px;
+     color: #000;
+}
+
+
+.vegetable_img span {
+    z-index: 999;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    right: 0;
+    top: 44%;
+    background: #428713;
+    padding: 19px 27px;
+    border-radius: 88px;
+    margin-right: -20px;
+    position: absolute;
+    color: #fff;
+    font-size: 19px;
+}
+
+.margin_top span {
+    z-index: 999;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    right: 0;
+    top: 27%;
+    background: #428713;
+    padding: 19px 25px;
+    border-radius: 88px;
+    margin-right: -20px;
+    position: absolute;
+    color: #fff;
+    font-size: 19px;
+}
+.vegetable_img figure {margin: 0;}
+.vegetable_img figure img {width: 100%}
+.margin_top {
+    margin-top: -90px;
+}
+
+
+
+/** end vegetable section **/
+
+
+
+
+
+
+ .titlepage {
+    text-align: center;
+     padding-bottom: 60px;
+}
+.titlepage span {padding-top: 30px; display: inline-block; font-size: 17px; color: #000;}
+.llow {color: #488d1c; font-weight: bold;}
+ .titlepage h2 {
+     text-transform: uppercase;
+     padding: 0;
+     font-weight: bold;
+     color: #000;
+     line-height: 55px;
+     font-size: 50px;
+}
+
+
+/** testomonial **/
+.clients {
+     background: #fff;
+     margin-top: 90px;
+   
+} 
+.clients .titlepage {padding-bottom: 0px;}
+.clients .titlepage h2 {
+    color: #000;
+margin-bottom: -77px;
+text-align: right;
+}
+
+.clients_red {
+     background: #fff;
+     padding-bottom: 50px;
+     background: url(../images/test.png);
+     min-height: 978px;
+     background-repeat: no-repeat;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+} 
+
+.cross_inner h3 {
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 58px;   
+    font-size: 30px;
+    line-height: 25px;
+    padding-bottom: 58px;
+color: #fff;
+
+}
+.testomonial_img {
+    padding: 15px;
+    background: #fff;
+}
+.testomonial_img figure {margin: 0;}
+.testomonial_img figure img  {width: 100%;} 
+.testomonial_img i {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-top: 10px;
+}
+
+
+.testimonial_cont p {
+color: #fff;
+padding-left:50px;
+font-size: 19px;
+line-height: 30px;
+font-weight: 400;
+
+}
+#testimonial_slider .carousel-indicators {
+     bottom: -50px;
+}
+
+#testimonial_slider .carousel-indicators li {
+     width: 25px;
+height: 25px;
+background-color: #052501;
+border-radius: 50px;
+}
+#testimonial_slider .carousel-indicators li.active {
+     background-color: #4bc714;
+}
+
+
+.testimonial_cont {
+    background: #428713cc;
+    min-height: 295px;
+    padding: 60px 40px;
+}
+.text_align_center {
+    text-align: center;
+background: #428713;
+}
+.ornage_color {
+font-size: 19px;
+line-height: 10px;
+font-weight: normal;
+}
+
+
+
+
+
+
+
+/** contact section **/
+ .contact {
+padding-bottom: 90px;
+background-size: cover;
+background: url(../images/banner2.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+.contact_bg .titlepage {padding-bottom: 20px; text-align: right !important; padding-right: 10px;}
+#map {
+    height: 100%;
+    min-height: 470px;
+}
+
+.white_color {background: #fff; box-shadow: 0px 0px 11px 0px;}
+.map figure {margin: 0px;}
+.map figure img {width: 100%;}
+
+ .white_bg {
+     background-color: #fff;
+     padding: 40px 30px 30px 30px 
+}
+ .contact .titlepage {
+     text-align: center;
+}
+ .contact .titlepage h3 {
+     padding: 0px 0px 6px 0px;
+     text-transform: uppercase;
+     font-weight: bold;
+     color: #fff;
+     line-height: 46px;
+     border-bottom: #fff solid 1px;
+     font-size: 40px;
+     width: 367px;
+     margin: 0 auto;
+     margin-bottom: 60px;
+}
+ .contact .contact_bg {
+    max-width: 541px;
+    
+     padding: 0;
+     padding: 60px 0px;
+}
+ .contact .contact_bg .contactus {
+     border: #e8e8e8 solid 1px;
+     padding: 12px 19px;
+     margin-bottom: 26px;
+      border-radius: 1px;
+     color: #000;
+     width: 100%;
+}
+ .contact .contact_bg .textarea {
+     margin-bottom: 25px;
+         padding: 29px 19px;
+     color: #000 !important;
+     width: 100%;
+         border: #e8e8e8 solid 1px;
+    border-radius: 1px;
+        padding-top: 50px;
+}
+ .contact .contact_bg .send {
+     font-size: 16px;
+     border: #428713 solid 1px;
+     background-color: #428713;
+     color: #fff;
+     padding: 11px 67px;
+     float: right;
+     transition: all 0.3s ease-in;
+}
+ .contact .contact_bg .send:hover {
+     background-color: #ff7e1d;
+border: #ff7e1d solid 1px;
+color: #fff;
+transition: all 0.3s ease-in;
+
+}
+/** end contact section **/
+
+
+/** footer **/
+ .footer {
+     background: #3b3b3b;
+   
+     padding-top: 60px;
+}
+
+.logo_footer {
+border: #ddd solid 2px;
+padding: 11px 50px;
+display: inline-block;
+margin-bottom: 30px;
+}
+ .footer .address h3 {
+     color: #fff;
+font-size: 30px;
+line-height: 35px;
+font-weight: bold;
+padding-bottom: 20px;
+}
+ .location_section {
+     background-color: #fff;
+     margin-bottom: 40px;
+     border-radius: 10px;
+     padding: 20px 35px;
+}
+ 
+ .news .newslatter {
+     padding: 7px 23px;
+box-shadow: inherit;
+border: inherit;
+width: 100%;
+font-size: 19px;
+
+margin-bottom: 20px;
+}
+ .submit {
+    padding: 9px 0;
+
+background: #428713;
+color: #fff;
+margin-left: -5px;
+font-weight: 500;
+font-size: 18px;
+max-width: 170px;
+width: 100%;
+border-radius: 30px;
+text-transform: uppercase;
+transition: all 0.3s ease-in;
+}
+ .submit:hover {
+     background: #ff7e1d;
+     
+     color: #fff;
+     transition: all 0.3s ease-in;
+
+}
+ ul.social_link {
+    padding-bottom: 35px;
+     padding-top: 7px;
+     display: block;
+}
+ ul.social_link li {
+    display: inline-block;
+     padding-right: 4px;
+
+}
+ 
+ ul.social_link li a img {
+    width: 30px;
+     height: 30px;
+}
+ ul.social_link li a img:hover {
+     background-color: #f4b328 ;
+     border-radius: 20px;
+}
+ ul.Menu_footer li{
+
+     display: block;
+     color: #3e7f21;
+
+}
+
+ 
+
+ ul.Menu_footer li a {
+     display: block;
+     color: #fcfbfb;
+     font-size: 17px;
+   
+    
+}
+ ul.Menu_footer li a:hover{
+     color: #f4b328 ;
+}
+ 
+
+ ul.loca li {
+     color: #fcfbfb;
+     display: flex;
+     font-size: 16px;
+     flex-wrap: wrap;
+}
+ ul.loca li a {
+     color: #fcfbfb;
+     margin-top: 4px;
+}
+ .copyright {
+     padding: 20px 0px;
+     margin-top: 55px;
+     background-color: #428713;
+}
+ .copyright p {
+     color: #fff;
+     font-size: 18px;
+     line-height: 22px;
+     text-align: center;
+   
+}
+ .copyright a {
+     color: #fff;
+}
+ .copyright a:hover {
+     color: #ff7e1d ;
+}
+/** end footer **/
+/*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+     .main-menu ul>li a {
+         padding: 20px 20px 20px;
+    }
+     .header-search {
+         padding: 15px 0px;
+    }
+}
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 599px) and (max-width: 767px) {
+     .logo {
+         text-align: center;
+    }
+     .cart-content-right {
+         padding-bottom: 5px;
+    }
+     .mg {
+         margin: 0px 0px;
+    }
+     .menu-area-main {
+         height: 256px;
+         overflow-y: auto;
+    }
+     .megamenu>.row [class*="col-"] {
+         padding: 0px;
+    }
+     .menu-area-main .megamenu .men-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .women-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .el-cat {
+         padding: 0px 15px;
+    }
+     .mean-container .mean-nav ul li a.mean-expand {
+         height: 19px;
+    }
+     .category-box.women-box {
+         display: none;
+    }
+     .cart-box {
+         display: inline-block;
+         margin: 0px 30px;
+    }
+     .wish-box {
+         float: none;
+         margin: 0px 30px;
+         display: inline-block;
+    }
+     .menu-add {
+         display: none;
+    }
+     .category-box {
+         display: none;
+    }
+     .mean-container .mean-nav ul li ol {
+         padding: 0px;
+    }
+     .mean-container .mean-nav ul li a {
+         padding: 10px 20px;
+         width: 94.8%;
+    }
+      .mean-container .mean-nav ul li a:hover {
+         color: #fff !important;
+    }
+     .mean-container .mean-nav ul li li a {
+         width: 92%;
+         padding: 1em 4%;
+    }
+     .mean-container .mean-nav ul li li li a {
+         width: 100%;
+    }
+     .header-search {
+         padding: 15px 0px;
+    }
+     #collapseFilter.d-md-block {
+         padding: 30px 0px;
+    }
+}
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
+     .cart-content-right {
+         padding-bottom: 5px;
+    }
+     .megamenu>.row [class*="col-"] {
+         padding: 0px;
+    }
+     .menu-area-main .megamenu .men-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .women-cat {
+         padding: 0px 15px;
+    }
+     .menu-area-main .megamenu .el-cat {
+         padding: 0px 15px;
+    }
+     .mean-container .mean-nav ul li a {
+         padding: 1em 4%;
+         width: 92%;
+    }
+      .mean-container .mean-nav ul li a:hover {color: #43960f;}
+     .mean-container .mean-nav ul li li a {
+         width: 90%;
+         padding: 1em 5%;
+    }
+     .mean-container .sub-full.megamenu-categories ol li a {
+         padding: 5px 0px;
+         text-transform: capitalize;
+         width: 100%;
+    }
+     .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+         width: auto;
+         border: none;
+         float: none;
+    }
+     .menu-area-main {
+         height: 290px;
+         overflow-y: auto;
+    }
+     .mean-container .mean-nav ul li a.mean-expand {
+         top: 0;
+    }
+
+ 
+
+
+
+}
+ @media (min-width: 1200px) and (max-width: 1500px) {
+     .banner-main .carousel-caption {
+         background: transparent;
+    }
+    .logo {
+   padding-bottom: 6px;
+     margin-top: 0px;
+}
+    .text-bg h1{
+        font-size: 66px;
+    }
+   
+
+ .about .about-box::after {background: inherit;}
+   
+}
+ @media (min-width: 992px) and (max-width: 1199px) {
+      .mean-last {display: none !important;}
+      .logo {
+   padding-bottom: 6px;
+    
+}
+    .main-menu ul > li a {
+        padding: 11px 13px;
+       font-size: 16px;
+    }
+     
+     .text-bg h1 {
+        
+         font-size: 43px;
+         line-height: 54px;
+         padding-bottom: 10px;
+    }
+     .text-bg span {
+        padding-bottom: 13px;
+    }
+     .submit {
+        padding: 17px 0px;
+         max-width: 231px;
+    }
+    .Search_btn {
+        font-size: 18px;
+        max-width: 173px;
+    }
+    .about .about-box::after {background: inherit;}
+    .vegetable_shop p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+   padding-bottom: 6px;
+    
+}
+    .text-bg h1 {
+        font-size: 55px;
+       line-height: 73px
+    }
+    .Vegetable .Vegetable_fom {width: 55%;}
+    .Search_btn{
+font-size: 17px;
+max-width: 145px;}
+    .text-bg a { max-width: 147px; margin-bottom: 30px; }
+    .margin_top {margin-top: 0px;}
+     .main-menu ul>li a {
+             padding: 8px 5px;
+          font-size: 13px;
+    
+    
+    }
+    .margin_top span {top: 44%;}
+   .about .about-box::after {background: inherit;}
+   .vegetable_shop p {
+    margin-bottom: 30px; 
+    font-size: 14px;
+    line-height: 18px;
+   }
+   .clients .titlepage h2 {margin-bottom:0;}
+   .vegetable_shop h3 {font-size: 24px;}
+}
+
+
+ @media (min-width: 576px) and (max-width: 767px) {
+    .slider_section {padding: 50px 0;}
+    .logo {
+ 
+    margin-top: 0px;
+
+}
+.mean-container .mean-bar {margin-top: 7px;}
+   .header {background: #efefef; padding: 20px 0px 20px 0px;}
+  .menu-area {float: inherit;}
+     .text-bg h1 {padding-top: 0px;}
+     .text-img {
+        padding-top: 30px;
+    }
+    .Search_btn {
+        font-size: 18px;
+        max-width: 191px;
+    }
+    .about .about-box::after {background: inherit;}
+    .clients .titlepage h2 {margin-bottom: inherit;}
+    .vegetable_shop p {margin-bottom: 30px;}
+   .margin_top span {top: 44%;}
+ 
+    .margin_top {margin-top: 30px;}
+    .testimonial_cont {padding: 23px 30px;}
+    .cross_inner h3 {
+        padding-left: 0px;
+padding-top: 15px;
+padding-bottom: 15px;
+    }
+    .testimonial_cont p {
+        padding-left: 0px;
+font-size: 16px;
+line-height: 20px;}
+     ul.top_icon li a {
+        padding: 0px 13px;
+    }
+   
+}
+ @media (max-width: 575px) {
+    .menu-area {
+    float: inherit;
+}
+     .header {
+         padding: 20px 0px 0px 0px;
+         background: #efefef;
+    }
+    .mean-last {display: none !important;}
+     .logo {
+      float: inherit;
+    margin-top: 0px;
+}
+.slider_section {padding: 10px 0px 40px 0px;}
+   .text-bg span {
+        font-size: 30px;
+    line-height: 36px;
+   }
+
+   .text-bg h1 {
+        padding-bottom: 15px;
+        font-size: 39px;
+    line-height: 52px;
+   }
+
+  .text-bg p {
+    font-size: 16px;
+   line-height: 24px;
+  }
+.Vegetable .Vegetable_fom {
+    padding: 15px 15px;
+    width: 68%;
+   font-size: 14px;
+}
+.Search_btn  {
+    font-size: 13px;
+
+max-width: 71px;
+}
+
+.text-bg a {
+    margin-right: 4px;
+    font-size: 13px;
+    max-width: 104px;
+}
+.images_box {
+    margin: 30px 0;
+}
+
+.about .about-box h2 { font-size: 34px; }
+.about .about-box p {padding: 20px 0px; font-size: 16px; line-height: 25px;}
+.about .about-box::after {position: inherit;}
+.titlepage h2 {line-height: 40px; font-size: 31px;}
+.vegetable_shop h3 { font-size: 25px; }
+
+.vegetable_shop p {margin-bottom: 30px;}
+.margin_top {margin-top: 30px;}
+.vegetable_img span {display: none;}
+.margin_top span {display: none;}
+.testimonial_cont {    padding: 34px 20px;}  
+.cross_inner h3 {
+    padding-left: 0px;
+padding-top: 20px;
+padding-bottom: 25px;
+}
+.testimonial_cont p {
+    padding-left: 0px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.clients .titlepage h2 {margin-bottom: 0px;}
+
+
+
+ul.loca {
+    margin-bottom: 30px;
+}
+ul.Menu_footer {
+      margin-bottom: 30px;
+}
+}
+
+    </style>
+  </head>
+  <body class="main-layout" data-new-gr-c-s-check-loaded="8.872.0" data-gr-ext-installed="">
+    <!-- loader  -->
+    <div class="loader_bg" style="display: none;">
+      <div class="loader"><img src="images/loading.gif" alt="#"></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+      <!-- header inner -->
+      <div class="header-top">
+        <div class="header">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
+                <div class="full">
+                  <div class="center-desk">
+                    <div class="logo">
+                      <a href="index.html"><img src="images/logo.png" alt="#"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+           
+                 <div class="menu-area">
+                  <div class="limit-box">
+                    <nav class="main-menu " style="display: block;">
+                      <ul class="menu-area-main">
+                        <li class="active"> <a href="index.html">Home</a> </li>
+                        <li> <a href="#about">About</a> </li>
+                        <li> <a href="#vegetable">Vegetable</a> </li>
+                        <li> <a href="#testimonial">Testomonial</a> </li>
+                        <li> <a href="#contact">Contact Us</a> </li>
+                       
+                       <li> <a href="#"><img src="icon/icon_b.png" alt="#"></a></li>
+                       </ul>
+                     </nav>
+                   </div>
+                 </div> 
+                </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- end header inner -->
+  
+       <!-- end header -->
+       <section class="slider_section">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+  
+              <div class="container-fluid padding_dd">
+                <div class="carousel-caption">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <div class="text-bg">
+                       <span>Welcome To Shree</span>
+                        <h1>Vegetables Shop</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                        <form class="Vegetable">
+                  <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
+                  <button class="Search_btn">Search</button>
+                </form>
+                        <a href="#">Contact Us</a> <a href="#">Vegetable</a>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <div class="images_box">
+                        <figure><img src="images/img2.png"></figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active carousel-item-left">
+  
+              <div class="container-fluid padding_dd">
+                <div class="carousel-caption">
+  
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <div class="text-bg">
+                        <span>Welcome To Shree</span>
+                        <h1>Vegetables Shop</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                        <form class="Vegetable">
+                  <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
+                  <button class="Search_btn">Search</button>
+                </form>
+                        <a href="#">Contact Us</a> <a href="#">Vegetable</a>
+                      </div>
+                    </div>
+  
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <div class="images_box">
+                        <figure><img src="images/img2.png"></figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+  
+  
+            <div class="carousel-item carousel-item-next carousel-item-left">
+  
+              <div class="container-fluid padding_dd">
+                <div class="carousel-caption ">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <div class="text-bg">
+                        <span>Welcome To Shree</span>
+                        <h1>Vegetables Shop</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                         <form class="Vegetable">
+                  <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
+                  <button class="Search_btn">Search</button>
+                </form>
+                        <a href="#">Contact Us</a> <a href="#">Vegetable</a>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <div class="images_box">
+                        <figure><img src="images/img2.png"></figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    
+  
+  </section>
+  
+  </header>
+  
+  
+  
+  <!-- about  -->
+  <div id="about" class="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div class="about-box">
+            <h2>About us</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many</p>
+            <a href="Javascript:void(0)">Read more</a>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_rl">
+          <div class="about-box_img">
+            <figure><img src="images/about.jpg" alt="#"></figure>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- end abouts -->
+  
+  
+  
+  <!-- vegetable -->
+  <div id="vegetable" class="vegetable">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage">
+            <h2> Fresh <strong class="llow">vegetable</strong> </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 ">
+          <div class="vegetable_shop">
+            <h3>Best Vegetables Shop</h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted </p>
+          </div>
+        </div>
+         <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 ">
+          <div class="vegetable_img">
+           <figure><img src="images/v1.jpg" alt="#"></figure>
+           <span>01</span>
+          </div>
+        </div>
+         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 ">
+          <div class="vegetable_img margin_top">
+           <figure><img src="images/v2.jpg" alt="#"></figure>
+           <span>02</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end vegetable -->
+  
+  
+  
+  
+     <!-- clients -->
+      <div id="testimonial" class="clients">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="titlepage">
+                          <h2>testimonial</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="clients_red">
+          <div class="container">
+              <div id="testimonial_slider" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ul class="carousel-indicators">
+                      <li data-target="#testimonial_slider" data-slide-to="0" class=""></li>
+                      <li data-target="#testimonial_slider" data-slide-to="1" class=""></li>
+                      <li data-target="#testimonial_slider" data-slide-to="2" class="active"></li>
+                  </ul>
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                      <div class="carousel-item">
+                          <div class="testomonial_section">
+  
+                              <div class="full testimonial_cont">
+                                  <div class="row">
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
+                                          <div class="testomonial_img">
+                                              <figure><img src="images/tes.jpg" alt="#"></figure>
+                                              <i><img src="images/test_con.png" alt="#"></i>
+                                          </div>
+                                      </div>
+                                      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
+                                          <div class="cross_inner">
+                                              <h3>Jomono<br><strong class="ornage_color">review</strong></h3>
+                                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+                                            
+                                              </p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="carousel-item">
+  
+                          <div class="testomonial_section">
+                              <div class="full center">
+                              </div>
+                              <div class="full testimonial_cont ">
+                                  <div class="row">
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
+                                          <div class="testomonial_img">
+                                              <figure><img src="images/tes.jpg" alt="#"></figure>
+                                              <i><img src="images/test_con.png" alt="#"></i>
+                                          </div>
+                                      </div>
+                                      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
+                                          <div class="cross_inner">
+                                              <h3>Jomono<br><strong class="ornage_color">review</strong></h3>
+                                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+                                                
+                                              </p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+  
+                      </div>
+  
+                      <div class="carousel-item active">
+  
+                          <div id="testomonial" class="testomonial_section">
+                              <div class="full center">
+                              </div>
+                              <div class="full testimonial_cont ">
+                                  <div class="row">
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
+                                          <div class="testomonial_img">
+                                              <figure><img src="images/tes.jpg" alt="#"></figure>
+                                              <i><img src="images/test_con.png" alt="#"></i>
+                                          </div>
+                                      </div>
+                                      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
+                                          <div class="cross_inner">
+                                              <h3>Jomono<br><strong class="ornage_color">review</strong></h3>
+                                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+                                                
+                                              </p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                  </div>
+  
+              </div>
+          </div>
+      </div>
+    
+      <!-- end clients -->
+  
+  
+  
+  
+  <!-- contact -->
+  <div id="contact" class="contact">
+    <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+                  <div class="titlepage">
+                    <h2>Contact <strong class="llow">us</strong></h2>
+                  </div>
+     </div>
+  
+  </div>
+      <div class="white_color">
+        <div class="row">
+  
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+             <form class="contact_bg">
+              <div class="row">
+                <div class="col-md-12">
+                
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Your Name" type="text" name="Your Name">
+                  </div>
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Email" type="text" name="Email">
+                  </div>
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Phone Number" type="text" name="Phone Number">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                  </div>
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <button class="send">Send</button>
+                  </div>
+                </div>
+              
+            </div></form>
+              </div>
+        
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+  <div id="map" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;" class="gm-style"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;" tabindex="0" aria-label="Map" aria-roledescription="map" role="group"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 989; transform: matrix(1, 0, 0, 1, -180, -132);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="width: 24px; height: 24px; overflow: hidden; position: absolute; left: -12px; top: -24px; z-index: 0;"><img style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="https://maps.gstatic.com/mapfiles/transparent.png" draggable="false"></div><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 989; transform: matrix(1, 0, 0, 1, -180, -132);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 989; transform: matrix(1, 0, 0, 1, -180, -132);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i603!3i770!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=120774"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i602!3i770!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=35416"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i602!3i769!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=123460"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i603!3i769!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=77747"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i604!3i769!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=32034"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i604!3i770!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=75061"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i604!3i771!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=44833"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i603!3i771!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=90546"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i602!3i771!4i256!2m3!1e0!2sm!3i554277256!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;token=5188"></div></div></div></div><div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;" class="gm-style-pbc"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div style="width: 24px; height: 24px; overflow: hidden; position: absolute; cursor: pointer; touch-action: none; left: -12px; top: -24px; z-index: 0;" title="" tabindex="-1"><img style="width: 24px; height: 24px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="https://maps.gstatic.com/mapfiles/transparent.png" draggable="false"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: medium none;" frameborder="0"></iframe><div style="pointer-events: none; width: 100%; height: 100%; box-sizing: border-box; position: absolute; z-index: 1000002; opacity: 0; border: 2px solid rgb(26, 115, 232);"></div><div></div><div></div><div></div><div></div><div><button style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; margin: 10px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;" draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" class="gm-control-active gm-fullscreen-control"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt=""><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt=""><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt=""></button></div><div></div><div></div><div></div><div></div><div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" style="margin: 10px; user-select: none; position: absolute; bottom: 95px; right: 40px;" draggable="false" controlwidth="40" controlheight="81"><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px;"><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: none; border: 0px none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; left: 0px; top: 0px; overflow: hidden; width: 40px; height: 40px;" draggable="false" title="Rotate map clockwise" aria-label="Rotate map clockwise" type="button" class="gm-control-active"><img style="width: 20px; height: 20px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"><img style="width: 20px; height: 20px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"><img style="width: 20px; height: 20px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); display: none;"></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: none; border: 0px none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; left: 0px; top: 0px; overflow: hidden; width: 40px; height: 40px; transform: scaleX(-1);" draggable="false" title="Rotate map counterclockwise" aria-label="Rotate map counterclockwise" type="button" class="gm-control-active"><img style="width: 20px; height: 20px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"><img style="width: 20px; height: 20px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"><img style="width: 20px; height: 20px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); display: none;"></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; top: 0px; left: 0px; overflow: hidden; width: 40px; height: 40px;" draggable="false" title="Tilt map" aria-label="Tilt map" type="button" class="gm-tilt gm-control-active"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E"></button></div></div><div class="gmnoprint" style="position: absolute; left: 0px; top: 0px;" controlwidth="40" controlheight="81"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;" draggable="false" title="Zoom in" aria-label="Zoom in" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E" alt=""><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E" alt=""><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E" alt=""></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;" draggable="false" title="Zoom out" aria-label="Zoom out" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E" alt=""><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E" alt=""><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E" alt=""></button></div></div></div></div><div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a style="position: static; overflow: visible; float: none; display: inline;" target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=40.645037,-73.880224&amp;z=11&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Open this area in Google Maps (opens a new window)"><div style="width: 66px; height: 26px; cursor: pointer;"><img style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px none; padding: 0px; margin: 0px;" alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false"></div></a></div></div><div></div><div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 166px; bottom: 0px; width: 121px;"><div draggable="false" style="user-select: none; height: 14px; line-height: 14px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: none; border: 0px none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit;" draggable="false" title="Map Data" aria-label="Map Data" type="button">Map Data</button><span>Map data ©2021 Google</span></div></div></div><div class="gmnoprint gm-style-cc" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; color: rgb(0, 0, 0);" href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" rel="noopener">Terms of Use</a></div></div><div draggable="false" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" dir="ltr" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none; position: relative;" href="https://www.google.com/maps/@40.645037,-73.880224,11z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3">Report a map error</a></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(0, 0, 0); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2021 Google</div></div></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 120px; top: 201px;"><div style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">Map Data</div><div style="font-size: 13px;">Map data ©2021 Google</div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;" draggable="false" title="Close" aria-label="Close" type="button" class="gm-ui-hover-effect"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22/%3E%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22/%3E%3C/svg%3E" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;" alt=""></button></div></div></div><div style="background-color: white; font-weight: 500; font-family: Roboto, sans-serif; padding: 15px 25px; box-sizing: border-box; top: 5px; border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 5px; left: 50%; max-width: 375px; position: absolute; transform: translateX(-50%); width: calc(100% - 10px); z-index: 1;"><div><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google_gray.svg" style="padding: 0px; margin: 0px; border: 0px none; height: 17px; vertical-align: middle; width: 52px; user-select: none;" draggable="false"></div><div style="line-height: 20px; margin: 15px 0px;"><span style="color: rgba(0, 0, 0, 0.87); font-size: 14px;">This page can't load Google Maps correctly.</span></div><table style="width: 100%;"><tr><td style="line-height: 16px; vertical-align: middle;"><a href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&amp;utm_medium=degraded&amp;utm_campaign=billing#api-key-and-billing-errors" target="_blank" rel="noopener" style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Do you own this website?</a></td><td style="text-align: right;"><button class="dismissButton">OK</button></td></tr></table></div></div>
+             </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+  
+      <!-- end contact -->
+  
+      <!--  footer -->
+      <footr>
+        <div class="footer ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+               <a href="#" class="logo_footer"> <img src="images/logo2.png" alt="#"></a>
+              </div>
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 ">
+                    <div class="address">
+                      <h3>Address </h3>
+                      <ul class="loca">
+                        <li>
+                          <a href="#"></a>It is a long established fact 
+                          <br>that a reader will be  </li>
+                          <li>
+                            <a href="#"></a>(+71 1234567890) </li>
+                            <li>
+                              <a href="#"></a>demo@gmail.com</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                          <div class="address">
+                            <h3>Social Link</h3>
+                            <ul class="Menu_footer">
+                              <li class="active"> <a href="#">Twitter</a> </li>
+                              <li><a href="#">Facebook</a> </li>
+                              <li><a href="#">Instagram</a> </li>
+                              <li><a href="#">Linkdin</a> </li>
+                            </ul>
+                          </div>
+                        </div>
+                       
+  
+                        <div class="col-lg-4 col-md-6 col-sm-6 ">
+                          <div class="address">
+                            <h3>Newsletter</h3>
+                             <form class="news">
+                             <input class="newslatter" placeholder="Enter your email" type="text" name=" Enter your email">
+                              <button class="submit">Subscribe</button>
+                              </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div>
+  
+                </div>
+                <div class="copyright">
+                  <div class="container">
+                    <p>Copyright © 2019 Design by <a href="https://html.design/">Free Html Templates </a></p>
+                  </div>
+                </div>
+              </div>
+            </footr>
+            <!-- end footer -->
+            <!-- Javascript files-->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/jquery-3.0.0.min.js"></script>
+            <script src="js/plugin.js"></script>
+            <!-- sidebar -->
+            <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+  
+  
+            <script>
+  // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+  // Australia.
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 11,
+      center: {
+        lat: 40.645037,
+        lng: -73.880224
+      },
+    });
+  
+    var image = 'images/maps-and-flags.png';
+    var beachMarker = new google.maps.Marker({
+      position: {
+        lat: 40.645037,
+        lng: -73.880224
+      },
+      map: map,
+      icon: image
+    });
+  }
+  </script>
+  <!-- google map js -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&amp;callback=initMap"></script>
+  <!-- end google map js -->
+  
+  
+  
+  
+  
+  </body>
+</html>
