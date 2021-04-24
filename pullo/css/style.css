@@ -37,3 +37,68 @@ img {
     flex-basis: auto;
 }
 
+.slide-wrapper {
+    display: inline;
+}
+
+.carousel-inner, .carousel, .carousel-item, .container, .fill {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel-inner, .carousel, .carousel-item, .container, .fill {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.mens_taital {
+    width: 100%;
+    float: left;
+    color: #908d92;
+    font-size: 14pt;
+}
+
+.page_no {
+    width: 28%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #8d8791;
+    border-radius: 30px;
+    margin-top: 150px;
+    padding-bottom: 10px;
+    display: inline-block;
+    padding-top: 12px;
+    margin-left: 30px;
+}
+
+.mens_taital_2 {
+    width: 100%;
+    float: left;
+    color: #908d92;
+    font-size: 14pt;
+    margin-top: 150px;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    margin-top: 85px;
+}
+
+.shoes_img {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.banner_text {
+    width: 100%;
+    float: left;
+    font-size: 30pt;
+    color: #db5660;
+}
