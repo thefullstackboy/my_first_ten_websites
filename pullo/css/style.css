@@ -102,3 +102,238 @@ img {
     font-size: 30pt;
     color: #db5660;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0;
+}
+
+.mens_text {
+    width: 100%;
+    float: left;
+    font-size: 39pt;
+    color: #fdfcfc;
+    line-height: 40px;
+}
+
+.lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 13pt;
+    color: #fefefe;
+    margin-left: 0px;
+}
+
+p {
+    margin: 20px;
+        margin-left: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.buy_bt {
+    width: 32%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ff4e5b;
+    color: #ffffff;
+    font-size: 16pt;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.more_bt {
+    width: 32%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ffffff;
+    color: #ff4e5b;
+    font-size: 16pt;
+    margin-left: 25px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+    right: -84px;
+    left: auto;
+    width: auto;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); 
+z-index: 15;
+display: flex;
+justify-content: center;
+padding-left: 0;
+list-style: none;
+}
+
+.carousel-indicators li {
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #00a199;
+    margin-bottom: 5px;
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+}
+
+.collection_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 0px;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.new_text {
+    width: 100%;
+    float: left;
+    font-size: 24pt;
+    color: #0c0116;
+}
+
+.consectetur_text {
+    width: 100%;
+    float: left;
+    font-size: 14pt;
+    color: #0c0116;
+    font-weight: 400;
+    margin-left: 0px;
+    padding-bottom: 30px;
+}
+
+.collection_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.about-img {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    margin-left: 64px;
+    box-shadow: 0px 0px 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.new_bt {
+    width: 18%;
+    float: left;
+    background-color: #000;
+    font-size: 14pt;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    margin-left: -60px;
+}
+
+.shoes-img {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.sport_text {
+    width: 24%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16pt;
+    color: #0c0116;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+}
+
+.dolar_text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-size: 20pt;
+}
+
+strong {
+    font-weight: bolder;
+    color: #f12a47; 
+}
+   
+.star_icon {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.star_icon ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, li, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.star_icon li {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+ul, li, ol {
+    margin: 0px;
+    padding: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    list-style: none;
+}
+
+.seemore_bt {
+    width: 32%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ff4e5b;
+    color: #ffffff;
+    font-size: 16pt;
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
