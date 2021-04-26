@@ -701,3 +701,23 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding-left: 20px;
 }
+
+.copyright {
+    width: 100%;
+    float: left;
+    font-size: 12pt;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #ff4e5b;
+    font-family: Poppins;
+}
+
+.section_footer {
+    width: 100%;
+    float: left;
+    background-color: #272222;
+    height: auto;
+margin-bottom: 0px;;
+
+}
