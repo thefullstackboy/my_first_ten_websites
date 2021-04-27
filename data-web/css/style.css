@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #0c0f38;
+    width: 100%;
+    padding: 40px 40px 40px 40px;
+}
+
+.full {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation.navbar-dark .navbar-nav .active > .nav-link, .navigation.navbar-dark .navbar-nav .nav-link.active, .navigation.navbar-dark .navbar-nav .nav-link.show, .navigation.navbar-dark .navbar-nav .show > .nav-link {
+    color: #fdd430;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 0 25px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+ .nav-link:hover {
+    color: #fdd430;
+}
+
+
+.banner_main {
+    background: #0c0f38;
+        background-repeat: repeat;
+        background-size: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 90px;
+}
+
+.text-bg h1 {
+color: #fff;
+font-size: 60px;
+line-height: 80px;
+padding-bottom: 25px;
+font-weight: bold;
+position: relative;
+padding: 0 0 10px 0;margin: 0;
+}
+
+
+.text-bg p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 40px 0;
+    margin: 0px;
+    font-weight: 300;
+}
+
+.text-bg span {
+    color: #fdd430;
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.text-bg p {
+    color: #fff;
+    font-size: 17px;
+    margin: 0px;
+    padding: 40px 0;
+    line-height: 28px;
+    padding: 40px 0;
+    font-weight: 300;
+}
+
+.text-bg a {
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.text-img figure {
+    margin: 0px;
+}
+
+.text-img figure {
+    margin: 0px;
+}
+
+
+.text-img figure {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hosting {
+    padding-top: 90px;
+}
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.web_hosting {
+    text-align: center;
+}
+
+.web_hosting p {
+    color: #0c0f38;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 40px 50px;
+}
+
+.web_hosting a {
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.why {
+    margin-top: 90px;
+    background: #ffff;
+    font-family: Poppins;
+}
+
+.why .titlepage {
+    text-align: center;
+}
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.titlepage h2 {
+    font-size: 45px;
+    color: #0c0f38;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0;
+    padding-bottom: 0px;
+}
+
+.why .why-box {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 40px 20px 20px 20px;
+    transition: ease-in all 0.5s;
+    margin-bottom: 30px;
+    box-shadow: #ddd 0px 0px 10px;
+}
+
+.why .titlepage p {
+    color: #090808;
+    margin: 0px;
+font-weight: 300;
+font-size: 15px;
+line-height: 24px;
+}
+
+.why .why-box h3 {
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #090808;
+    display: block;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0;
+}
+
+.bg {
+    font-size: 16px;
+    background-color: #090808;
+    color: #fff;
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 190px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 20px;
+}
