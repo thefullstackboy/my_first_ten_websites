@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    padding-top: 3em;
+}
+
+.logo {
+    float: left;
+}
+
+.top-menu {
+    float: right;
+}
+
+
+element {
+
+}
+.header {
+
+    background: url("../images/banner.jpg") no-repeat center top;
+        background-position-x: center;
+        background-position-y: top;
+        background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+}
+
+.top-menu ul li {
+    display: inline-block;
+    padding: 5px 15px 0px 15px;
+}
+
+.top-menu ul li a.active {
+    color: #ef664d;
+    font-weight: 600;
+}
+
+.top-menu ul li a:hover {
+    color: #ef664d;
+
+}
+
+.top-menu ul li a {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cl-effect-5 a {
+    overflow: hidden;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.35em;
+}
+
+.wmuSliderPagination a.wmuActive {
+    background: #ef664d;
+    border-color: #ef664d;
+}
+
+.wmuSliderPagination a {
+    display: block;
+    text-indent: -9999px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+
+.wmuSliderPagination a {
+    text-indent: -9999px;
+    visibility: visible;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border: 3px solid #CCCECE;
+        border-top-color: rgb(204, 206, 206);
+        border-right-color: rgb(204, 206, 206);
+        border-bottom-color: rgb(204, 206, 206);
+        border-left-color: rgb(204, 206, 206);
+    -webkit-border-radius: 50%;
+}
