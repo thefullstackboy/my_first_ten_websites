@@ -104,3 +104,86 @@ nav a {
         border-left-color: rgb(204, 206, 206);
     -webkit-border-radius: 50%;
 }
+
+.about-section {
+    padding: 3em 0;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.about-header h3 {
+    font-size: 2.5em;
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #2a404e;
+    line-height: 1.1;
+}
+
+.about-imag {
+    float: left;
+    width: 27%;
+    margin-right: 5%;
+}
+
+.about-imag img {
+    border: 2px solid #ef664d;
+    border-radius: 103px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.about-text {
+    float: left;
+    width: 65%;
+    margin-top: 3%;
+}
+
+.about-text p {
+    font-size: 15px;
+    color: #7e7e7e;
+    line-height: 1.5em;
+}
+
+.about-sectiongrids {
+    padding: 64px 0px;
+}
+
+.polls {
+    padding: 10px 0;
+}
+
+.poll-desc {
+    float: left;
+}
+
+.poll-desc h4 {
+    font-size: 17px;
+    color: #2a404e;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 0;
+margin: 0 0;
+}
+
+.percentage {
+    float: right;
+    margin-right: 26%;
+}
+
+.skills > div {
+    height: 100%;
+    display: block;
+    background-color: #ef664d;
+}
+
+.skills {
+    width: 100%;
+    margin: 5px 0;
+    height: 14px;
+    background: #dedede;
+}
