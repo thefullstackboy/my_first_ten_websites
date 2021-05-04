@@ -459,9 +459,9 @@
            </div>
          </div>				
 
-     <div class="arrow">
-       <a href="#services" class="scroll"><img src="images/arrow.png" alt=""/></a>
-     </div>
+         <div class="arrow1 text-center">
+          <a href="#work" class="scroll"><img src="images/arrow1.png" alt=""></a>
+          </div>
    </div>
  </div>
 </div>
@@ -520,8 +520,50 @@
       <a href="#"><i class="icon8"></i></a>
     </div>
 
-  </div>
+    <div class="contact">
+      <form>
+        <div class="col-md-4 contactgrid">
+          <input type="text" class="text" value=" name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
+        </div>
+        <div class="col-md-4 contactgrid">
+          <input type="text" class="text" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
+        </div>
+        <div class="col-md-4 contactgrid">
+          <input type="text" class="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
+        </div>
+        <div class="col-md-8 contactgrid1">
+          <textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';">Your Message</textarea>
+        </div>
+        <div class="col-md-4 contactgrid2">
+          <input type="submit" value="[send message]">
+        </div>
+         <div class="clearfix"></div>
+      </form>
+    </div>
 
+    <div class="footer-bottom">
+
+      <p>© 2015 Onepage . All rights  Reserved | Template by<a href="http://templatestock.com" target="target_blank">Template Stock</a></p>
+
+      </div>
+
+      <script type="text/javascript">
+        $(document).ready(function() {
+          /*
+          var defaults = {
+              containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+           };
+          */
+          
+          $().UItoTop({ easingType: 'easeOutQuart' });
+          
+        });
+      </script>
+      <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
+  </div>
 </div>
 
 
