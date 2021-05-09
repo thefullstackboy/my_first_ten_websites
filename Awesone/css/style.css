@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.header-div {
+    height: 550px;
+    background-color: #65cd00;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.logo-div a {
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+}
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.main_heading h1 {
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #777;
+}
+
+.underline {
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #65CD00;
+}
+
+.features-div {
+    text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.features-div i {
+    font-size: 35px;
+    font-weight: 300;
+    color: #65CD00;
+}
+
+.features-div h4 {
+    color: #393939;
+    font-weight: 400;
+}
+
+.features-div p {
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.slide-text {
+    color: #fff;
+    margin-top: 80px;
+}
+
+.slide-text h1 {
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+    text-align: center;
+}
