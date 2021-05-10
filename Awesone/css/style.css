@@ -285,9 +285,6 @@
     font-weight: 300;
 }
 
-
-
-
 .btn-link-1 {
     position: relative;
     display: inline-block;
@@ -302,4 +299,89 @@
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
+}
+
+.about-us-box .about-us-photo {
+    position: relative;
+    width: 160px;
+    margin: 0 auto;
+}
+
+.about-us-box .about-us-photo .about-us-role {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 3px 5px;
+    background: #019299;
+    font-size: 14px;
+    color: #fff;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.about-us-box h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+
+.about-us-box p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.call-action-color {
+    background-color: #61C103;
+    margin: 60px 0px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.call-action-color .main_heading h1 {
+    color: #fff;
+}
+
+.call-action-color .underline {
+    background-color: #fff;
+}
+
+
+.call-action-color {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 0 10px;
+}
+
+.footer-social {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.footer-social a {
+    color: #878787;
+}
+
+
+footer {
+    padding: 40px 0 35px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-copyright a {
+    color: #337ab7;
+text-decoration: none;
+background-color: transparent;
 }
