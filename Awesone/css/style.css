@@ -173,3 +173,133 @@
     text-align: center;
 
 }
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.services-box-gray {
+    background: #f8f8f8;
+}
+
+.services-box {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.services-box i {
+    line-height: 75px;
+    font-size: 50px;
+}
+
+
+.services-box {
+    text-align: center;
+    padding: 15px 0px;
+}
+.services-box h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.services-box p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0 0 10px;
+}
+
+
+.call-to-Action {
+    background-image: url(../images/dashboard-img.jpg);
+    margin: 60px 0px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    background-size: cover;
+}
+
+.pricing-box {
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.pricing-box-price {
+    position: relative;
+    padding: 20px 0 7px 0;
+    background: #eee;
+    font-size: 42px;
+    color: #555;
+    line-height: 54px;
+}
+
+.pricing-box-price span {
+    font-size: 18px;
+    color: #888;
+    line-height: 32px;
+}
+
+.pricing-box-price {
+    position: relative;
+    padding: 20px 0 7px 0;
+    background: #eee;
+    font-size: 42px;
+    color: #555;
+    line-height: 54px;
+}
+
+.pricing-box-features ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-box-features li {
+    padding: 7px 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.pricing-box h4 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding: 10px 20px;
+    background: #e8e8e8;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.pricing-box-features li {
+    padding: 7px 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
+
+
+.btn-link-1 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 16px 20px 0 20px;
+    background: #61C103;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
