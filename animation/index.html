@@ -13,12 +13,49 @@
         width: 100px;
         animation-name: example;
         animation-duration: 4s;
+        animation-delay: 2s;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: backwards;
     }
 
+    @keyframes example {
+        0% {background-color: red; left:0px; top:0px;}
+        25% {background-color: green;left: 200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+    }
+
+
+
+
+
+/*first animation
   @keyframes example {
       from {background-color: red;}
       to {background-color: green;}
   }
+  */
+
+
+/* 2 animation
+  @keyframes example {
+      0% {background-color: red;}
+      25% {background-color: green; }
+      50% {background-color: purple;}
+      100% {background-color: black;}
+  }*/
+
+  
+
+
+
+
+
+
+
 
 </style>
 <body>
