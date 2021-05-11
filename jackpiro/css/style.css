@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    background: url(../images/banner2.jpg);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    min-height: 980px;
+    background-position: right top;
+}
+
+.header {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    padding: 40px 40px 40px 40px;
+}
+
+.logo_section {
+    text-align: center;
+}
+
+.full {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+}
+
+ul.top_icon {
+    float: right;
+}
+
+ul.top_icon li {
+    display: inline-block;
+}
+
+.button_login {
+    background-color: #f00;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+ul.top_icon li a {
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 0px 20px;
+}
