@@ -274,3 +274,30 @@ font-weight: 500;
     display: inline-block;
     margin-top: 11px;
 }
+
+.about {
+    background-color: #fff;
+    padding-top: 90px;
+}
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.about .about-box {
+    text-align: center;
+}
+
+.about .about-box figure img {
+    width: 100%;
+}
+
+.about .about-box p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000;
+    padding-top: 40px;
+    margin: 0;
+    font-weight: 300;
+}
