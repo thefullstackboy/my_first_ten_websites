@@ -7,8 +7,7 @@
 .header-top {
     background: url(../images/banner2.jpg);
         background-position-x: 0%;
-        background-position-y: 0%;
-        background-repeat: repeat;
+        background-position-y: 0%;        
         background-size: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,3 +66,163 @@ ul.top_icon li a {
     line-height: 20px;
     padding: 0px 20px;
 }
+
+.slider_section {
+    padding-top: 134px;
+}
+
+nav.main-menu {
+    float: left;
+    margin-left: 0;
+    margin-left: 0;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li:first-child {
+    margin-left: 0;
+    background: #f00;
+}
+
+.main-menu ul > li {
+    position: inherit;
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.main-menu ul > li a {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.main-menu ul > li a {
+    padding: 11px 20px;
+        padding-left: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 70px;
+}
+
+.main-menu ul > li a {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.padding_left0 {
+    padding-left: 0px;
+}
+
+.text-bg {
+    padding-top: 345px;
+}
+
+.text-bg h1 {
+    font-size: 60px;
+    line-height: 64px;
+    color: #fff;
+padding-top: 80px;
+padding-bottom: 25px;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+.text-bg span {
+    font-size: 17px;
+    display: block;
+    color: #fff;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+
+.text-bg a {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #ff0000;
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration-line: none;
+}
+
+.text-bg a:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.text-img figure img {
+    float: right;
+    max-width: 950px;
+}
+
+.our {
+    background-color: #fff;
+    padding-top: 90px;
+}
+
+.our .titlepage {
+    text-align: left;
+}
+
+.titlepage {
+    padding-bottom: 60px;
+}
+
+.titlepage h2 {
+    padding: 0;
+    font-weight: 500;
+    color: #000;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.margin_bottom {
+    margin-bottom: 35px;
+}
+
+.our .Games p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #181716;
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+
+.our .Games a {
+    font-size: 16px;
+    border: #fff solid 1px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 27px;
+    text-decoration: none;
+}
+
+.our .Games a:hover {
+    background-color: #ff0000;
+    border: #ff0000 solid 1px;
+    color: #fff;
+}
+
+.our .Games h3 {
+    color: #000;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 0;
+}
+
+
