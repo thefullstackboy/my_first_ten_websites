@@ -225,4 +225,52 @@ font-weight: 500;
     padding: 0;
 }
 
+.we_are {
+    padding-top: 90px;
+    background: #fff;
+}
 
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.box_bg {
+    background: #c3c3c3;
+    padding: 40px 0px 40px 65px;
+    margin-right: 101px;
+}
+
+.box_bg_img {
+    margin-right: -84px;
+    box-shadow: #c3c3c3 0px 0px 29px 4px;
+}
+
+
+.box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 25px 2px 2px 2px;
+}
+
+.border_right {
+    border-right: #f00 solid 6px;
+}
+
+.box_text p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: right;
+    color: #181716;
+}
+
+.box_text a {
+    font-size: 16px;
+    border: #fff solid 1px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 39px;
+    display: inline-block;
+    margin-top: 11px;
+}
