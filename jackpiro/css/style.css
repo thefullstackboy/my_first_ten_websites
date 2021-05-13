@@ -301,3 +301,49 @@ font-weight: 500;
     margin: 0;
     font-weight: 300;
 }
+
+.testimonial {
+    background: #fff;
+    margin-top: 85px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.testimonial_box {
+    text-align: center;
+}
+
+.testimonial .clients_box {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.testimonial .clients_box h3 {
+    padding-top: 20px;
+    font-size: 29px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 500;
+    border-bottom: #000 solid 1px;
+    width: 104px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    position: relative;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.testimonial .clients_box p {
+    color: #000;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #1a1a1b;
+}
