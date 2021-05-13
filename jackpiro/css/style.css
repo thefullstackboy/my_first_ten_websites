@@ -516,3 +516,512 @@ ul.Links_footer li a {
     padding-left: 16px;
     margin-top: -27px;
 }
+
+ul.loca li a {
+    padding-right: 16px;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.footer .address h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-bottom: 3px;
+    border-bottom: #ff0000 solid 4px;
+    margin-bottom: 20px;
+    width: 160px;
+}
+
+ul.loca li {
+    color: #fff;
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    padding: 20px 0px;
+    margin-top: 55px;
+    background-color: #fff;
+}
+
+.copyright p {
+    color: #000;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    border-top: #fff solid 1px;
+    margin: 0px;
+    font-weight: 300;
+}
+
+ul.Menu_footer li a:hover {
+    color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul>li a {
+        padding: 20px 20px 20px;
+   }
+    .header-search {
+        padding: 15px 0px;
+   }
+}
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+   }
+    .cart-content-right {
+        padding-bottom: 5px;
+   }
+    .mg {
+        margin: 0px 0px;
+   }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+   }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+   }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+   }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+   }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+   }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+   }
+    .category-box.women-box {
+        display: none;
+   }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+   }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+   }
+    .menu-add {
+        display: none;
+   }
+    .category-box {
+        display: none;
+   }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+   }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+   }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+   }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+   }
+    .header-search {
+        padding: 15px 0px;
+   }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+   }
+}
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+   }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+   }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+   }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+   }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+   }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+   }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+   }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+   }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+   }
+    .menu-area-main {
+        height: 290px;
+        overflow-y: auto;
+   }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+   }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .banner-main .carousel-caption {
+        background: transparent;
+   }
+   .text-bg h1 {font-size: 60px; line-height: 64px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text-bg {
+        padding-left: 30px;
+   }
+   .text-img figure img {max-width: 735px;} 
+   .text-bg {
+   padding-top: 160px;
+}
+    .text-bg h1 {
+        padding-top: 218px;
+        font-size: 43px;
+        line-height: 54px;
+        padding-bottom: 10px;
+   }
+    .text-bg span {
+       padding-bottom: 13px;
+   }
+    .submit {
+       padding: 14px 0px;
+        max-width: 231px;
+   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+     .text-img figure img {max-width: 490px;} 
+   .text-bg {
+   padding-top: 224px;
+}
+.header-top {min-height: inherit;}
+    .main-menu ul>li a {
+        padding: 8px 12px 8px 12px;
+   }
+    .full-slider_cont h1 {
+        font-size: 40px;
+        line-height: 50px;
+   }
+    .text-bg h1 {
+        padding-top: 0px;
+   font-size: 33px;
+   line-height: 46px;
+   padding-bottom: 5px;
+   }
+    .b_bold {
+        font-size: 53px;
+   }
+    .text-bg span {
+       padding-bottom: 12px;
+       font-size: 14px;
+   }
+    .text-bg a {
+       margin-right: 5px;
+        padding: 10px 23px;
+   }
+    .text-bg {
+        padding-left: 50px;
+   }
+    .submit {
+       padding: 14px 0px;
+        max-width: 170px;
+   }
+    .address {
+        margin-bottom: 30px;
+   }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .mean-container .mean-bar {
+        margin-top: 0px;
+   }
+    .slider_section {
+       padding-top: 105px;
+   }
+   .text-img {padding-top: 40px;}
+   .header-top {min-height: inherit;}
+    .text-img figure img {width: 100%;}
+   .text-bg {display: none;}
+    .text-img {
+       padding-top: 30px;
+   }
+    ul.top_icon li a {
+       padding: 0px 6px;
+   }
+    .padding_left0 {
+       padding-left: 15px;
+   }
+    .menu-area-main li.active a {
+       background: inherit;
+   }
+    .testimonial_box {
+       padding-bottom: 20px;
+   }
+    .testimonial .clients_box h3 {
+       padding-top: 0px;
+   }
+    .our .Games h3 {
+       padding-top: 20px;
+   }
+    .submit {
+       padding: 14px 0px;
+        max-width: 154px;
+   }
+    .address {
+       padding-bottom: 20px;
+   }
+}
+@media (max-width: 575px) {
+    .header {
+        padding-bottom: 0px;
+   }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 25px;
+        float: inherit;
+   }
+    .menu-area-main li.active a {
+       background: inherit;
+   }
+   .text-img {padding-top: 40px;}
+   .header-top {min-height: inherit;}
+   .text-img figure img {width: 100%;}
+  .text-bg {display: none;}
+    .slider_section {
+       padding-top: 95px;
+   }
+    ul.top_icon {
+       display: none;
+   }
+    .titlepage h2 {
+       line-height: 33px;
+        font-size: 33px;
+   }
+    .padding_left0 {
+       padding-left: 15px;
+   }
+    .our .Games h3 {
+       padding-top: 20px;
+   }
+    .testimonial_box {
+       padding-bottom: 20px;
+   }
+    .testimonial .clients_box h3 {
+       padding-top: 0px;
+   }
+    .testimonial .clients_box p {
+       font-size: 15px;
+   }
+    .contact .contact_bg {
+       padding: 40px 20px;
+   }
+    .submit {
+       font-size: 15px;
+        padding: 14px 0px;
+        max-width: 134px;
+   }
+    .news .newslatter {
+       padding: 14px 10px;
+        width: 54%;
+        font-size: 15px;
+   }
+    .address {
+       padding-bottom: 20px;
+   }
+}
+
+
+/*--------------------------------------------------------------------- File Name: meanmenu.css ---------------------------------------------------------------------*/
+a.meanmenu-reveal {
+    display: none;
+}
+.mean-container .mean-bar {
+    background: #f00;
+    float: left;
+    min-height: 40px;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    margin-top: 15px;
+}
+.mean-container a.meanmenu-reveal {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    right: 12px;
+    text-decoration: none;
+    top: 12px;
+    width: 26px;
+}
+.mean-container a.meanmenu-reveal span {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 0;
+    display: block;
+    height: 4px;
+    margin-top: 3px;
+    width: auto;
+}
+.mean-container a.meanmenu-reveal span:first-child {
+    margin: 0 
+}
+.mean-container .mean-nav {
+    background: #ffffff none repeat scroll 0 0;
+    float: left;
+    margin-top: 44px;
+    width: 100%;
+}
+.mean-container .mean-nav ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.mean-container .mean-nav ul li a {
+    border-bottom: 1px solid #ccc;
+    color: #383838;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding: 1em 5%;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 90%;
+}
+.mean-container .mean-nav ul li a:hover {
+    color: #38c8a8;
+}
+.mean-container .mean-nav ul li li a {
+    width: 80%;
+    padding: 1em 10%;
+    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    text-shadow: none !important;
+    visibility: visible;
+}
+.mean-container .mean-nav ul li.mean-last a {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 0;
+}
+.mean-container .mean-nav ul li li li a {
+    width: 70%;
+    padding: 1em 15%;
+}
+.mean-container .mean-nav ul li li li li a {
+    width: 60%;
+    padding: 1em 20%;
+}
+.mean-container .mean-nav ul li li li li li a {
+    width: 50%;
+    padding: 1em 25%;
+}
+.mean-container .mean-nav ul li a:hover {
+    ` background: #252525;
+    background: rgba(255, 255, 255, 0.1);
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    border: medium none;
+    font-weight: 400;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 1px;
+    padding: 12px 16px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -1px;
+    width: 17px;
+    z-index: 2;
+    font-size: 18px !important;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+    background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+    color: #ffffff;
+}
+.mean-container .mean-push {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+.mean-nav .wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.mean-container .mean-bar, .mean-container .mean-bar * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mean-remove {
+    display: none !important;
+}
+.mean-nav span {
+    display: none;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover, .mean-container .mean-nav ul li a.mean-expand:focus {
+    background: #0f69c6 ;
+    color: #ffffff;
+}
+.mean-container .mean-nav ul li a:hover {
+    color: #f00 ;
+}
