@@ -10,3 +10,58 @@
     text-align: center;
     line-height: 120px;
 }
+
+.full {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-area {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.limit-box {
+    margin: 27px 0 0;
+}
+
+nav.main-menu {
+    float: left;
+    margin-left: 0;
+}
+
+.main-menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-menu ul > li {
+    position: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.main-menu ul > li a {
+    padding: 23px 10px 23px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    display: block;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #ffff;
+}
+
+header {
+    background: #003;
+    min-height: 122px;
+    display: block;
+}
+
