@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_section {
+    background: #ffff;
+    min-height: 122px;
+    text-align: center;
+    line-height: 120px;
+}
