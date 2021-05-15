@@ -65,3 +65,42 @@ header {
     display: block;
 }
 
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.orange_color {
+    color: #ff0000;
+}
+
+
+.blog_cont {
+    padding-top: 30px;
+}
+
+.blog_cont h5 {
+    color: #79797a;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #212222;
+}
+
+.blog_cont h4 {
+    font-size: 32px;
+    color: #2c2c2d;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+
