@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiple_step_form</title>
+    <!--link css-->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form id="regform" action="#"> 
+        <h1>Register:</h1>
+        <!--One "tab" for each step in the form:-->
+        <div class="tab">Name:
+            <p><input placeholder="First name..." name="fname"></p>
+            <p><input placeholder="Last name..." name="lname"></p>
+        </div>
+
+        <div class="tab">Contact Info:
+            <p><input placeholder="E-mail..." name="email"></p>
+            <p><input placeholder="phone.." name="phone"></p>
+        </div>
+
+        <div class="tab">Birthday:
+            <p><input placeholder="dd" name="dd"></p>
+            <p><input placeholder="mm" name="nn"></p>
+            <p><input placeholder="yyy" name="yyyy"></p>
+        </div>
+
+        <div class="tab">Login Info:
+            <p><input placeholder="Username.." name="uname"></p>
+            <p><input placeholder="password" name="pword" type="password"></p>
+        </div>
+
+        <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn">Previous</button>
+      <button type="button" id="nextBtn">Next</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+    </form>
+    
+</body>
+</html>
