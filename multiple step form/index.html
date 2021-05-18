@@ -35,8 +35,8 @@
 
         <div style="overflow:auto;">
     <div style="float:right;">
-      <button type="button" id="prevBtn">Previous</button>
-      <button type="button" id="nextBtn">Next</button>
+      <button type="button" id="prevBtn" onclick="nextprev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nexrprev(1)">Next</button>
     </div>
   </div>
   <!-- Circles which indicates the steps of the form: -->
@@ -47,6 +47,11 @@
     <span class="step"></span>
   </div>
     </form>
+
+    <script>
+        var currentTab = 0;  //current tab is set to be the first tab(0)
+        showTab(currentTab);  //
+    </script>
     
 </body>
 </html>
