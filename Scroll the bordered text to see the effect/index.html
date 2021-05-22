@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll</title>
+</head>
+<style>
+    #para {
+        width: 250px;
+        height: 150px;
+        overflow: scroll;
+        border: 1px solid red;
+        font-size: 25px;
+    }
+</style>
+<body>
+    <h1>Hello world</h1>
+    <h2>scrool see the effect</h2>
+    <p id = "para"> Hi, Welcome to the javaTpoint.com. This site is developed so that students may learn computer science related technologies easily. The javaTpoint.com is always providing an easy and in-depth tutorial on various technologies. No one is perfect in this world, and nothing is eternally best. But we can try to be better. </p>
+    <p id="para1"></p>
+</body>
+<script>
+ document.getElementById("para").addEventListener("scroll", fun);
+function fun() {
+document.getElementById("para").style.color = "red";
+document.getElementById("para").style.background = "lightgreen";
+document.getElementById("para1").innerHTML = "You are scrolling the content";
+
+}
+ 
+</script>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passwordvalidation</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="color: green;">Javapoint</h1>
+        <h3>Verify valid password Example </h3>
+        <td>Enter the password</td>
+        <form onsubmit="return verfiredpassword()">
+            <input type="password" value="" id="pswd"> 
+            <div id = "message" style="color:red"></div><br>
+    
+            <!--button-->
+            <button type="submit" >submit</button>
+            <button type="reset" >reset</button>
+    
+
+        </form>
+     
+    </div>
+  
+
+    <script>
+function verfiredpassword() {
+  var pw = document.getElementById("pswd").value;
+  //check empty password field
+  if(pw == "") {
+     document.getElementById("message").innerHTML = "**Fill the password please!";
+     return false;
+  }
+ 
+ //minimum password length validation
+  if(pw.length < 8) {
+     document.getElementById("message").innerHTML = "**Password length must be atleast 8 characters";
+     return false;
+  }
+
+//maximum length of password validation
+  if(pw.length > 15) {
+     document.getElementById("message").innerHTML = "**Password length must not exceed 15 characters";
+     return false;
+  } else {
+     alert("Password is correct");
+  }
+}
+
+    </script>
+    
+</body>
+</html>
