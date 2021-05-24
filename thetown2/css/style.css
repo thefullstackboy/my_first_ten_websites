@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgwallpaper {
+    background-image: url(../img/the-town-bg-01.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 375px;
+    position: relative;
+}
+
+.mytown{
+    display: inline-block;
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+margin-right: 1rem;
+font-size: 1.4rem;
+font-size: 1.4rem;
+font-weight: bold;
+padding-top: 9px;
+padding-right: 39px;
+padding-bottom: 9px;
+padding-left: 39px;
+line-height: inherit;
+white-space: nowrap;
+color: #ffff;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background: transparent;
+    float: right;
+  }
+
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 42%;
+
+  }
+  
