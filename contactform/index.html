@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactform</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        .column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+     padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Responsive Contact Section</h2>
+<p style="text-align: center;">Resize the browser window to see the effect.</p>
+<div class="container">
+    <div style="text-align: center;">
+        <h1>Contact Us</h1>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="./map.jpg" style="width: 100%;">
+        </div>
+
+        <div class="column">
+            <form>
+                <label>First Name</label>
+                <input placeholder="Your name..." type="text">
+                <label>Last Name</label>
+                <input placeholder="Your last name..." type="text">
+
+                <label>Country</label>
+                <select>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label>Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            </form>
+
+            <input type="submit" value="Submit">
+
+        </div>
+
+    </div>
+</div>
+
+
+    
+</body>
+</html>

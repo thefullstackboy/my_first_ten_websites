@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>darktheme</title>
+    <style>
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.darkmode {
+    background-color: black;
+    color: yellow;
+    font-size: 100px;
+}
+    </style>
+</head>
+<body>
+    <h2>Toggle Dark/Light Mode</h2>
+
+<p>Click the button to toggle between dark and light mode for this page.</p>
+
+<button onclick="myfunction ()">click me</button>
+    
+
+<script>
+    function myfunction() {
+     var adfe = document.body;
+     adfe.classList.toggle("darkmode");
+    }
+</script>
+</body>
+</html>
