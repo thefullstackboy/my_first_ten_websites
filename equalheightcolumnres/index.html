@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>equalheightcolres</title>
+    <style>
+        .col-container {
+            display: table;
+            width: 100%;
+        }
+
+        .col {
+            padding: 16px;
+            display: table-cell;
+        }
+
+        @media screen and (max-width:600px) {
+            .col {
+            display: block;
+            width: 100%;
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Equal Height Columns</h1>
+    <p>Resize the browser window to see the result. The columns will automatically stack on screens smaller than 600px.</p>
+
+    <div class="col-container" style="background-color: orange;"> 
+        <div class="col">
+            <h1>Column 1</h1>
+            <p>Hello World</p>
+        </div>
+
+
+        <div class="col" style="background-color: yellow;">
+            <h1>Column 2</h1>
+            <p>Hello World</p>
+            <p>Hello World</p>
+            <p>Hello World</p>
+            <p>Hello World</p>
+        </div>
+
+        <div class="col" style="background-color: orange;">
+            <h1>Column 3</h1>
+            <p>Some other text..</p>
+            <p>Some other text..</p>
+        </div>
+    </div>
+    
+</body>
+</html>
