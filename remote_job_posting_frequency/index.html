@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!--local css-->
+    <link href="./css/style.css" rel="stylesheet">
+
+
+    <title>remote_job_posting_frequency</title>
+  </head>
+  <body>
+   
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12 col-md-12 col-xl-12">
+                    <div class="chartsize">
+                        <canvas id="myChart"></canvas>
+                    </div>                
+                </div>
+            </div>  
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-12 col-md-12 col-xl-12">
+                    <div class="text-center mt-5">
+                        <div>
+                            <select class="text-center">
+                                <option>
+                                    Last 30 days
+                                </option>
+                                <option>
+                                    Monthly
+                                </option>
+                            </select>     
+                        </div>
+
+                                    
+                       
+                        <!--end text center-->
+                    </div>             
+
+                  <!--end col-->  
+                </div>
+                <!--end row-->
+            </div>
+
+            <div class="row text-center allbutton">              
+
+                    <div  class="col-sm-3 col-lg-3 col-md-3 col-xl-3">
+                        <button type="button" class="btn btn-primary btn-sm buttmargintop">Most Populer Tech-Stack</button>
+                    </div>
+    
+                    <div  class="col-sm-3 col-lg-3 col-md-3 col-xl-3">
+                        <button type="button" class="btn btn-primary btn-sm buttmargintop">Most Populer Tech-Stack</button>
+                    </div>
+    
+                    <div  class="col-sm-3 col-lg-3 col-md-3 col-xl-3">
+                        <button type="button" class="btn btn-primary btn-sm buttmargintop">Most Populer Tech-Stack</button>
+                    </div>
+    
+                    <div  class="col-sm-3 col-lg-3 col-md-3 col-xl-3">
+                        <button type="button" class="btn btn-primary btn-sm buttmargintop">Most Populer Tech-Stack</button>
+                    </div>       
+        
+             <!--end row-->
+            </div>
+
+
+
+                <div class="text-center mt-5">
+                    <h1>Some Notes</h1>
+
+                    <p class="informationtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Error necessitatibus nam, unde officiis obcaecati rerum
+                          aliquid, earum omnis nisi minima impedit possimus
+                           maiores vero repellendus ea placeat rem eius facere!
+                       
+                        
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                           Error necessitatibus nam, unde officiis obcaecati rerum
+                            aliquid, earum omnis nisi minima impedit possimus
+                             maiores vero repellendus ea placeat rem eius facere!
+                            
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Error necessitatibus nam, unde officiis obcaecati rerum
+                              aliquid, earum omnis nisi minima impedit possimus
+                               maiores vero repellendus ea placeat rem eius facere!
+                            
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                               Error necessitatibus nam, unde officiis obcaecati rerum
+                                aliquid, earum omnis nisi minima impedit possimus
+                                 maiores vero repellendus ea placeat rem eius facere!
+                            </p>
+                <!--end text center-->   
+                </div>
+
+
+
+          
+            
+          <!--end container-->  
+          </div>   
+
+ 
+            <!--start footer-->   
+            <footer class="footer mt-5">      
+                    <p class="text-center">Made With <span>💗</span> By Bharat Sewani</p>             
+            </footer>
+            
+
+
+
+
+   
+
+          <script>
+    
+    
+    
+    const labels = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+    ];
+    const data = {
+      labels: labels,
+      datasets: [{
+        label: 'Remote Job Posting Frequency',
+        backgroundColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(255, 99, 132)',
+        data: [0, 10, 5, 2, 20, 30, 45],
+      }]
+    };
+    
+            // === include 'setup' then 'config' above ===
+            const config = {
+      type: 'line',
+      data,
+      options: {}
+    };
+          
+            var myChart = new Chart(
+              document.getElementById('myChart'),
+              config
+            );
+          </script>
+      
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
