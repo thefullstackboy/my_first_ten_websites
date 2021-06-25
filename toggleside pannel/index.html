@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toggleside</title>
+    <style>
+        .sidepanel {
+            position: fixed;
+            height: 250px;
+            background-color: #111;
+            width: 0;
+            z-index: ;
+            top: 0;
+            left: 0;
+            padding-top: 60px;
+            overflow-x: hidden;
+        }
+
+        .sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+    </style>
+</head>
+<body>
+
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Help</a>
+
+    </div>
+
+    
+<button class="openbtn" onclick="openNav()">☰ Toggle Sidepanel</button>  
+
+
+    <script>
+
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+
+       function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+    </script>
+    
+</body>
+</html>
