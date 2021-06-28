@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgimg {
+    background-image: url(../images/jaisalmer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 950px;    
+}
+
+.headerset {
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 300px;
+}
+
+.headerset h1 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: cursive;
+    transition: 0.7 ease;
+}
+
+
+.headerset h6 {
+    font-size: 24px;
+    padding: 20px;
+    transition: 0.7s ease;
+}
+
+.headerset h1:hover {
+    font-size: 74px;
+    color: darkgray;
+}
+
+.headerset h6:hover {
+    font-size: 28px;
+    color: darkgrey;
+}
