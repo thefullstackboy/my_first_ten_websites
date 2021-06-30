@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accordion</title>
+    <style>
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+  overflow: hidden;
+        }
+
+
+        
+        .panel2 {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+  overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>accordion</h2>
+
+    <button class="accordion" onclick="my()">Section1</button>
+    <div id="panel2">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Neque nam consequuntur voluptatibus accusamus!
+              Atque quam pariatur, doloribus iste numquam mole
+              stias ea, ipsam saepe exercitationem fugit, explic
+              abo quia accusamus necessitatibus quibusdam.
+             Lorem ipsum, dolor sit amet consectetur adipisic
+             ing elit. Neque nam consequuntur voluptatibus
+              accusamus! Atque quam pariatur, doloribus iste
+               numquam molestias ea, ipsam saepe exercitat
+               ionem fugit, explicabo quia accusamus necessi
+               tatibus quibusdam.
+        </p>
+    </div>
+
+
+    <button class="accordion" onclick="my2()">Section2</button>
+    <div id="panel3">
+        <p style="color: red;font-size: 26px;background-color: gold;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Neque nam consequuntur voluptatibus accusamus!
+              Atque quam pariatur, doloribus iste numquam mole
+              stias ea, ipsam saepe exercitationem fugit, explic
+              abo quia accusamus necessitatibus quibusdam.
+             Lorem ipsum, dolor sit amet consectetur adipisic
+             ing elit. Neque nam consequuntur voluptatibus
+              accusamus! Atque quam pariatur, doloribus iste
+               numquam molestias ea, ipsam saepe exercitat
+               ionem fugit, explicabo quia accusamus necessi
+               tatibus quibusdam.
+        </p>
+    </div>
+
+
+
+
+    <button class="accordion" onclick="my3()">Section3</button>
+    <div id="panel4">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Neque nam consequuntur voluptatibus accusamus!
+              Atque quam pariatur, doloribus iste numquam mole
+              stias ea, ipsam saepe exercitationem fugit, explic
+              abo quia accusamus necessitatibus quibusdam.
+             Lorem ipsum, dolor sit amet consectetur adipisic
+             ing elit. Neque nam consequuntur voluptatibus
+              accusamus! Atque quam pariatur, doloribus iste
+               numquam molestias ea, ipsam saepe exercitat
+               ionem fugit, explicabo quia accusamus necessi
+               tatibus quibusdam.
+        </p>
+    </div>
+
+    <script>
+     function my() {
+  var x = document.getElementById('panel2');
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+
+function my2() {
+  var x = document.getElementById('panel3');
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function my3() {
+  var x = document.getElementById('panel4');
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+   
+   
+        
+  
+    </script>
+</body>
+</html>
