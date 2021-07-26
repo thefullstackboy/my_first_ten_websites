@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <style>
+        input {
+            width: 600px;
+            height: 35px;
+            border-radius: 5px;
+            border: 2px solid blue;
+        }
+
+        #btn {
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            border-radius: 0px 50px;
+        }
+
+        #btn:hover {
+            background-color: blue;
+        }
+
+        span {
+            font-size: 20px;
+            color: red;
+        }
+    </style>  
+</head>
+<body>
+    <form action="#" autocomplete="off" onsubmit="return validation()">
+        <table cellspacing="15" align="center">
+            <tr><td><input type="text" id="user" placeholder="User"><br>
+            <span id="userr"></span>
+            </td></tr>
+            <tr><td><input type="text" id="pass" placeholder="password"><br>
+                <span id="passs"></span>
+            </td></tr>
+            <tr><td><input type="text" id="conpass" placeholder="conform password"><br>
+                <span id="conpasss"></span>
+            </td></tr>
+            <tr><td><input type="text" id="email" placeholder="Email"><br>
+                <span id="emaill"></span>
+            </td></tr>
+            <tr><td><input type="text" id="mobile" placeholder="mobile"><br>
+            <span id="mobilee"></span>   
+            
+            </td></tr>
+            <tr><td><input type="submit" id="btn" value="submit"></td></tr>
+        </table> 
+
+    </form>
+
+    <script type="text/javascript">
+    function validation(){
+        var user =document.getElementById('user').value;
+        var pass =document.getElementById('pass').value;
+        var conpass =document.getElementById('conpass').value;
+        var email =document.getElementById('email').value;
+        var mobile =document.getElementById('mobile').value;
+        if(user ==""){
+            document.getElementById('userr').innerHTML="*please write user Name*";
+         
+
+            if(user.length){
+                document.getElementById('userr').innerHTML="*please write user Name*";
+                return false
+            }
+
+            if(!isNaN(user))
+            {
+                document.getElementById('userr').innerHTML="*please write user Name*";
+                return false
+            }
+            else{
+                document.getElementById('userr').innerHTML="";
+            }
+
+           
+
+
+            
+        }
+
+
+
+        if(pass == ""){
+            document.getElementById('passs').innerHTML="*please write password*";
+        }
+
+
+        if(conpass == ""){
+            document.getElementById('conpasss').innerHTML="*please write conform password*";
+        }
+
+
+        if(email == ""){
+            document.getElementById('emaill').innerHTML="*please write email*";
+        }
+
+
+        if(mobile == ""){
+            document.getElementById('mobilee').innerHTML="*please write phone number*";
+        }
+
+
+    }
+        
+    </script>
+
+
+    
+</body>
+</html>
