@@ -32,7 +32,7 @@
 </head>
 <body>
     <form action="#" autocomplete="off" onsubmit="return validation()">
-        <table cellspacing="15" align="center">
+        <table cellspacing="15" align-items="center">
             <tr><td><input type="text" id="user" placeholder="User"><br>
             <span id="userr"></span>
             </td></tr>
@@ -47,7 +47,7 @@
             </td></tr>
             <tr><td><input type="text" id="mobile" placeholder="mobile"><br>
             <span id="mobilee"></span>   
-            
+        <button id="demo" onclick="validation()">click</button>
             </td></tr>
             <tr><td><input type="submit" id="btn" value="submit"></td></tr>
         </table> 
@@ -56,17 +56,21 @@
 
     <script type="text/javascript">
     function validation(){
-        var user =document.getElementById('user').value;
+        var user = document.getElementById('user').value;
         var pass =document.getElementById('pass').value;
         var conpass =document.getElementById('conpass').value;
         var email =document.getElementById('email').value;
-        var mobile =document.getElementById('mobile').value;
-        if(user ==""){
+        var mobile =document.getElementById('mobile').value; 
+        console.log(user);
+
+        if(user === ""){
             document.getElementById('userr').innerHTML="*please write user Name*";
+            return false
+        }
          
 
-            if(user.length){
-                document.getElementById('userr').innerHTML="*please write user Name*";
+            if(user.length  <  3){
+                document.getElementById('userr').innerHTML="Plase fill at least 4 character";
                 return false
             }
 
@@ -75,20 +79,14 @@
                 document.getElementById('userr').innerHTML="*please write user Name*";
                 return false
             }
-            else{
-                document.getElementById('userr').innerHTML="";
-            }
-
-           
-
-
-            
+          return true
         }
 
 
 
         if(pass == ""){
             document.getElementById('passs').innerHTML="*please write password*";
+      
         }
 
 
@@ -105,9 +103,6 @@
         if(mobile == ""){
             document.getElementById('mobilee').innerHTML="*please write phone number*";
         }
-
-
-    }
         
     </script>
 
