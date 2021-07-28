@@ -34,8 +34,9 @@
     <form action="#" autocomplete="off" onsubmit="return validation()">
         <table cellspacing="15" align-items="center">
             <tr><td><input type="text" id="user" placeholder="User"><br>
-            <span id="userr"></span>
-            </td></tr>
+                <span id="userr"></span>
+            
+            <!-- </td></tr>
             <tr><td><input type="text" id="pass" placeholder="password"><br>
                 <span id="passs"></span>
             </td></tr>
@@ -46,9 +47,17 @@
                 <span id="emaill"></span>
             </td></tr>
             <tr><td><input type="text" id="mobile" placeholder="mobile"><br>
-            <span id="mobilee"></span>   
-        <button id="demo" onclick="validation()">click</button>
+            <span id="mobilee"></span>    -->
             </td></tr>
+            <tr><td><input type="password" id="password" placeholder="password"><br>
+                <span id="password_validation"></span><br>
+            </td></tr>
+
+
+            <tr><td><input type="password" id="conpassword" placeholder="password"><br>
+                <span id="con_password_validation"></span><br>
+            </td></tr>
+
             <tr><td><input type="submit" id="btn" value="submit"></td></tr>
         </table> 
 
@@ -57,52 +66,80 @@
     <script type="text/javascript">
     function validation(){
         var user = document.getElementById('user').value;
-        var pass =document.getElementById('pass').value;
-        var conpass =document.getElementById('conpass').value;
-        var email =document.getElementById('email').value;
-        var mobile =document.getElementById('mobile').value; 
-        console.log(user);
+        var password = document.getElementById('password').value;
+        var conpassword = document.getElementById('conpassword').value;
+//user name validation
+        user === "" ?  document.getElementById('userr').innerHTML="please enter your correct name" 
+        : 
+        document.getElementById('userr').innerHTML="hello"
 
-        if(user === ""){
-            document.getElementById('userr').innerHTML="*please write user Name*";
-            return false
-        }
+        // if(user.length < 3){
+        //     document.getElementById("userr").innerHTML="please enter at least 4 character";
+        //     return false
+        // }
+
+//user password validation
+if(password ===""){
+    document.getElementById("password_validation").innerHTML="please enter password"
+    return false
+}        
+
+if(password.length < 6){
+    document.getElementById("password_validation").innerHTML="please enter password at lease 6 character"
+    return true
+}
+
+//user confirm  password validation
+if(conpassword ===""){
+    document.getElementById("con_password_validation").innerHTML="please enter password"
+    return false
+}   
+
+if(password !== conpassword){
+    document.getElementById("con_password_validation").innerHTML="password do not match"
+}
+else {
+    document.getElementById("con_password_validation").innerHTML="signup succussfully"
+    return true;
+}
+
          
 
-            if(user.length  <  3){
-                document.getElementById('userr').innerHTML="Plase fill at least 4 character";
-                return false
-            }
+        //     if(user.length  <  3){
+        //         document.getElementById('userr').innerHTML="Plase fill at least 4 character";
+        //         return false
+        //     }
 
-            if(!isNaN(user))
-            {
-                document.getElementById('userr').innerHTML="*please write user Name*";
-                return false
-            }
-          return true
-        }
+        //     if(!isNaN(user))
+        //     {
+        //         document.getElementById('userr').innerHTML="*please write user Name*";
+        //         return false
+        //     }
+        //   return true
+        // }
 
 
 
-        if(pass == ""){
-            document.getElementById('passs').innerHTML="*please write password*";
+        // if(pass == ""){
+        //     document.getElementById('passs').innerHTML="*please write password*";
       
-        }
+        // }
 
 
-        if(conpass == ""){
-            document.getElementById('conpasss').innerHTML="*please write conform password*";
-        }
+        // if(conpass == ""){
+        //     document.getElementById('conpasss').innerHTML="*please write conform password*";
+        // }
 
 
-        if(email == ""){
-            document.getElementById('emaill').innerHTML="*please write email*";
-        }
+        // if(email == ""){
+        //     document.getElementById('emaill').innerHTML="*please write email*";
+        // }
 
 
-        if(mobile == ""){
-            document.getElementById('mobilee').innerHTML="*please write phone number*";
-        }
+        // if(mobile == ""){
+        //     document.getElementById('mobilee').innerHTML="*please write phone number*";
+        // }
+    }
         
     </script>
 

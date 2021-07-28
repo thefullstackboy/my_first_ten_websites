@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/*style the submit button*/
+input[type=submit]{
+    background-color: #04AA6d;
+    color: white;
+}
+
+/*style the container for inputs*/
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*the message box in shown when the user clicks on the page*/
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/*add a green text color and a checkmark when the required*/
+.valid {
+    color: green;
+}
+
+.valid::before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid::before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}

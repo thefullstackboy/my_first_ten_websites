@@ -1,0 +1,21 @@
+<html>  
+    <body>  
+    <script>  
+    function waitAndshow() {  
+           //define a date and time variable  
+           var systemdate = new Date();  
+          
+           //display the updated time after every 4 seconds  
+           document.getElementById("clock").innerHTML = systemdate.toLocaleTimeString();  
+    }  
+      
+          //define time interval and call user-defined waitAndshow function  
+          setInterval(waitAndshow, 1000);  
+    </script>  
+      
+    <h3> Updated time will show in every 4 seconds </h3>  
+    <h3> The current time on your computer is: <br>  
+    <span id="clock"></span> </h3>  
+      
+    </body>  
+    </html>  

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation practise 3</title>
+</head>
+<body>
+
+    <form action="#" autocomplete="off" onsubmit="return validation()">
+        <label for="fname">Name</label>
+            <input type="text" placeholder="Enter Name" id="fname"><br><br>
+            <p id=blank_name></p>
+
+            <label for="pword">password</label>
+            <input type="password" placeholder="Enter password" id=pword>
+            <p id="black_pword"></p>
+
+            <label for="rword">Re enter password</label>
+            <input type="password" placeholder="Re enter password" id="rpassword">
+            <p id="re_enter_pmessage"></p>
+
+            <input type="submit" value="submit">
+
+    </form>
+
+
+    <script>
+        //var for name
+
+
+        function validation(){
+            let fname=document.getElementById("fname").value;
+            let pword=document.getElementById("pword").value;
+            let rword=document.getElementById("rpassword").value;
+        if (fname === "" || fname===null){
+            alert("please entery your name");
+            return true;
+        }
+
+        if (fname.length<6){
+            alert("please enter minmum 6 character");           
+            return true;
+        }
+
+        if(fname.length>8){
+            alert("please enter maximum 8 character");
+            return true;
+        }
+
+        if(pword === ""|| pword===null){
+            document.getElementById("black_pword").innerHTML ="please enter password";
+            return false;
+        }
+
+        if(pword.length<6){
+            document.getElementById("black_pword").innerHTML ="minimum 6 character password";
+            return true;
+        }
+
+        if(pword.length>8){
+            document.getElementById("black_pword").innerHTML ="maximum 8 character password";
+            return true;
+        }
+
+        if(rword===""||rword===null){
+            document.getElementById("re_enter_pmessage").innerHTML="please enter the password";
+            return true;
+        }
+
+        if(pword!==rword){
+            document.getElementById("re_enter_pmessage").innerHTML="please conform the password";
+            return true;
+        }
+
+
+        else{
+         
+            alert("all correct");
+        }
+
+
+
+
+    }
+
+    </script>
+    
+</body>
+</html>
