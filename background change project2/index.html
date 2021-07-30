@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        margin: 0px;
+        padding: 20px 100px;
+    }
+
+    h1 {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .btn {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border: solid grey 2px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #white{
+         background-color: white;
+    }
+
+    #aqua {
+                 background-color: aquamarine;
+    }
+
+    #violet {
+        background-color: #ce9aff;
+    }
+
+    #black {
+       background-color: black;
+    }
+
+    #color-switcher {
+        text-align: right;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    #logo{
+        width: 250px;
+        height: auto;
+    }
+
+    body {
+        margin: 0px;
+    }
+    
+
+    #menu-bar {
+        text-align: center;
+        background-color: cadetblue;
+    }
+
+    #menu-bar li {
+        display: inline-block;
+        padding: 15px 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #container {
+        text-align: center;
+        padding: 50px 100px;
+    }
+    
+
+
+    </style>
+</head>
+<body>
+    <div id="menu-bar">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Our Team</li>
+        <li>Client</li>
+        <li>Contact Us</li>
+
+    </div>
+
+    <div id="color-switcher">
+        <span class="btn" id="white" onclick="changbg('#ffffff')"></span>
+        <span class="btn" id="aqua"  onclick="changbg('#7fffd4')"></span>
+        <span class="btn" id="violet"  onclick="changbg('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changbg('#000000')"></span>
+    </div>
+    <div id="container">
+    <h1 class="text">About Us</h1>
+    <img alt="" src="https://image.shutterstock.com/image-photo/group-multiethnic-business-people-holding-260nw-191139815.jpg">
+<p class="text">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, illo. Nihil repellendus accusantium odit enim, cum minus harum, eveniet nulla inventore tenetur omnis porro similique ipsam quis iusto excepturi voluptas?
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, illo. Nihil repellendus accusantium odit enim, cum minus harum, eveniet nulla inventore tenetur omnis porro similique ipsam quis iusto excepturi voluptas?
+
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, illo. Nihil repellendus accusantium odit enim, cum minus harum, eveniet nulla inventore tenetur omnis porro similique ipsam quis iusto excepturi voluptas?
+
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, illo. Nihil repellendus accusantium odit enim, cum minus harum, eveniet nulla inventore tenetur omnis porro similique ipsam quis iusto excepturi voluptas?
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, illo. Nihil repellendus accusantium odit enim, cum minus harum, eveniet nulla inventore tenetur omnis porro similique ipsam quis iusto excepturi voluptas?
+</p>
+</div>
+
+<script>
+    function changbg(color){
+        document.body.style.backgroundColor = color;
+        let txt = document.getElementsByClassName("text");
+        if(color == "#000000"){
+            for(let elm of txt){
+                elm.style.color = "white";
+            }           
+        }
+        else{
+            for(let elm of txt){
+                elm.style.color = "black";
+            }
+        }
+
+    }
+</script>
+
+
+    
+</body>
+</html>
