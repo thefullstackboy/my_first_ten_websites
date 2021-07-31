@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
+    <!--Log in form-->
     <div class="coverbox">
         <img src="./image/icon6.png" class="logo">
         <h1>LogIn Here</h1>
-        <form>
+        <form name="myform" method="post" action="" onsubmit="return validateform()" autocomplete="off">
+            <!--login name-->
             <p>Username</p>
-            <input type="text" placeholder="Username">
-    
+            <input type="text" placeholder="Username" name="name" >
+              <!--error messase-->
+              <p  id="nameerror"></p>
+               
+            <!--login password-->
             <p>Password</p>
-            <input type="text" placeholder="Enter the Password">
+            <input type="text" placeholder="Enter the Password" name="password">
+                      <!--error messase-->
+                      <p  id="pweerror"></p>
+
+          
     
-      
+           <!--forgot password-->
             <input type="submit" value="Login">
             <center>
                 <a href="#">Forgot Your password?</a><br>
@@ -30,6 +42,7 @@
      
 
     </div>
-    
+    <script src="./javascript/js.js"></script>
+
 </body>
 </html>
