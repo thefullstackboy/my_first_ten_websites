@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideshow</title>
+    <style>
+        #main {
+            position: relative;
+            height: 600px;
+            width: 800px;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id=main>
+        <img src="./one.jpg" id="slideimg">
+
+    </div>
+    
+
+    <script>
+        function slidshow(){
+            document.getElementById('slideimg') .src="one.JPEG";
+        }
+
+        function slidshow2(){
+            document.getElementById('slideimg').src="two.JPEG";
+        }
+
+
+        setInterval(slidshow, 2000);
+        setInterval(slidshow2, 4000);
+    </script>
+</body>
+</html>
