@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Background Change Effect</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="img-box">
+            <img src="./image/transparent.png" width="100%">
+
+            <div class="img-wrap">
+                <img src="./image/original.jpg" id="originalimg">
+            </div>
+
+            <span id="line">
+                <img src="./image/arrow.png" class="arrow">
+            </span>
+            
+        </div>
+
+
+    </div>
+    <script>
+        var imgbox = document.querySelector(".img-box");
+        var imgwrap = document.querySelector(".img-wrap");
+        var originalimg =document.getElementById("originalimg");
+        
+        var line = document.getElementById("line");
+
+
+        originalimg.style.width = imgbox.offsetWidth + "px";
+        var leftspace =  imgbox.offsetLeft;
+
+
+        imgbox.onmousemove = function(e){
+            var boxwidth = (e.pageX - leftspace) + "px";
+            imgwrap.style.width = boxwidth;
+            line.style.left = boxwidth;
+            
+        }
+    </script>    
+</body>
+</html>

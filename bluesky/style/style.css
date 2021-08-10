@@ -244,3 +244,85 @@ textarea {
 .imagemargin img {
     margin-top: 6%;
 }
+
+
+.servbonline {
+     color: black;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 12%;
+ 
+
+}
+
+.feedbackp{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 2%;
+    line-height: 25px;
+    margin-top: -1%;
+}
+
+.ourcltheme {
+    background-color: #A1A1A1;
+    margin: 2.4%;
+    padding: 6.5%;
+    box-shadow: 50px 10px 0 0 #4fcaff;
+   
+}
+
+.jack {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.jatext  {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+    padding: 3.5%;
+    text-align: justify;
+}
+
+
+.newsletbg {
+   background-color: #4FCAFF;
+   margin-top: 10%;
+}
+
+.nepadding {
+    padding: 15% 5% 5% 5%;
+}
+
+.newsp {
+    color: #fff;
+    text-align: justify;
+}
+
+#nemail  {
+    margin: 0;
+    padding: 20px 30px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.subtn {
+    background: #fa3e19;
+color: #fff;
+width: 224px;
+border: none;
+font-size: 20px;
+padding: 20px 10px;
+}
+
+.subtn:hover{
+    background: black;
+    transition: 1s;
+}
