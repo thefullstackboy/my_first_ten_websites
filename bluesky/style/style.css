@@ -1,0 +1,246 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #0C2326;
+    
+  
+}
+
+.logo {
+    padding: 4% 4% 4% 4%;
+    position: relative;
+}
+
+.logo img {
+    padding-left: 12%;
+    height: auto;
+    
+}
+
+.menubtn {
+    background-color: #4FCAFF;
+    padding: 8px 14px;
+    float: right;
+    outline: none;
+    border: none;
+    margin-top: 16px;
+    color: #FAF8F7;
+    border-radius: 6px;    
+}
+
+.menubg {
+    background-color: #4FCAFF;
+    line-height: 60px;
+    color: #ffff;
+    padding-top: 5%;
+    margin: 3% 3% 0% 3%;  
+    display: none;
+    transition: 2ms;
+
+}
+
+.menubg ul {
+    list-style: none;
+}
+
+.menubg ul li a {
+font-size: 18px;
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 12px 12px;
+    padding: 2% 3% 0% 2%;
+    height: 45px;
+    
+}
+
+.formse {
+    padding: 3%;
+}
+
+.showh {
+    display: block;
+}
+
+
+.heading {
+    font-size: 20px;
+    padding: 12px 0px 0px 18px;
+    color: #94DFFF;
+}
+
+.webu {
+    font-size: 32px;
+    font-weight:900;
+    line-height: 30px;
+}
+
+.webu2 {
+    font-size: 32px;
+    font-weight:900;
+    line-height: 30px;
+    color: #ffff;
+}
+
+.webp{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.margin {
+    padding: 4%;
+}
+
+.para {
+    font-size: 16px;
+    color: #6A6C6F;
+    line-height: 28px;
+    width: 100%;
+}
+
+.abimg {
+    margin-top: 15%;
+}
+
+.bluediv {
+    background-color: #1A2428;
+    padding: 0%;
+    margin: 0%;
+}
+
+.imgtitle {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background-color: #FFFFFF;
+    margin-bottom: 10%;
+    font-weight: 400;
+}
+
+.bluetitle {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background-color: #FFFFFF;
+    margin-bottom: 10%;
+    font-weight: 400;
+    color: #fff;
+}
+
+.servicesh {
+    font-size: 28px;
+}
+
+.serviccesou {
+    margin-top: 8%;
+}
+
+.bo {
+    float: left;
+background: #4fcaff;
+text-align: center;
+font-size: 24px;
+text-transform: none;
+margin: 0;
+min-height: 50px;
+line-height: 50px;
+padding: 0 50px;
+color: #fff;
+position: absolute;
+bottom: 0;
+width: 100%;
+max-width: 300px;
+left: 15px;
+}
+
+.bo::before {
+    width: 50px;
+height: 50px;
+content: "";
+display: block;
+position: absolute;
+right: -20px;
+background: #4fcaff;
+top: 0;
+transform: skew(-30deg);
+}
+
+.sta {
+    background-color: #4FCAFF;
+    border-bottom-right-radius: 90%;
+    height: 90px;
+}
+
+.bonline {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 25px;
+}
+
+.fbg {
+    background-color: #4FCAFF;
+    margin: 4%;
+}
+
+.falign {
+   padding: 12%;
+   text-align: center;
+}
+
+form>.inname {
+    padding: 15px 15px;
+    text-align: left;
+    margin-bottom: 7.5%;
+}
+
+form>.inemail {
+    padding: 15px 15px;
+    text-align: left;
+    margin-bottom: 7.5%;
+}
+
+form>.inpnumber {
+    padding: 15px 15px;
+    text-align: left;
+    margin-bottom: 7.5%;
+}
+
+form>.inservise {
+    padding: 15px 15px;
+    text-align: left;
+    margin-bottom: 7.5%;
+
+}
+
+textarea {
+    padding: 4px;
+    resize: none;
+}
+
+.sbtn {
+    background-color: #FA3E19;
+    color: #fff;
+    padding: 10px 60px;
+    font-size: 22px;
+    margin-top: 10%;
+    outline: none;
+    border: none;
+}
+
+
+.sbtn:hover {
+    background-color: #0B0D04;
+    transition: 1s;
+}
+
+.imagemargin img {
+    margin-top: 6%;
+}
