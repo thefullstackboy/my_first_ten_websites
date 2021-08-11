@@ -1,55 +1,55 @@
-body {
+  /* styles */
+  body {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+    box-sizing: border-box;      
 }
 
 .header {
-    background-color: #0C2326;
-    
-  
+    background-color: #0C2326;      
+    display: flex;
+    height: 100px;
+}
+
+
+.menubtn {      
+    display: none;    
 }
 
 .logo {
-    padding: 4% 4% 4% 4%;
-    position: relative;
+    display: inline-flex;
+    padding: 2% 4% 4% 10%;    
 }
 
 .logo img {
-    padding-left: 12%;
-    height: auto;
-    
+    height: 70px;
 }
 
-.menubtn {
-    background-color: #4FCAFF;
-    padding: 8px 14px;
-    float: right;
-    outline: none;
-    border: none;
-    margin-top: 16px;
-    color: #FAF8F7;
-    border-radius: 6px;    
-}
 
 .menubg {
-    background-color: #4FCAFF;
-    line-height: 60px;
-    color: #ffff;
-    padding-top: 5%;
-    margin: 3% 3% 0% 3%;  
-    display: none;
-    transition: 2ms;
-
+    overflow: hidden; 
 }
 
 .menubg ul {
-    list-style: none;
+    list-style-type: none;  
+    background-color: transparent;
+    display: flex;        
+    margin-top: 6%;    
+  
 }
 
-.menubg ul li a {
-font-size: 18px;
+.menubg ul li {
+    display: inline;
+    justify-content: space-between;
+    text-align: center;        
+}
+
+.menubg>ul>li> a {
+font-size: 20px;
+color: #ffff;
+justify-content: space-around;  
+display: block;
+padding: 4px 10px; 
 }
 
 input[type="search"] {
@@ -57,17 +57,14 @@ input[type="search"] {
     padding: 12px 12px;
     padding: 2% 3% 0% 2%;
     height: 45px;
-    
+    display: none;        
 }
 
-.formse {
-    padding: 3%;
+.fa-search {
+    color: #ffff;
+    padding-left: 13px;
+    padding-top: 13px;
 }
-
-.showh {
-    display: block;
-}
-
 
 .heading {
     font-size: 20px;
@@ -134,13 +131,21 @@ input[type="search"] {
     color: #fff;
 }
 
+.widthem {
+  float: left;
+  display: flex;
+}
+
 .servicesh {
     font-size: 28px;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .serviccesou {
     margin-top: 8%;
 }
+
 
 .bo {
     float: left;
@@ -178,16 +183,17 @@ transform: skew(-30deg);
     height: 90px;
 }
 
-.bonline {
-    font-size: 26px;
-    font-weight: 800;
+.bonline { 
     letter-spacing: 1px;
-    padding: 25px;
+    padding: 65px 0px 0px 78px;   
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .fbg {
     background-color: #4FCAFF;
     margin: 4%;
+    width: 104%;
 }
 
 .falign {
@@ -199,30 +205,35 @@ form>.inname {
     padding: 15px 15px;
     text-align: left;
     margin-bottom: 7.5%;
+    width: 100%;
 }
 
 form>.inemail {
     padding: 15px 15px;
     text-align: left;
     margin-bottom: 7.5%;
+    width: 100%;
 }
 
 form>.inpnumber {
     padding: 15px 15px;
     text-align: left;
     margin-bottom: 7.5%;
+    width: 100%;
 }
 
 form>.inservise {
     padding: 15px 15px;
     text-align: left;
     margin-bottom: 7.5%;
+    width: 100%;
 
 }
 
 textarea {
     padding: 4px;
     resize: none;
+    width: 100%;
 }
 
 .sbtn {
@@ -242,23 +253,24 @@ textarea {
 }
 
 .imagemargin img {
-    margin-top: 6%;
+    margin-top: 4%;
+    margin-left: 14%;
 }
 
 
 .servbonline {
-     color: black;
+    color: black;
     text-align: center;
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 800;
-    margin-top: 12%;
+    margin-top: 5%;
  
 
 }
 
 .feedbackp{
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
     padding-top: 2%;
     line-height: 25px;
     margin-top: -1%;
@@ -267,9 +279,8 @@ textarea {
 .ourcltheme {
     background-color: #A1A1A1;
     margin: 2.4%;
-    padding: 6.5%;
-    box-shadow: 50px 10px 0 0 #4fcaff;
-   
+    padding: 1px 50px;
+    box-shadow: 50px 42px 0 0 #4fcaff;
 }
 
 .jack {
@@ -282,9 +293,9 @@ textarea {
 .jatext  {
     color: #fff;
     font-size: 16px;
-    line-height: 24px;
-    margin-top: 1.5%;
-    margin-bottom: 0.5%;
+    line-height: 32px;
+    margin-top: -3.5%;
+    margin-bottom: -0.5%;
     padding: 3.5%;
     text-align: justify;
 }
@@ -292,11 +303,12 @@ textarea {
 
 .newsletbg {
    background-color: #4FCAFF;
-   margin-top: 10%;
+   margin-top: 2%;
+   padding-bottom: 2%;
 }
 
 .nepadding {
-    padding: 15% 5% 5% 5%;
+    padding: 5% 5% 5% 5%;
 }
 
 .newsp {
@@ -305,12 +317,15 @@ textarea {
 }
 
 #nemail  {
-    margin: 0;
-    padding: 20px 30px;
-    width: 100%;
-    border: none;
-    font-size: 20px;
-    font-weight: 300;
+width: 130%;
+padding: 12px 100px;
+float: left;
+text-align: left;
+}
+
+.formalinl {
+    float: right;
+    display: inline-flex;
 }
 
 .subtn {
@@ -319,10 +334,964 @@ color: #fff;
 width: 224px;
 border: none;
 font-size: 20px;
-padding: 20px 10px;
+padding: 20px 35px;
+width: 100%;
 }
 
 .subtn:hover{
     background: black;
     transition: 1s;
 }
+
+.footerbg {
+    background-color: #0C2326;
+}
+
+.flogo {
+    margin-top: 20%;
+    margin-left: 1%;
+}
+
+.fotext {
+    color: #ffff;
+}
+
+.foheading {
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+.footer_link {
+     text-align: left;
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+}
+
+.address {
+    color: #ffff;
+    padding-left: 10px;
+}
+
+
+.address2 {
+    text-indent: 25px;
+    color: #ffff;
+    word-wrap: break-word;
+
+}
+
+.number {
+  padding-left: 25px;
+}
+
+.footer_link li {
+    list-style: none;
+}
+
+
+.footer_link>li> a {
+    color: #ffff;
+}
+
+.copyri {
+    color: #ffff;
+    font-size: 13.3px;
+    text-align: center;
+    padding: 15px 0 16px;
+    border-top: solid #10d0e7 1px;
+    margin-top: 30px;
+
+
+}
+
+.newsletter {
+    padding: 80px 0;
+    background: #19beda;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+    }
+
+
+
+@media screen and (min-width: 1024px){
+    /* styles */
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;      
+    }
+
+    .header {
+        background-color: #0C2326;      
+        display: flex;
+        height: 100px;
+    }
+
+
+    .menubtn {      
+        display: none;    
+    }
+
+    .logo {
+        display: inline-flex;
+        padding: 2% 4% 4% 10%;    
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+
+    .menubg {
+        overflow: hidden; 
+    }
+    
+    .menubg ul {
+        list-style-type: none;  
+        background-color: transparent;
+        display: flex;        
+        margin-top: 6%;    
+      
+    }
+
+    .menubg ul li {
+        display: inline;
+        justify-content: space-between;
+        text-align: center;        
+    }
+    
+    .menubg>ul>li> a {
+    font-size: 20px;
+    color: #ffff;
+    justify-content: space-around;  
+    display: block;
+    padding: 4px 10px; 
+    }
+
+    input[type="search"] {
+        width: 100%;
+        padding: 12px 12px;
+        padding: 2% 3% 0% 2%;
+        height: 45px;
+        display: none;        
+    }
+
+    .fa-search {
+        color: #ffff;
+        padding-left: 13px;
+        padding-top: 13px;
+    }
+
+    .heading {
+        font-size: 20px;
+        padding: 12px 0px 0px 18px;
+        color: #94DFFF;
+    }
+    
+    .webu {
+        font-size: 32px;
+        font-weight:900;
+        line-height: 30px;
+    }
+    
+    .webu2 {
+        font-size: 32px;
+        font-weight:900;
+        line-height: 30px;
+        color: #ffff;
+    }
+    
+    .webp{
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .margin {
+        padding: 4%;
+    }
+    
+    .para {
+        font-size: 16px;
+        color: #6A6C6F;
+        line-height: 28px;
+        width: 100%;
+    }
+    
+    .abimg {
+        margin-top: 15%;
+    }
+    
+    .bluediv {
+        background-color: #1A2428;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .imgtitle {
+        color: black;
+        text-align: center;
+        font-size: 28px;
+        background-color: #FFFFFF;
+        margin-bottom: 10%;
+        font-weight: 400;
+    }
+    
+    .bluetitle {
+        color: black;
+        text-align: center;
+        font-size: 28px;
+        background-color: #FFFFFF;
+        margin-bottom: 10%;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .widthem {
+      float: left;
+      display: flex;
+    }
+    
+    .servicesh {
+        font-size: 28px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    .serviccesou {
+        margin-top: 8%;
+    }
+
+
+    .bo {
+        float: left;
+    background: #4fcaff;
+    text-align: center;
+    font-size: 24px;
+    text-transform: none;
+    margin: 0;
+    min-height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 300px;
+    left: 15px;
+    }
+    
+    .bo::before {
+        width: 50px;
+    height: 50px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: -20px;
+    background: #4fcaff;
+    top: 0;
+    transform: skew(-30deg);
+    }
+    
+    .sta {
+        background-color: #4FCAFF;
+        border-bottom-right-radius: 90%;
+        height: 90px;
+    }
+    
+    .bonline { 
+        letter-spacing: 1px;
+        padding: 65px 0px 0px 78px;   
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    .fbg {
+        background-color: #4FCAFF;
+        margin: 4%;
+        width: 104%;
+    }
+    
+    .falign {
+       padding: 12%;
+       text-align: center;
+    }
+    
+    form>.inname {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+        width: 100%;
+    }
+    
+    form>.inemail {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+        width: 100%;
+    }
+    
+    form>.inpnumber {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+        width: 100%;
+    }
+    
+    form>.inservise {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+        width: 100%;
+    
+    }
+    
+    textarea {
+        padding: 4px;
+        resize: none;
+        width: 100%;
+    }
+    
+    .sbtn {
+        background-color: #FA3E19;
+        color: #fff;
+        padding: 10px 60px;
+        font-size: 22px;
+        margin-top: 10%;
+        outline: none;
+        border: none;
+    }
+    
+    
+    .sbtn:hover {
+        background-color: #0B0D04;
+        transition: 1s;
+    }
+    
+    .imagemargin img {
+        margin-top: 4%;
+        margin-left: 14%;
+    }
+    
+    
+    .servbonline {
+        color: black;
+        text-align: center;
+        font-size: 38px;
+        font-weight: 800;
+        margin-top: 5%;
+     
+    
+    }
+    
+    .feedbackp{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 2%;
+        line-height: 25px;
+        margin-top: -1%;
+    }
+    
+    .ourcltheme {
+        background-color: #A1A1A1;
+        margin: 2.4%;
+        padding: 1px 50px;
+        box-shadow: 50px 42px 0 0 #4fcaff;
+    }
+    
+    .jack {
+        font-size: 30px;
+        color: #fff;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .jatext  {
+        color: #fff;
+        font-size: 16px;
+        line-height: 32px;
+        margin-top: -3.5%;
+        margin-bottom: -0.5%;
+        padding: 3.5%;
+        text-align: justify;
+    }
+    
+    
+    .newsletbg {
+       background-color: #4FCAFF;
+       margin-top: 2%;
+       padding-bottom: 2%;
+    }
+    
+    .nepadding {
+        padding: 5% 5% 5% 5%;
+    }
+    
+    .newsp {
+        color: #fff;
+        text-align: justify;
+    }
+    
+    #nemail  {
+    width: 130%;
+    padding: 12px 100px;
+    float: left;
+    text-align: left;
+    }
+
+    .formalinl {
+        float: right;
+        display: inline-flex;
+    }
+    
+    .subtn {
+        background: #fa3e19;
+    color: #fff;
+    width: 224px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 35px;
+    width: 100%;
+    }
+    
+    .subtn:hover{
+        background: black;
+        transition: 1s;
+    }
+    
+    .footerbg {
+        background-color: #0C2326;
+    }
+    
+    .flogo {
+        margin-top: 20%;
+        margin-left: 1%;
+    }
+    
+    .fotext {
+        color: #ffff;
+    }
+    
+    .foheading {
+        font-size: 28px;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+    
+    .footer_link {
+         text-align: left;
+        display: inline-block;
+        align-items: left;
+        justify-content: left;
+    }
+    
+    .address {
+        color: #ffff;
+        padding-left: 10px;
+    }
+    
+    
+    .address2 {
+        text-indent: 25px;
+        color: #ffff;
+        word-wrap: break-word;
+    
+    }
+    
+    .number {
+      padding-left: 25px;
+    }
+    
+    .footer_link li {
+        list-style: none;
+    }
+    
+    
+    .footer_link>li> a {
+        color: #ffff;
+    }
+    
+    .copyri {
+        color: #ffff;
+        font-size: 13.3px;
+        text-align: center;
+        padding: 15px 0 16px;
+        border-top: solid #10d0e7 1px;
+        margin-top: 30px;
+    
+    
+    }
+
+    .newsletter {
+        padding: 80px 0;
+        background: #19beda;
+        }
+        
+        .newsletter .content {
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 2; }
+        .newsletter .content h2 {
+        color: #243c4f;
+        margin-bottom: 40px; }
+        .newsletter .content .form-control {
+        height: 50px;
+        border-color: #ffffff;
+        border-radius:0;
+        }
+        .newsletter .content.form-control:focus {
+        box-shadow: none;
+        border: 2px solid #243c4f;
+        }
+        .newsletter .content .btn {
+        min-height: 50px; 
+        border-radius:0;
+        background: #243c4f;
+        color: #fff;
+        font-weight:600;
+        }
+
+
+    
+  
+    
+}
+
+
+
+/*media query for phone*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+    /* styles */
+    body {
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    .header {
+        background-color: #0C2326;      
+    }
+    
+    .logo {
+        padding: 4% 4% 4% 4%;
+        position: relative;
+    }
+    
+    .logo img {
+        padding-left: 12%;
+        height: auto;
+        
+    }
+    
+    .menubtn {
+        background-color: #4FCAFF;
+        padding: 8px 14px;
+        float: right;
+        outline: none;
+        border: none;
+        margin-top: 16px;
+        color: #FAF8F7;
+        border-radius: 6px;    
+    }
+    
+    .menubg {
+        background-color: #4FCAFF;
+        line-height: 60px;
+        color: #ffff;
+        padding-top: 5%;
+        margin: 3% 3% 0% 3%;  
+        display: none;
+        transition: 2ms;
+    
+    }
+    
+    .menubg ul {
+        list-style: none;
+    }
+    
+    .menubg ul li a {
+    font-size: 18px;
+    color: #ffff;
+    }
+    
+    input[type="search"] {
+        width: 100%;
+        padding: 12px 12px;
+        padding: 2% 3% 0% 2%;
+        height: 45px;
+        
+    }
+    
+    .formse {
+        padding: 3%;
+    }
+    
+    .showh {
+        display: block;
+    }
+    
+    
+    .heading {
+        font-size: 20px;
+        padding: 12px 0px 0px 18px;
+        color: #94DFFF;
+    }
+    
+    .webu {
+        font-size: 32px;
+        font-weight:900;
+        line-height: 30px;
+    }
+    
+    .webu2 {
+        font-size: 32px;
+        font-weight:900;
+        line-height: 30px;
+        color: #ffff;
+    }
+    
+    .webp{
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .margin {
+        padding: 4%;
+    }
+    
+    .para {
+        font-size: 16px;
+        color: #6A6C6F;
+        line-height: 28px;
+        width: 100%;
+    }
+    
+    .abimg {
+        margin-top: 15%;
+    }
+    
+    .bluediv {
+        background-color: #1A2428;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .imgtitle {
+        color: black;
+        text-align: center;
+        font-size: 28px;
+        background-color: #FFFFFF;
+        margin-bottom: 10%;
+        font-weight: 400;
+    }
+    
+    .bluetitle {
+        color: black;
+        text-align: center;
+        font-size: 28px;
+        background-color: #FFFFFF;
+        margin-bottom: 10%;
+        font-weight: 400;
+        color: #fff;
+    }
+    
+    .servicesh {
+        font-size: 28px;
+    }
+    
+    .serviccesou {
+        margin-top: 8%;
+    }
+    
+    .bo {
+        float: left;
+    background: #4fcaff;
+    text-align: center;
+    font-size: 24px;
+    text-transform: none;
+    margin: 0;
+    min-height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 300px;
+    left: 15px;
+    }
+    
+    .bo::before {
+        width: 50px;
+    height: 50px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: -20px;
+    background: #4fcaff;
+    top: 0;
+    transform: skew(-30deg);
+    }
+    
+    .sta {
+        background-color: #4FCAFF;
+        border-bottom-right-radius: 90%;
+        height: 90px;
+    }
+    
+    .bonline {
+        font-size: 26px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        padding: 25px;
+    }
+    
+    .fbg {
+        background-color: #4FCAFF;
+        margin: 4%;
+    }
+    
+    .falign {
+       padding: 12%;
+       text-align: center;
+    }
+    
+    form>.inname {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+    }
+    
+    form>.inemail {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+    }
+    
+    form>.inpnumber {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+    }
+    
+    form>.inservise {
+        padding: 15px 15px;
+        text-align: left;
+        margin-bottom: 7.5%;
+    
+    }
+    
+    textarea {
+        padding: 4px;
+        resize: none;
+    }
+    
+    .sbtn {
+        background-color: #FA3E19;
+        color: #fff;
+        padding: 10px 60px;
+        font-size: 22px;
+        margin-top: 10%;
+        outline: none;
+        border: none;
+    }
+    
+    
+    .sbtn:hover {
+        background-color: #0B0D04;
+        transition: 1s;
+    }
+    
+    .imagemargin img {
+        margin-top: 6%;
+    }
+    
+    
+    .servbonline {
+         color: black;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+        margin-top: 12%;
+     
+    
+    }
+    
+    .feedbackp{
+        font-size: 18px;
+        text-align: justify;
+        padding-top: 2%;
+        line-height: 25px;
+        margin-top: -1%;
+    }
+    
+    .ourcltheme {
+        background-color: #A1A1A1;
+        margin: 2.4%;
+        padding: 6.5%;
+        box-shadow: 50px 10px 0 0 #4fcaff;
+       
+    }
+    
+    .jack {
+        font-size: 30px;
+        color: #fff;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .jatext  {
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 1.5%;
+        margin-bottom: 0.5%;
+        padding: 3.5%;
+        text-align: justify;
+    }
+    
+    
+    .newsletbg {
+       background-color: #4FCAFF;
+       margin-top: 10%;
+       padding-bottom: 10%;
+    }
+    
+    .nepadding {
+        padding: 80px 0px;
+    }
+    
+    .newsp {
+        color: #fff;
+        text-align: justify;
+    }
+    
+    #nemail  {
+        margin: 0% 0% 0% 0%;
+        padding: 20px 30px;
+        width: 100%;
+        border: none;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .subtn {
+        background: #fa3e19;
+    color: #fff;
+    width: 224px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 35px;
+    width: 100%;
+    }
+    
+    .subtn:hover{
+        background: black;
+        transition: 1s;
+    }
+    
+    .footerbg {
+        background-color: #0C2326;
+
+    }
+    
+    .flogo {
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+    
+    .fotext {
+        color: #ffff;
+    }
+    
+    .foheading {
+        font-size: 28px;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+    
+    .footer_link {
+         text-align: left;
+        display: inline-block;
+        align-items: left;
+        justify-content: left;
+    }
+    
+    .address {
+        color: #ffff;
+        padding-left: 10px;
+    }
+    
+    
+    .address2 {
+        text-indent: 25px;
+        color: #ffff;
+        word-wrap: break-word;
+    
+    }
+    
+    .number {
+      padding-left: 25px;
+    }
+    
+    .footer_link li {
+        list-style: none;
+    }
+    
+    
+    .footer_link>li> a {
+        color: #ffff;
+    }
+    
+    .copyri {
+        color: #ffff;
+        font-size: 13.3px;
+        text-align: center;
+        padding: 15px 0 16px;
+        border-top: solid #10d0e7 1px;
+        margin-top: 30px;
+    
+    
+    }
+
+    .formalinl {
+       flex-direction: column;
+       margin: 2%;
+    }
+    
+    
+}
+
+

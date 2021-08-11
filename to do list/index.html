@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Varela', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background: #313131;
+            display: grid;
+            place-items: center;
+        }
+
+        .container {
+            height: 400px;
+            width: 300px;
+            background: white;
+            position: relative;
+        }
+
+        .title {
+            width: 100%;
+            height: 70px;
+            background: #ae00ff;
+            color: #fff;
+            display: grid;
+            place-items: center;
+            text-transform: uppercase;
+        }
+
+        .input-box {
+            position: absolute;
+            top: 90px;
+            left: 20px;
+            height: 45px;
+            font-size: 21px;
+            border: none;
+            width: 260px;
+            border-bottom: 2px solid #313130;
+            outline: none;
+            background: transparent;
+            padding: 0 10px;
+            color: #313130;
+        }
+
+        .input-box::placeholder {
+            color: #313130;
+        }
+
+        .line {
+            position: absolute;
+            top: 150px;
+            left: 20px;
+            list-style: none;
+            height: 120px;
+            width: 260px;
+            overflow: auto;
+        }
+
+        .line li {
+            height: 50px;
+            width: 100%;
+            margin: 4px 0;
+            position: relative;
+            left: 0;
+            border: 2px solid #1f3148;
+        }
+
+        .btn {
+            width: 220px;
+            height: 50px;
+            position: absolute;
+            left: 40px;
+            bottom: 20px;
+            background: #ae00ff;
+            outline: none;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            transition: all 0.8s ease-in;
+        }
+
+        .btn:hover {
+            background: transparent;
+            border: 3px solid #ae00ff;
+            color: #ae00ff;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+
+        .line li h4 {
+            width: 320px;
+            height: 50px;
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            color: #1f3148;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .line li .delete {
+            height: 50px;
+            width: 40px;
+            z-index: 999;
+            display: grid;
+            place-items: center;
+            position: absolute;
+            right: -50px;
+            background: #ae00ff;
+            color: #e2e2e2;
+            transition: 0.7 all ease-in-out;
+        }
+
+        .line li:hover {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">to do list</h1>
+        <input type="text" class="input-box" placeholder="save your future!">
+        <ul class="line"></ul>
+
+        <button class="btn">ADD</button>
+
+
+    </div>
+
+    <script>
+        window.onload = function(){
+            let task = document.querySelector(".input-box");
+            let list = document.querySelector(".line");
+            let addTask = document.querySelector(".btn");
+
+            addTask.addEventListener("click", ()=>){
+                list.insertAdjacentElement(
+                 `afterbegin`,
+                 `<li>
+                 <i class="fas fa-trash-alt
+                 deleteTask"></i>
+
+                 <h4>${task.value}</h4>
+                 
+                 </li>`
+                );
+
+                task.value = "";
+
+                let deleteTask  = document.querySelectorAll
+                ("deleteTask");
+
+                deleteTask.forEach((del)) => {
+                    del.addEventListener("click", ()=>){
+                        del.parentElement.remove();
+                    }
+                }
+
+            });
+        });
+
+    </script>
+    
+</body>
+</html>
