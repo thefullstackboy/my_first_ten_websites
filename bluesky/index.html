@@ -219,12 +219,12 @@
                   <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
                     <div class="fbg">
                         <div class="falign">
-                    <form action="#" autocomplete="off" class="text-center">
-                        <input placeholder="NAME" type="text" class="inname">
-                        <input type="email" placeholder="EMAIL" class="inemail">
-                        <input type="text" placeholder="PHONE NUMBER" class="inpnumber">
-                        <input type="text" placeholder="TYPE OF SERVICE" class="inservise">
-                        <textarea placeholder="MESSAGE" cols="23" rows="5" class="inmessage"></textarea>
+                    <form action="#" autocomplete="on" class="text-center" onsubmit="return validateform()" name="myform">
+                        <input placeholder="NAME" type="text" class="inname"   name="name">
+                        <input type="email" placeholder="EMAIL" class="inemail" required>
+                        <input type="text" placeholder="PHONE NUMBER" class="inpnumber" required name="digit10">
+                        <input type="text" placeholder="TYPE OF SERVICE" class="inservise" required>
+                        <textarea placeholder="MESSAGE" cols="23" rows="5" class="inmessage" required></textarea>
                         <button type="submit" class="sbtn">SEND</button>              
                     </form>
                     </div>
@@ -309,7 +309,7 @@
                    <div class="col-sm-12 col-lg-8 col-md-8 col-xl-8 nepadding">
                   
                       <form class="formalinl">
-                        <input type="email" placeholder="Your email address" id="nemail">
+                        <input type="email" placeholder="Your email address" id="nemail" required>
                         <input type="submit" value="Subscribe" class="subtn">
                       </form>
                      
@@ -406,6 +406,45 @@
             let shd = document.getElementById("sh");
             shd.classList.toggle("showh");
         }
+
+        let fname = document.getElementById("fffname");
+        let email = document.getElementById("feemail");
+        let phone = document.getElementById("fpnum");
+        let fed = document.getElementById("messfed");
+
+
+
+        function validateform(){  
+var name=document.myform.name.value;  
+var dgit=document.myform.digit10.value;  
+
+  
+if (name===null || name===""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(dgit.length<10){  
+  alert("number must be at least 10 characters long.");  
+  return false;  
+  }  
+
+  else if(dgit.length>10){  
+  alert("number must be at least 10 characters long.");  
+  return false;  
+  }  
+
+  else {
+      true;
+  }
+
+
+
+}  
+      
+
+     
+        
+
+
 
     
     </script>   
