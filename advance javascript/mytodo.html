@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My to do list</h1>
+        <input type="text" placeholder="please enter the task" id="typetask">
+        <button  id="cretask">+</button>
+        <div id="showtask">
+
+        </div>
+
+
+    </div>
+    <script>
+        //store variable
+        let typetask = document.getElementById("typetask");
+        let createtask = document.getElementById("cretask");
+        let displaytask = document.getElementById("showtask");
+
+        createtask.addEventListener("click", () => {
+            let paragraph = document.createElement("p")
+            paragraph.innerText = typetask.value
+            displaytask.value = ""
+            let data = displaytask.appendChild(paragraph)
+            paragraph.addEventListener("click" , () =>{
+                paragraph.style.textDecoration = "line-through"
+            })
+            paragraph.addEventListener("dblclick", () =>{
+                displaytask.removeChild(paragraph)
+            })
+        })
+
+    </script>
+</body>
+</html>

@@ -51,6 +51,8 @@
             background: transparent;
             padding: 0 10px;
             color: #313130;
+            text-align: center;
+            word-wrap: break-word;
         }
 
         .input-box::placeholder {
@@ -128,51 +130,43 @@
         .line li:hover {
             right: 0;
         }
+
+        #content li {
+            font-size: 22px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1 class="title">to do list</h1>
-        <input type="text" class="input-box" placeholder="save your future!">
-        <ul class="line"></ul>
+        <input type="text" class="input-box" placeholder="save your future!" id="input_data"> 
+        <ul class="line" id="content"></ul>
 
-        <button class="btn">ADD</button>
+        <button class="btn" id="add_btn">ADD</button>
 
 
     </div>
 
     <script>
-        window.onload = function(){
-            let task = document.querySelector(".input-box");
-            let list = document.querySelector(".line");
-            let addTask = document.querySelector(".btn");
+        let InputValue = document.getElementById("input_data")
+        let button = document.getElementById("add_btn")
+        let content = document.getElementById("content")
 
-            addTask.addEventListener("click", ()=>){
-                list.insertAdjacentElement(
-                 `afterbegin`,
-                 `<li>
-                 <i class="fas fa-trash-alt
-                 deleteTask"></i>
+        button.addEventListener("click", () => {
+            let paragraph = document.createElement("li")
+            paragraph.innerText = InputValue.value
+            InputValue.value = ""
+            let data = content.appendChild(paragraph)
+            paragraph.addEventListener("click" , () =>{
+                paragraph.style.textDecoration = "line-through"
+            })
+            paragraph.addEventListener("dblclick", () =>{
+                content.removeChild(paragraph)
+            })
+        })
 
-                 <h4>${task.value}</h4>
-                 
-                 </li>`
-                );
-
-                task.value = "";
-
-                let deleteTask  = document.querySelectorAll
-                ("deleteTask");
-
-                deleteTask.forEach((del)) => {
-                    del.addEventListener("click", ()=>){
-                        del.parentElement.remove();
-                    }
-                }
-
-            });
-        });
-
+ 
     </script>
     
 </body>
