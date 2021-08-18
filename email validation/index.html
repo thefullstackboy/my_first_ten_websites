@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DATA VALIDATION IN JS</h1>
+    <form name="myform" method="post" onsubmit="return validation();">
+    Name: <input type="text" name="name"><br>
+    Email: <input type="text" name="email"><br>
+
+    <input type="submit" value="register">
+    </form>
+
+    <script>
+        var x = document.myform.email.value;
+        var atposition=x.indexOf("a") ;
+        var dopo=x.lastIndexOf(".");
+
+        if(atposition<1 || dopo<atposition+2 || dopo+2>=x.length){
+            alert("please enter a valid e-mail address");
+            return false;
+        }
+    </script>
+    
+</body>
+</html>
