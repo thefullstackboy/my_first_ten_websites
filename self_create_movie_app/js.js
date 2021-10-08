@@ -90,12 +90,32 @@
 //     console.log(error);
 // } );
 
-fetch("https://gorest.co.in/public/v1/comments")
-.then((response)=> response.json())
-.then((data) => {
-    console.log(data)
-    for(var x in data){
-        document.write(x);
-    }
-})
-.catch((error) => document.write("can't feach data"));
+// fetch("https://gorest.co.in/public/v1/comments")
+// .then((response)=> response.json())
+// .then((data) => {
+//     console.log(data)
+//     for(var x in data){
+//         document.write(x);
+//     }
+// })
+// .catch((error) => document.write("can't feach data"));
+
+
+// let test = async () => "Hello";
+// test().then((result) => {
+//     console.log(result);
+// });
+
+async function test(){
+    const response = await fetch("https://gorest.co.in/public/v1/comments");
+    const students = await response.json();
+
+
+    return students;
+}
+
+test().then((res) => {
+    console.log(res);
+}).catch((error) => {
+    console.log(error);
+});
