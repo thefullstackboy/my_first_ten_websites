@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">NEWS</h1>
+    <div id="nws1"></div>
+
+
+    <script>
+//    fetch(" https://api.ap.org/v2/elections/").then((data)=>{
+//        console.log(data);
+//    }
+
+//    fetch("https://jsonplaceholder.typicode.com/comments")
+//   .then(response => response.json())
+//   .then(data => console.log(data))
+//   .then(data.map(valus) )
+
+  fetch('https://jsonplaceholder.typicode.com/comments').then((data)=>{
+          console.log(data);
+          return data.json();
+      }).then((completedata)=> {
+          let data1 ="";
+          completedata.map((values)=>{
+              data1+=`
+              <div class="card">
+            <h1 class="title">${values.name}</h1>
+            <p>${values.email}</p>  
+
+     
+        </div>
+              `
+          });
+          document.getElementById('nws1').innerHTML = data1;
+
+      }).catch((err)=>{
+
+      })
+
+    </script>
+
+    
+</body>
+</html>
