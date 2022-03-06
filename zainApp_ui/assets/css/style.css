@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;    
+}
+
+.navbg {
+    background-color: rgb(96,80,220);
+}
+
+.logosize p {
+    font-size: 1.9rem;      
+    color: red;
+}
+
+.zainApp {
+    color: #111;
+    font-family: 'Raleway',sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+   
+}
+
+.appalignment {
+    padding-top: 10%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.imagesize {
+    height: 90px;
+    width: 100px;
+}
+
+
+.blockalign {
+    margin-top: -2%;
+}
