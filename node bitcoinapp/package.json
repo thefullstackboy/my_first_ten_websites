@@ -1,0 +1,21 @@
+{
+  "name": "node-bitcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,ejs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "js": "^0.1.0",
+    "node": "^17.5.0",
+    "nodemon": "^2.0.15",
+    "route": "^0.2.5"
+  }
+}
