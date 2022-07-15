@@ -1,36 +1,109 @@
-import React, { Component } from 'react' 
-import './App.css'
-import LIfecycleA from './Componets/LifecycleA'
 
+import React, { Component } from 'react'
+import ErrorBoundary from './Componets/ErrorBoundary '
+import Hero from './Componets/Hero'
 
-
- class App extends Component {
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-       name: 'Vishwas'
-    }
-    console.log('LifecycleA constructor')
-  }
-
-  static getDerivedStateFromProps(props, state) {
-    console.log('LifecycleA getDerivedStateFromProps')
-    return null
-  }
-
-
-
+class App extends Component {
   render() {
     return (
-      <div className='App'>
-       <LIfecycleA/>
+      <div>
+        <ErrorBoundary>
+         <Hero heroName="Batman"/>
+        </ErrorBoundary>
+
+
+        <ErrorBoundary>
+        <Hero heroName="Superman"/>
+        </ErrorBoundary>
+
+
+        <ErrorBoundary>
+        <Hero heroName="Joker"/>
+        </ErrorBoundary>   
       </div>
     )
   }
 }
 
-export default App
+export default  App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { Component } from 'react'
+// import PortalDemo from './Componets/PortalDemo'
+// // import Focusinput from './Componets/Focusinput'
+// // import ParentComp from './Componets/ParentComp'
+// //import RefsDemo from './Componets/RefsDemo'
+// //import FRParentInput from './FRParentInput'
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       // <ParentComp/>
+//       <>
+
+//       <PortalDemo/>
+//       {/* <FRParentInput/> */}
+
+//       {/* <Focusinput/> */}
+//       {/* <RefsDemo/> */}
+//       </>
+//     )
+//   }
+// }
+
+
+
+
+// import React, { Component } from 'react' 
+// import './App.css'
+// import LIfecycleA from './Componets/LifecycleA'
+
+
+
+//  class App extends Component {
+//   constructor(props) {
+//     super(props)
+  
+//     this.state = {
+//        name: 'Vishwas'
+//     }
+//     console.log('LifecycleA constructor')
+//   }
+
+//   static getDerivedStateFromProps(props, state) {
+//     console.log('LifecycleA getDerivedStateFromProps')
+//     return null
+//   }
+
+
+
+//   render() {
+//     return (
+//       <div className='App'>
+//        <LIfecycleA/>
+//       </div>
+//     )
+//   }
+// }
+
+// export default App
 
 
 
