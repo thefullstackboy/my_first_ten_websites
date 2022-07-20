@@ -1,17 +1,78 @@
+//step 2
 import React, { Component } from 'react'
-import ClickCounter from './Componets/ClickCounter'
-import HoverCounter from './Componets/HoverCounter'
+import ComponentF from './Componets/ComponentF'
+import { UserProvider } from './Componets/UserContext'
 
-export default class App extends Component {
+
+class App extends Component {
   render() {
     return (
       <div>
-        <ClickCounter/>
-        <HoverCounter/>
+        <UserProvider value="Vishwas">
+           <ComponentF/>
+        </UserProvider>        
       </div>
     )
   }
 }
+
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { Component } from 'react'
+// import ClickCounteTwo from './Componets/ClickCounteTwo'
+// import HowerCounteTwo from './Componets/HoverCounterTwo'
+// import Counter from './Componets/Counte'
+
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <Counter
+//            render={(count, incrementCount) => (
+//               <ClickCounteTwo count={count} incrementCount={incrementCount} />
+//            )}
+//         />
+
+//      <Counter
+//            render={(count, incrementCount) => (
+//               <HowerCounteTwo count={count} incrementCount={incrementCount} />
+//            )}
+//         />
+//       </div>
+//     )
+//   }
+// }
+
+
+//import User from './Componets/User'
+// import React, { Component } from 'react'
+// import ClickCounter from './Componets/ClickCounter'
+// import HoverCounter from './Componets/HoverCounter'
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <ClickCounter name="Vishwas"/>
+//         <HoverCounter/>
+//       </div>
+//     )
+//   }
+// }
 
 
 

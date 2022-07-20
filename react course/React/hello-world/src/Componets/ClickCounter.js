@@ -8,11 +8,11 @@ import UpdatedComponent from './withCounter'
   render() {
     const { count, incrementCount } = this.props
     return <div><button onClick={incrementCount}>
-       Clicked {count} times
+      {this.props.name} Clicked {count} times
       </button></div>
     
   }
 }
 
 
-export default UpdatedComponent(ClickCounter)
+export default UpdatedComponent(ClickCounter, 5)
