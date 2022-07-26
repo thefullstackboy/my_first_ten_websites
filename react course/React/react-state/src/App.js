@@ -2,9 +2,10 @@
 import React from 'react'
 import './App.css'
 // import ComponentC from './Components/ComponentC'
-import  CounterOne from './Components/CounterOne'
+// import  CounterOne from './Components/CounterOne'
 // export const UserContext = React.createContext()
 // export const ChannelContext = React.createContext()
+import CounterTwo from './Components/CounterTwo'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
            <ComponentC/>
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      < CounterOne/>
+      {/* < CounterOne/> */}
+      <CounterTwo/>
     </div>
   )
 }
