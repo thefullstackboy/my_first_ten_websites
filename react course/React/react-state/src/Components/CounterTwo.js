@@ -34,10 +34,10 @@ export default function CounterTwo() {
        <button onClick={()=> dispatch({type: 'increment', value: 5})}>Increment 5</button>
        <button onClick={()=> dispatch({type: 'decrement', value: 5})}>Decrement 5</button>
 
-       <div>
-       <button onClick={()=> dispatch({type: 'increment2', value: 2})}>Increment counter 2</button>
-       <button onClick={()=> dispatch({type: 'decrement2', value: 2})}>Decrement counter 2</button>
-       </div>
+        <div>
+           <button onClick={()=> dispatch({type: 'increment2', value: 2})}>Increment counter 2</button>
+           <button onClick={()=> dispatch({type: 'decrement2', value: 2})}>Decrement counter 2</button>
+        </div>
        <button onClick={()=> dispatch({type: 'reset'})}>Reset</button>
    </div>
   )
