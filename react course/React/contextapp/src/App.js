@@ -1,12 +1,16 @@
 import React from 'react'
 import './App.css';
 //import ParentComponent from './Components/ParentComponent'
-import FocusInput from './Components/FocusInput';
+//import FocusInput from './Components/FocusInput';
+//import HookTimer from './Components/HookTimer';
+import DocTitleOne from './Components/DocTitleOne'
 export default function App() {
   return (
     <div className="App">
       {/* <ParentComponent/> */}
-      <FocusInput/>
+      {/* <FocusInput/> */}
+      {/* <HookTimer/> */}
+      <DocTitleOne/>
     </div>
   )
 }
