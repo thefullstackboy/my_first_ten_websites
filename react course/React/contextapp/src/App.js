@@ -3,14 +3,20 @@ import './App.css';
 //import ParentComponent from './Components/ParentComponent'
 //import FocusInput from './Components/FocusInput';
 //import HookTimer from './Components/HookTimer';
-import DocTitleOne from './Components/DocTitleOne'
+//import DocTitleOne from './Components/DocTitleOne'
+// import CounterOne from './Components/CounterOne';
+// import CounterTwo from './Components/CounterTwo';
+import  UserForm from './Components/UserForm'
 export default function App() {
   return (
     <div className="App">
       {/* <ParentComponent/> */}
       {/* <FocusInput/> */}
       {/* <HookTimer/> */}
-      <DocTitleOne/>
+      {/* <DocTitleOne/> */}
+      {/* <CounterOne/>
+      <CounterTwo/> */}
+       <UserForm/>
     </div>
   )
 }
