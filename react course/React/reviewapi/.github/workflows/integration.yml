@@ -1,0 +1,29 @@
+name: CEPOS-DEV-Server
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  deployment:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout development branch
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+
+      - name: Update Lockfile
+        run: yarn install
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Start server application
+        run: npm run build
+
+

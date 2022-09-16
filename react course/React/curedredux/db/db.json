@@ -1,0 +1,39 @@
+{
+    "details": [
+        {
+            "id":1,
+            "name":"Sanjeet",
+            "email":"sanjeet@gmail.com",
+            "phone":"8502965568",
+            "country":"Inida"
+        },
+        {
+            "id":2,
+            "name":"Manish",
+            "email":"Manish@gmail.com",
+            "phone":"8502965789",
+            "country":"Inida"
+        },
+        {
+            "id":3,
+            "name":"Mohit",
+            "email":"Mohit@gmail.com",
+            "phone":"8502965795",
+            "country":"Inida"
+        },
+        {
+            "id":4,
+            "name":"Suresh",
+            "email":"Suresh@gmail.com",
+            "phone":"8502965450",
+            "country":"Inida"
+        },
+        {
+            "id":5,
+            "name":"Kamlesh",
+            "email":"Kamlesh@gmail.com",
+            "phone":"8502965889",
+            "country":"Inida"
+        }
+    ]
+}

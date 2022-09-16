@@ -1,0 +1,55 @@
+// Here you can add other styles
+.pagination {
+  .page-item :not(.disabled) {
+    cursor: pointer;
+  }
+}
+
+.password-show {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+span.custom-error {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #e55353;
+}
+
+.form-control.invalid {
+  border-color: #e55353 !important;
+}
+
+.was-validated .form-control:valid, .form-control.is-valid {
+  background: none;
+}
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  background: none;
+}
+
+.was-validated {
+  div.invalid-feedback, span.custom-error {
+    position: absolute;
+    top: 100%;
+    margin-top: -3px;
+    font-size: 12px;
+  }
+
+  .form-control.is-invalid:focus, .form-control.is-invalid {
+    border-color: #e55353;
+    box-shadow: 0 0 0 0.25rem rgb(229 83 83 / 25%);
+  }
+}
+
+.needs-validation .form-floating {
+  width: 100%;
+}
